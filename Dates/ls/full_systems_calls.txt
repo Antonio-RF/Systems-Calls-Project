@@ -1,0 +1,434 @@
+#Systems Calls obtidos com os comandos do documento "commands.txt"
+
+1. 
+execve("/usr/bin/ls", ["ls"], 0x7fffc9e51e10 /* 56 vars */) = 0
+brk(NULL)                               = 0x6298e8313000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffecab1f8c0) = -1 EINVAL (Argumento inválido)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7d4599aef000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=65839, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 65839, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7d4599ade000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=166280, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 177672, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7d4599ab2000
+mprotect(0x7d4599ab8000, 139264, PROT_NONE) = 0
+mmap(0x7d4599ab8000, 106496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7d4599ab8000
+mmap(0x7d4599ad2000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7d4599ad2000
+mmap(0x7d4599ada000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x7d4599ada000
+mmap(0x7d4599adc000, 5640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7d4599adc000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0I\17\357\204\3$\f\221\2039x\324\224\323\236S"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7d4599800000
+mprotect(0x7d4599828000, 2023424, PROT_NONE) = 0
+mmap(0x7d4599828000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7d4599828000
+mmap(0x7d45999bd000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7d45999bd000
+mmap(0x7d4599a16000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7d4599a16000
+mmap(0x7d4599a1c000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7d4599a1c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=613064, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 615184, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7d4599769000
+mmap(0x7d459976b000, 438272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7d459976b000
+mmap(0x7d45997d6000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6d000) = 0x7d45997d6000
+mmap(0x7d45997fe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x94000) = 0x7d45997fe000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7d4599aaf000
+arch_prctl(ARCH_SET_FS, 0x7d4599aaf800) = 0
+set_tid_address(0x7d4599aafad0)         = 15993
+set_robust_list(0x7d4599aafae0, 24)     = 0
+rseq(0x7d4599ab01a0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7d4599a16000, 16384, PROT_READ) = 0
+mprotect(0x7d45997fe000, 4096, PROT_READ) = 0
+mprotect(0x7d4599ada000, 4096, PROT_READ) = 0
+mprotect(0x6298c7eea000, 8192, PROT_READ) = 0
+mprotect(0x7d4599b29000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7d4599ade000, 65839)           = 0
+statfs("/sys/fs/selinux", 0x7ffecab1f900) = -1 ENOENT (Arquivo ou diretório inexistente)
+statfs("/selinux", 0x7ffecab1f900)      = -1 ENOENT (Arquivo ou diretório inexistente)
+getrandom("\x1f\xb6\x44\x8a\x93\xe1\x9c\x87", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x6298e8313000
+brk(0x6298e8334000)                     = 0x6298e8334000
+openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 407
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+access("/etc/selinux/config", F_OK)     = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5720944, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 5720944, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7d4599000000
+close(3)                                = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=43, ws_col=173, ws_xpixel=0, ws_ypixel=0}) = 0
+openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0750, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x6298e83199f0 /* 61 entries */, 32768) = 2160
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=27002, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 4, 0) = 0x7d4599ae8000
+close(4)                                = 0
+futex(0x7d4599a1ba6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getdents64(3, 0x6298e83199f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(1, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+write(1, "'Algoritmos em Linguagem C - toa"..., 140'Algoritmos em Linguagem C - toaz.info-algoritmos-em-linguagem-c-paulo-feofiloff-campus-pr_97f68f0f44ddab8e8caa0e908b238e26.pdf'   Pictures
+) = 140
+write(1, "'\303\201rea de Trabalho'\t\t\t\t\t\t\t\t\t\t\t\t\t"..., 45'Área de Trabalho'												   Público
+) = 45
+write(1, " conectar_servidor.sh\t\t\t\t\t\t\t\t\t\t\t"..., 43 conectar_servidor.sh												   snap
+) = 43
+write(1, " Documentos\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   ssh"..., 46 Documentos													   sshkey17.private
+) = 46
+write(1, " Documents\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   sshk"..., 43 Documents													   sshkey.private
+) = 43
+write(1, " Downloads\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   Temp"..., 38 Downloads													   Templates
+) = 38
+write(1, " eclipse\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   trab1g"..., 43 eclipse													   trab1grr20245202
+) = 43
+write(1, " eclipse-workspace\t\t\t\t\t\t\t\t\t\t\t\t\t\t"..., 59 eclipse-workspace												   trab1grr20245202.tar.gz
+) = 59
+write(1, " Exerc\303\255cios_C++\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t "..., 47 Exercícios_C++												   trab1prog1.c
+) = 47
+write(1, " Imagens\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   trabal"..., 44 Imagens													   trabalho_projetos
+) = 44
+write(1, " imagens_projetos\t\t\t\t\t\t\t\t\t\t\t\t\t\t "..., 52 imagens_projetos												   Trabalho-The-Boys
+) = 52
+write(1, " Modelos\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   Videos"..., 33 Modelos													   Videos
+) = 33
+write(1, " M\303\272sica\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   V\303\255de"..., 35 Música												   Vídeos
+) = 35
+close(1)                                = 0
+close(2)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
+
+2.
+execve("/usr/bin/ls", ["ls", "/Downloads/"], 0x7ffd6154eb68 /* 56 vars */) = 0
+brk(NULL)                               = 0x58a35794a000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd97cf8b40) = -1 EINVAL (Argumento inválido)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7a160782f000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=65839, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 65839, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7a160781e000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=166280, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 177672, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7a16077f2000
+mprotect(0x7a16077f8000, 139264, PROT_NONE) = 0
+mmap(0x7a16077f8000, 106496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7a16077f8000
+mmap(0x7a1607812000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7a1607812000
+mmap(0x7a160781a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x7a160781a000
+mmap(0x7a160781c000, 5640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7a160781c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0I\17\357\204\3$\f\221\2039x\324\224\323\236S"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7a1607400000
+mprotect(0x7a1607428000, 2023424, PROT_NONE) = 0
+mmap(0x7a1607428000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7a1607428000
+mmap(0x7a16075bd000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7a16075bd000
+mmap(0x7a1607616000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7a1607616000
+mmap(0x7a160761c000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7a160761c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=613064, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 615184, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7a160775b000
+mmap(0x7a160775d000, 438272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7a160775d000
+mmap(0x7a16077c8000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6d000) = 0x7a16077c8000
+mmap(0x7a16077f0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x94000) = 0x7a16077f0000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7a1607758000
+arch_prctl(ARCH_SET_FS, 0x7a1607758800) = 0
+set_tid_address(0x7a1607758ad0)         = 15907
+set_robust_list(0x7a1607758ae0, 24)     = 0
+rseq(0x7a16077591a0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7a1607616000, 16384, PROT_READ) = 0
+mprotect(0x7a16077f0000, 4096, PROT_READ) = 0
+mprotect(0x7a160781a000, 4096, PROT_READ) = 0
+mprotect(0x58a330e5f000, 8192, PROT_READ) = 0
+mprotect(0x7a1607869000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7a160781e000, 65839)           = 0
+statfs("/sys/fs/selinux", 0x7ffd97cf8b80) = -1 ENOENT (Arquivo ou diretório inexistente)
+statfs("/selinux", 0x7ffd97cf8b80)      = -1 ENOENT (Arquivo ou diretório inexistente)
+getrandom("\x97\xc2\x39\xf6\x87\x4e\xe1\x3a", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x58a35794a000
+brk(0x58a35796b000)                     = 0x58a35796b000
+openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 407
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+access("/etc/selinux/config", F_OK)     = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5720944, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 5720944, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7a1606e00000
+close(3)                                = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=43, ws_col=173, ws_xpixel=0, ws_ypixel=0}) = 0
+statx(AT_FDCWD, "/Downloads/", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_MODE, 0x7ffd97cf8710) = -1 ENOENT (Arquivo ou diretório inexistente)
+statx(AT_FDCWD, "/Downloads/", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE, 0x7ffd97cf8710) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2996, ...}, AT_EMPTY_PATH) = 0
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2996
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/pt_BR/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale/pt/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale-langpack/pt_BR/LC_MESSAGES/coreutils.mo", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=374117, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 374117, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7a16076fc000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=27002, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x7a1607828000
+close(3)                                = 0
+futex(0x7a160761ba6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+write(2, "ls: ", 4ls: )                     = 4
+write(2, "n\303\243o foi poss\303\255vel acessar '/Dow"..., 40não foi possível acessar '/Downloads/') = 40
+openat(AT_FDCWD, "/usr/share/locale/pt_BR/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale/pt/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale-langpack/pt_BR/LC_MESSAGES/libc.mo", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=147447, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 147447, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7a16076d8000
+close(3)                                = 0
+write(2, ": Arquivo ou diret\303\263rio inexiste"..., 35: Arquivo ou diretório inexistente) = 35
+write(2, "\n", 1
+)                       = 1
+close(1)                                = 0
+close(2)                                = 0
+exit_group(2)                           = ?
++++ exited with 2 +++
+
+3.
+execve("/usr/bin/ls", ["ls", "/Documents/Systems-Calls-Project"...], 0x7ffee4c33c48 /* 56 vars */) = 0
+brk(NULL)                               = 0x5e7399cbb000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd9b7b3f00) = -1 EINVAL (Argumento inválido)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x747b223c0000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=65839, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 65839, PROT_READ, MAP_PRIVATE, 3, 0) = 0x747b223af000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=166280, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 177672, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x747b22383000
+mprotect(0x747b22389000, 139264, PROT_NONE) = 0
+mmap(0x747b22389000, 106496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x747b22389000
+mmap(0x747b223a3000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x747b223a3000
+mmap(0x747b223ab000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x747b223ab000
+mmap(0x747b223ad000, 5640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x747b223ad000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0I\17\357\204\3$\f\221\2039x\324\224\323\236S"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x747b22000000
+mprotect(0x747b22028000, 2023424, PROT_NONE) = 0
+mmap(0x747b22028000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x747b22028000
+mmap(0x747b221bd000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x747b221bd000
+mmap(0x747b22216000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x747b22216000
+mmap(0x747b2221c000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x747b2221c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=613064, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 615184, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x747b222ec000
+mmap(0x747b222ee000, 438272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x747b222ee000
+mmap(0x747b22359000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6d000) = 0x747b22359000
+mmap(0x747b22381000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x94000) = 0x747b22381000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x747b222e9000
+arch_prctl(ARCH_SET_FS, 0x747b222e9800) = 0
+set_tid_address(0x747b222e9ad0)         = 16764
+set_robust_list(0x747b222e9ae0, 24)     = 0
+rseq(0x747b222ea1a0, 0x20, 0, 0x53053053) = 0
+mprotect(0x747b22216000, 16384, PROT_READ) = 0
+mprotect(0x747b22381000, 4096, PROT_READ) = 0
+mprotect(0x747b223ab000, 4096, PROT_READ) = 0
+mprotect(0x5e7399086000, 8192, PROT_READ) = 0
+mprotect(0x747b223fa000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x747b223af000, 65839)           = 0
+statfs("/sys/fs/selinux", 0x7ffd9b7b3f40) = -1 ENOENT (Arquivo ou diretório inexistente)
+statfs("/selinux", 0x7ffd9b7b3f40)      = -1 ENOENT (Arquivo ou diretório inexistente)
+getrandom("\x86\xeb\xa7\xe9\x3e\x98\xd9\xe8", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x5e7399cbb000
+brk(0x5e7399cdc000)                     = 0x5e7399cdc000
+openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 407
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+access("/etc/selinux/config", F_OK)     = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5720944, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 5720944, PROT_READ, MAP_PRIVATE, 3, 0) = 0x747b21a00000
+close(3)                                = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=43, ws_col=173, ws_xpixel=0, ws_ypixel=0}) = 0
+statx(AT_FDCWD, "/Documents/Systems-Calls-Project/Dates/ls/full_systems_calls.txt", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_MODE, 0x7ffd9b7b3ad0) = -1 ENOENT (Arquivo ou diretório inexistente)
+statx(AT_FDCWD, "/Documents/Systems-Calls-Project/Dates/ls/full_systems_calls.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE, 0x7ffd9b7b3ad0) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2996, ...}, AT_EMPTY_PATH) = 0
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2996
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/pt_BR/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale/pt/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale-langpack/pt_BR/LC_MESSAGES/coreutils.mo", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=374117, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 374117, PROT_READ, MAP_PRIVATE, 3, 0) = 0x747b2228d000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=27002, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x747b223b9000
+close(3)                                = 0
+futex(0x747b2221ba6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+write(2, "ls: ", 4ls: )                     = 4
+write(2, "n\303\243o foi poss\303\255vel acessar '/Doc"..., 93não foi possível acessar '/Documents/Systems-Calls-Project/Dates/ls/full_systems_calls.txt') = 93
+openat(AT_FDCWD, "/usr/share/locale/pt_BR/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale/pt/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale-langpack/pt_BR/LC_MESSAGES/libc.mo", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=147447, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 147447, PROT_READ, MAP_PRIVATE, 3, 0) = 0x747b22269000
+close(3)                                = 0
+write(2, ": Arquivo ou diret\303\263rio inexiste"..., 35: Arquivo ou diretório inexistente) = 35
+write(2, "\n", 1
+)                       = 1
+close(1)                                = 0
+close(2)                                = 0
+exit_group(2)                           = ?
++++ exited with 2 +++
+
+4.
+execve("/usr/bin/ls", ["ls", "/Downloads/arquivo"], 0x7ffc6c1bc288 /* 56 vars */) = 0
+brk(NULL)                               = 0x634366aff000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fff3da768e0) = -1 EINVAL (Argumento inválido)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7de2a18a7000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=65839, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 65839, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7de2a1896000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=166280, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 177672, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7de2a186a000
+mprotect(0x7de2a1870000, 139264, PROT_NONE) = 0
+mmap(0x7de2a1870000, 106496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7de2a1870000
+mmap(0x7de2a188a000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7de2a188a000
+mmap(0x7de2a1892000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x7de2a1892000
+mmap(0x7de2a1894000, 5640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7de2a1894000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0I\17\357\204\3$\f\221\2039x\324\224\323\236S"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7de2a1600000
+mprotect(0x7de2a1628000, 2023424, PROT_NONE) = 0
+mmap(0x7de2a1628000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7de2a1628000
+mmap(0x7de2a17bd000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7de2a17bd000
+mmap(0x7de2a1816000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7de2a1816000
+mmap(0x7de2a181c000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7de2a181c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=613064, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 615184, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7de2a1569000
+mmap(0x7de2a156b000, 438272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7de2a156b000
+mmap(0x7de2a15d6000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6d000) = 0x7de2a15d6000
+mmap(0x7de2a15fe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x94000) = 0x7de2a15fe000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7de2a1867000
+arch_prctl(ARCH_SET_FS, 0x7de2a1867800) = 0
+set_tid_address(0x7de2a1867ad0)         = 17165
+set_robust_list(0x7de2a1867ae0, 24)     = 0
+rseq(0x7de2a18681a0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7de2a1816000, 16384, PROT_READ) = 0
+mprotect(0x7de2a15fe000, 4096, PROT_READ) = 0
+mprotect(0x7de2a1892000, 4096, PROT_READ) = 0
+mprotect(0x634349228000, 8192, PROT_READ) = 0
+mprotect(0x7de2a18e1000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7de2a1896000, 65839)           = 0
+statfs("/sys/fs/selinux", 0x7fff3da76920) = -1 ENOENT (Arquivo ou diretório inexistente)
+statfs("/selinux", 0x7fff3da76920)      = -1 ENOENT (Arquivo ou diretório inexistente)
+getrandom("\x9a\x00\xbc\x4f\xb3\x1f\x59\x85", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x634366aff000
+brk(0x634366b20000)                     = 0x634366b20000
+openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 407
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+access("/etc/selinux/config", F_OK)     = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5720944, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 5720944, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7de2a0e00000
+close(3)                                = 0
+ioctl(1, TCGETS, 0x7fff3da76850)        = -1 ENOTTY (ioctl inapropriado para dispositivo)
+ioctl(1, TIOCGWINSZ, 0x7fff3da76940)    = -1 ENOTTY (ioctl inapropriado para dispositivo)
+statx(AT_FDCWD, "/Downloads/arquivo", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT, STATX_MODE, 0x7fff3da764b0) = -1 ENOENT (Arquivo ou diretório inexistente)
+statx(AT_FDCWD, "/Downloads/arquivo", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE, 0x7fff3da764b0) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2996, ...}, AT_EMPTY_PATH) = 0
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2996
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/pt_BR/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale/pt/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale-langpack/pt_BR/LC_MESSAGES/coreutils.mo", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=374117, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 374117, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7de2a150d000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=27002, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x7de2a18a0000
+close(3)                                = 0
+futex(0x7de2a181ba6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+write(2, "ls: ", 4ls: )                     = 4
+write(2, "n\303\243o foi poss\303\255vel acessar '/Dow"..., 47não foi possível acessar '/Downloads/arquivo') = 47
+openat(AT_FDCWD, "/usr/share/locale/pt_BR/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale/pt/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (Arquivo ou diretório inexistente)
+openat(AT_FDCWD, "/usr/share/locale-langpack/pt_BR/LC_MESSAGES/libc.mo", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=147447, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 147447, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7de2a1843000
+close(3)                                = 0
+write(2, ": Arquivo ou diret\303\263rio inexiste"..., 35: Arquivo ou diretório inexistente) = 35
+write(2, "\n", 1
+)                       = 1
+close(1)                                = 0
+close(2)                                = 0
+exit_group(2)                           = ?
++++ exited with 2 +++
+diretório_inexistente.txt: comando não encontrado
+
+5.
+
+

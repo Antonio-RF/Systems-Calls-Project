@@ -1,0 +1,8 @@
+#Comandos enviados no terminal para se tirar os Systems Calls do 'ls'
+
+1. strace ls
+2. strace ls /Downloads
+3. strace ls /Documents/Systems-Calls-Project/Dates/ls/full_systems_calls.txt
+4. strace ls /Downloads/arquivo/diretório_inexistente.txt
+
+
