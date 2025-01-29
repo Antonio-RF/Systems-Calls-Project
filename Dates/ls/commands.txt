@@ -3,6 +3,41 @@
 1. strace ls
 2. strace ls /Downloads
 3. strace ls /Documents/Systems-Calls-Project/Dates/ls/full_systems_calls.txt
-4. strace ls /Downloads/arquivo/diretório_inexistente.txt
-
+4. strace ls /Downloads/arquivo|diretório_inexistente.txt
+5. strace ls -a
+6. strace ls -a /Imagens
+7. strace ls -a /Documents/Systems-Calls-Project/Dates/ls/date_ls.txt
+8. strace ls -a /Documents/arquivo|diretório_inexistente.txt
+9. strace ls -l
+10. strace ls -l /Downloads
+11. strace ls -l /Documents/Systems-Calls-Project/Dates/ls/systems_calls.txt
+12. strace ls -l /Documents/arquivo|diretório_inexistente.txt
+13. strace ls -R
+14. strace ls -R /Documents
+15. strace ls -R /Imagens/Capturas de tela/Opção1.png
+16. strace ls -R /Documents/arquivo|diretório_inexistente.txt
+17. strace ls -i
+18. strace ls -i /Imagens
+19. strace ls -i /Documents/Systems-Calls-Project/Dates/ls/full_systems_calls.txt
+20. strace ls -i /Documents/arquivo|diretório_inexistente.txt
+21. strace ls -lh
+22. strace ls -lh /Downloads
+23. strace ls -lh /Documents/Systems-Calls-Project/Dates/ls/systems_calls.txt
+24. strace ls -lh /Documents/arquivo|diretório_inexistente.txt
+25. strace ls -l
+26. strace ls -l /Documents
+27. strace ls -l /Documents/Systems-Calls-Project/Dates/ls/full_systems_calls.txt
+28. strace ls -l /Documents/arquivo|diretório_inexistente.txt
+29. strace ls -1
+30. strace ls -1 /Imagens
+31. strace ls -1 /Documents/Systems-Calls-Project/Dates/ls/date_ls.txt
+32. strace ls -1 /Documents/arquivo|diretório_inexistente.txt
+33. 
+34. 
+35. 
+36. 
+37. 
+38. 
+39. 
+40. 
 
