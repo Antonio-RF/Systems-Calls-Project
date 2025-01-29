@@ -16,7 +16,8 @@ for line in entradas:
     if eh_system_call:    
         interesse = line.split("(", 1)[0]
         resultado.append(interesse)
-
+        
 print(", ".join(resultado))
-
+print()
+print(" ".join(resultado))
 
