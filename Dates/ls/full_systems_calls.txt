@@ -14313,4 +14313,939 @@ close(2)                                = 0
 exit_group(0)                           = ?
 +++ exited with 0 +++
 
+53.
+execve("/usr/bin/ls", ["ls", "-R", "-1"], 0x7fff2b414c90 /* 54 vars */) = 0
+brk(NULL)                               = 0x6553c8ed0000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffedf18e700) = -1 EINVAL (Invalid argument)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78c7651c3000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=58963, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 58963, PROT_READ, MAP_PRIVATE, 3, 0) = 0x78c7651b4000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=166280, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 177672, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x78c765188000
+mprotect(0x78c76518e000, 139264, PROT_NONE) = 0
+mmap(0x78c76518e000, 106496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x78c76518e000
+mmap(0x78c7651a8000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x78c7651a8000
+mmap(0x78c7651b0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x78c7651b0000
+mmap(0x78c7651b2000, 5640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x78c7651b2000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0I\17\357\204\3$\f\221\2039x\324\224\323\236S"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x78c764e00000
+mprotect(0x78c764e28000, 2023424, PROT_NONE) = 0
+mmap(0x78c764e28000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x78c764e28000
+mmap(0x78c764fbd000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x78c764fbd000
+mmap(0x78c765016000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x78c765016000
+mmap(0x78c76501c000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x78c76501c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=613064, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 615184, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x78c7650f1000
+mmap(0x78c7650f3000, 438272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x78c7650f3000
+mmap(0x78c76515e000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6d000) = 0x78c76515e000
+mmap(0x78c765186000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x94000) = 0x78c765186000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x78c7650ee000
+arch_prctl(ARCH_SET_FS, 0x78c7650ee800) = 0
+set_tid_address(0x78c7650eead0)         = 22901
+set_robust_list(0x78c7650eeae0, 24)     = 0
+rseq(0x78c7650ef1a0, 0x20, 0, 0x53053053) = 0
+mprotect(0x78c765016000, 16384, PROT_READ) = 0
+mprotect(0x78c765186000, 4096, PROT_READ) = 0
+mprotect(0x78c7651b0000, 4096, PROT_READ) = 0
+mprotect(0x6553a6598000, 8192, PROT_READ) = 0
+mprotect(0x78c7651fd000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x78c7651b4000, 58963)           = 0
+statfs("/sys/fs/selinux", 0x7ffedf18e740) = -1 ENOENT (No such file or directory)
+statfs("/selinux", 0x7ffedf18e740)      = -1 ENOENT (No such file or directory)
+getrandom("\x3a\xc1\x62\x6a\x2b\x26\xf6\xe2", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x6553c8ed0000
+brk(0x6553c8ef1000)                     = 0x6553c8ef1000
+openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 393
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+access("/etc/selinux/config", F_OK)     = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5716576, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 5716576, PROT_READ, MAP_PRIVATE, 3, 0) = 0x78c764800000
+close(3)                                = 0
+ioctl(1, TCGETS, 0x7ffedf18e670)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(1, TIOCGWINSZ, 0x7ffedf18e760)    = -1 ENOTTY (Inappropriate ioctl for device)
+openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0750, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0750, stx_size=4096, ...}) = 0
+newfstatat(1, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x6553c8ed8d60 /* 32 entries */, 32768) = 1008
+getdents64(3, 0x6553c8ed8d60 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Desktop", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f50 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f50 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 4 entries */, 32768) = 152
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Linux-ELF-malware-static-analysis", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 10 entries */, 32768) = 320
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Systems-Calls-Project", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 7 entries */, 32768) = 200
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Systems-Calls-Project/Dates", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 3 entries */, 32768) = 72
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Systems-Calls-Project/Dates/ls", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 6 entries */, 32768) = 200
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Systems-Calls-Project/ELFs", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 3 entries */, 32768) = 80
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Systems-Calls-Project/Python_Projects", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 6 entries */, 32768) = 200
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Downloads", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 6 entries */, 32768) = 184
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Music", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Pictures", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 3 entries */, 32768) = 80
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Pictures/Screenshots", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 3 entries */, 32768) = 80
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=27002, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x78c7651bc000
+close(3)                                = 0
+futex(0x78c76501ba6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "./Public", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0700, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0700, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 4 entries */, 32768) = 128
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/firefox", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 5 entries */, 32768) = 136
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/firefox/3836", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 6 entries */, 32768) = 184
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/firefox/common", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 4 entries */, 32768) = 112
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 6 entries */, 32768) = 160
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/253", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 14 entries */, 32768) = 440
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/253/Desktop", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/253/Documents", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/253/Downloads", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/253/Music", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/253/Pictures", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/253/Public", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/253/Templates", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/253/Videos", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/83", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 14 entries */, 32768) = 440
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/83/Desktop", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/83/Documents", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/83/Downloads", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/83/Music", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/83/Pictures", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/83/Public", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/83/Templates", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/83/Videos", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/common", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1f10 /* 3 entries */, 32768) = 80
+getdents64(3, 0x6553c8ee1f10 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Templates", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1ef0 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1ef0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Videos", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x6553c8ee1ed0 /* 2 entries */, 32768) = 48
+getdents64(3, 0x6553c8ee1ed0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+write(1, ".:\nDesktop\nDocuments\nDownloads\nM"..., 2083.:
+Desktop
+Documents
+Downloads
+Music
+output2.txt
+output3.txt
+output.txt
+Pictures
+Public
+snap
+Templates
+Videos
+
+./Desktop:
+
+./Documents:
+Linux-ELF-malware-static-analysis
+Systems-Calls-Project
+
+./Documents/Linux-ELF-malware-static-analysis:
+ELF_structure.sql
+LICENSE
+ls_output_with_elf.txt
+phase1.py
+phase2.py
+phase3.py
+README.md
+
+./Documents/Systems-Calls-Project:
+Dates
+ELFs
+Python_Projects
+README.md
+
+./Documents/Systems-Calls-Project/Dates:
+ls
+
+./Documents/Systems-Calls-Project/Dates/ls:
+commands.txt
+date_ls.txt
+full_systems_calls.txt
+systems_calls.txt
+
+./Documents/Systems-Calls-Project/ELFs:
+ELF1.txt
+
+./Documents/Systems-Calls-Project/Python_Projects:
+data_base_11w.py
+data_base_5w.py
+data_base_6w.py
+separator.py
+
+./Downloads:
+dark_room.png
+entrada2.txt
+entrada.txt
+strace_r.txt
+
+./Music:
+
+./Pictures:
+Screenshots
+
+./Pictures/Screenshots:
+Opção2.png
+
+./Public:
+
+./snap:
+firefox
+snapd-desktop-integration
+
+./snap/firefox:
+common
+current
+
+./snap/firefox/3836:
+
+./snap/firefox/common:
+
+./snap/snapd-desktop-integration:
+common
+current
+
+./snap/snapd-desktop-integration/253:
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+Templates
+Videos
+
+./snap/snapd-desktop-integration/253/Desktop:
+
+./snap/snapd-desktop-integration/253/Documents:
+
+./snap/snapd-desktop-integration/253/Downloads:
+
+./snap/snapd-desktop-integration/253/Music:
+
+./snap/snapd-desktop-integration/253/Pictures:
+
+./snap/snapd-desktop-integration/253/Public:
+
+./snap/snapd-desktop-integration/253/Templates:
+
+./snap/snapd-desktop-integration/253/Videos:
+
+./snap/snapd-desktop-integration/83:
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+Templates
+Videos
+
+./snap/snapd-desktop-integration/83/Desktop:
+
+./snap/snapd-desktop-integration/83/Documents:
+
+./snap/snapd-desktop-integration/83/Downloads:
+
+./snap/snapd-desktop-integration/83/Music:
+
+./snap/snapd-desktop-integration/83/Pictures:
+
+./snap/snapd-desktop-integration/83/Public:
+
+./snap/snapd-desktop-integration/83/Templates:
+
+./snap/snapd-desktop-integration/83/Videos:
+
+./snap/snapd-desktop-integration/common:
+
+./Templates:
+
+./Videos:
+) = 2083
+close(1)                                = 0
+close(2)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
+
+54.
+execve("/usr/bin/ls", ["ls", "-R", "-lh"], 0x7ffe08f8c8f0 /* 54 vars */) = 0
+brk(NULL)                               = 0x593c57392000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffcbe8afe10) = -1 EINVAL (Invalid argument)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x716ebb63f000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=58963, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 58963, PROT_READ, MAP_PRIVATE, 3, 0) = 0x716ebb630000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=166280, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 177672, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x716ebb604000
+mprotect(0x716ebb60a000, 139264, PROT_NONE) = 0
+mmap(0x716ebb60a000, 106496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x716ebb60a000
+mmap(0x716ebb624000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x716ebb624000
+mmap(0x716ebb62c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x716ebb62c000
+mmap(0x716ebb62e000, 5640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x716ebb62e000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0I\17\357\204\3$\f\221\2039x\324\224\323\236S"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x716ebb200000
+mprotect(0x716ebb228000, 2023424, PROT_NONE) = 0
+mmap(0x716ebb228000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x716ebb228000
+mmap(0x716ebb3bd000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x716ebb3bd000
+mmap(0x716ebb416000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x716ebb416000
+mmap(0x716ebb41c000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x716ebb41c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=613064, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 615184, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x716ebb56d000
+mmap(0x716ebb56f000, 438272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x716ebb56f000
+mmap(0x716ebb5da000, 163840, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6d000) = 0x716ebb5da000
+mmap(0x716ebb602000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x94000) = 0x716ebb602000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x716ebb56a000
+arch_prctl(ARCH_SET_FS, 0x716ebb56a800) = 0
+set_tid_address(0x716ebb56aad0)         = 22921
+set_robust_list(0x716ebb56aae0, 24)     = 0
+rseq(0x716ebb56b1a0, 0x20, 0, 0x53053053) = 0
+mprotect(0x716ebb416000, 16384, PROT_READ) = 0
+mprotect(0x716ebb602000, 4096, PROT_READ) = 0
+mprotect(0x716ebb62c000, 4096, PROT_READ) = 0
+mprotect(0x593c3323d000, 8192, PROT_READ) = 0
+mprotect(0x716ebb679000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x716ebb630000, 58963)           = 0
+statfs("/sys/fs/selinux", 0x7ffcbe8afe50) = -1 ENOENT (No such file or directory)
+statfs("/selinux", 0x7ffcbe8afe50)      = -1 ENOENT (No such file or directory)
+getrandom("\x4a\xda\xdd\x81\xad\x7c\x53\x2a", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x593c57392000
+brk(0x593c573b3000)                     = 0x593c573b3000
+openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0444, st_size=0, ...}, AT_EMPTY_PATH) = 0
+read(3, "nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 393
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+access("/etc/selinux/config", F_OK)     = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5716576, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 5716576, PROT_READ, MAP_PRIVATE, 3, 0) = 0x716ebac00000
+close(3)                                = 0
+ioctl(1, TCGETS, 0x7ffcbe8afd80)        = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(1, TIOCGWINSZ, 0x7ffcbe8afe70)    = -1 ENOTTY (Inappropriate ioctl for device)
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2996, ...}, AT_EMPTY_PATH) = 0
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2996
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/pt_BR.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/pt_BR.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/pt_BR/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/pt.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/pt.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/pt/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=27002, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x716ebb638000
+close(3)                                = 0
+futex(0x716ebb41ba6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0750, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0750, stx_size=4096, ...}) = 0
+newfstatat(1, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x593c5739c870 /* 33 entries */, 32768) = 1040
+statx(AT_FDCWD, "Videos", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("Videos", "security.selinux", 0x593c57395690, 255) = -1 ENODATA (No data available)
+getxattr("Videos", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("Videos", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=542, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=542, ...}, AT_EMPTY_PATH) = 0
+read(4, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 542
+read(4, "", 4096)                       = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=542, ...}, AT_EMPTY_PATH) = 0
+close(4)                                = 0
+openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=2949, ...}, AT_EMPTY_PATH) = 0
+lseek(4, 0, SEEK_SET)                   = 0
+read(4, "root:x:0:0:root:/root:/bin/bash\n"..., 4096) = 2949
+close(4)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=542, ...}, 0) = 0
+openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=1113, ...}, AT_EMPTY_PATH) = 0
+lseek(4, 0, SEEK_SET)                   = 0
+read(4, "root:x:0:\ndaemon:x:1:\nbin:x:2:\ns"..., 4096) = 1113
+close(4)                                = 0
+statx(AT_FDCWD, "Music", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("Music", "security.selinux", 0x593c573a5d00, 255) = -1 ENODATA (No data available)
+getxattr("Music", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("Music", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "output2.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=76934, ...}) = 0
+lgetxattr("output2.txt", "security.selinux", 0x593c573a5e30, 255) = -1 ENODATA (No data available)
+getxattr("output2.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "snap", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0700, stx_size=4096, ...}) = 0
+lgetxattr("snap", "security.selinux", 0x593c573a5f60, 255) = -1 ENODATA (No data available)
+getxattr("snap", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("snap", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "Templates", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("Templates", "security.selinux", 0x593c573a6090, 255) = -1 ENODATA (No data available)
+getxattr("Templates", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("Templates", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "Desktop", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("Desktop", "security.selinux", 0x593c573a61c0, 255) = -1 ENODATA (No data available)
+getxattr("Desktop", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("Desktop", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "output.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=26898558, ...}) = 0
+lgetxattr("output.txt", "security.selinux", 0x593c573a62f0, 255) = -1 ENODATA (No data available)
+getxattr("output.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "output4.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=12288, ...}) = 0
+lgetxattr("output4.txt", "security.selinux", 0x593c573a6420, 255) = -1 ENODATA (No data available)
+getxattr("output4.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "Public", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("Public", "security.selinux", 0x593c573a6440, 255) = -1 ENODATA (No data available)
+getxattr("Public", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("Public", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "Documents", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("Documents", "security.selinux", 0x593c573a6460, 255) = -1 ENODATA (No data available)
+getxattr("Documents", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("Documents", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "Downloads", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("Downloads", "security.selinux", 0x593c573a6480, 255) = -1 ENODATA (No data available)
+getxattr("Downloads", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("Downloads", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "Pictures", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("Pictures", "security.selinux", 0x593c573a64a0, 255) = -1 ENODATA (No data available)
+getxattr("Pictures", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("Pictures", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "output3.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=28912, ...}) = 0
+lgetxattr("output3.txt", "security.selinux", 0x593c573a64c0, 255) = -1 ENODATA (No data available)
+getxattr("output3.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c5739c870 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=613, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 613, PROT_READ, MAP_PRIVATE, 3, 0) = 0x716ebb678000
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1444, ...}, AT_EMPTY_PATH) = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1444, ...}, AT_EMPTY_PATH) = 0
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 1444
+lseek(3, -910, SEEK_CUR)                = 534
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 910
+close(3)                                = 0
+openat(AT_FDCWD, "./Desktop", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 2 entries */, 32768) = 48
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 4 entries */, 32768) = 152
+statx(AT_FDCWD, "./Documents/Linux-ELF-malware-static-analysis", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+lgetxattr("./Documents/Linux-ELF-malware-static-analysis", "security.selinux", 0x593c5739d640, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Linux-ELF-malware-static-analysis", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./Documents/Linux-ELF-malware-static-analysis", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project", "security.selinux", 0x593c5739d640, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Linux-ELF-malware-static-analysis", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 10 entries */, 32768) = 320
+statx(AT_FDCWD, "./Documents/Linux-ELF-malware-static-analysis/ls_output_with_elf.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=384132, ...}) = 0
+lgetxattr("./Documents/Linux-ELF-malware-static-analysis/ls_output_with_elf.txt", "security.selinux", 0x593c5739d6b0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Linux-ELF-malware-static-analysis/ls_output_with_elf.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Linux-ELF-malware-static-analysis/ELF_structure.sql", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=3721, ...}) = 0
+lgetxattr("./Documents/Linux-ELF-malware-static-analysis/ELF_structure.sql", "security.selinux", 0x593c5739d6b0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Linux-ELF-malware-static-analysis/ELF_structure.sql", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Linux-ELF-malware-static-analysis/phase2.py", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0775, stx_size=2917, ...}) = 0
+lgetxattr("./Documents/Linux-ELF-malware-static-analysis/phase2.py", "security.selinux", 0x593c5739d6b0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Linux-ELF-malware-static-analysis/phase2.py", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Linux-ELF-malware-static-analysis/phase3.py", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=6330, ...}) = 0
+lgetxattr("./Documents/Linux-ELF-malware-static-analysis/phase3.py", "security.selinux", 0x593c5739d6b0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Linux-ELF-malware-static-analysis/phase3.py", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Linux-ELF-malware-static-analysis/README.md", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=5733, ...}) = 0
+lgetxattr("./Documents/Linux-ELF-malware-static-analysis/README.md", "security.selinux", 0x593c5739d6b0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Linux-ELF-malware-static-analysis/README.md", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Linux-ELF-malware-static-analysis/LICENSE", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=35149, ...}) = 0
+lgetxattr("./Documents/Linux-ELF-malware-static-analysis/LICENSE", "security.selinux", 0x593c5739d6b0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Linux-ELF-malware-static-analysis/LICENSE", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Linux-ELF-malware-static-analysis/phase1.py", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=2923, ...}) = 0
+lgetxattr("./Documents/Linux-ELF-malware-static-analysis/phase1.py", "security.selinux", 0x593c5739d6b0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Linux-ELF-malware-static-analysis/phase1.py", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Systems-Calls-Project", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 7 entries */, 32768) = 200
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/Python_Projects", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/Python_Projects", "security.selinux", 0x593c5739d6f0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Python_Projects", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Python_Projects", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/ELFs", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/ELFs", "security.selinux", 0x593c5739d6f0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/ELFs", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/ELFs", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/README.md", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=23, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/README.md", "security.selinux", 0x593c5739d6f0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/README.md", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/Dates", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/Dates", "security.selinux", 0x593c5739d6f0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Dates", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Dates", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Systems-Calls-Project/Dates", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 3 entries */, 32768) = 72
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/Dates/ls", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/Dates/ls", "security.selinux", 0x593c5739d7e0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Dates/ls", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Dates/ls", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Systems-Calls-Project/Dates/ls", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 6 entries */, 32768) = 200
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/Dates/ls/full_systems_calls.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=1083246, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/Dates/ls/full_systems_calls.txt", "security.selinux", 0x593c5739d7e0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Dates/ls/full_systems_calls.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/Dates/ls/commands.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=2192, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/Dates/ls/commands.txt", "security.selinux", 0x593c5739d7e0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Dates/ls/commands.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/Dates/ls/systems_calls.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=84163, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/Dates/ls/systems_calls.txt", "security.selinux", 0x593c5739d7e0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Dates/ls/systems_calls.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/Dates/ls/date_ls.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=74317, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/Dates/ls/date_ls.txt", "security.selinux", 0x593c5739d7e0, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Dates/ls/date_ls.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Systems-Calls-Project/ELFs", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 3 entries */, 32768) = 80
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/ELFs/ELF1.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=35228, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/ELFs/ELF1.txt", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/ELFs/ELF1.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Documents/Systems-Calls-Project/Python_Projects", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 6 entries */, 32768) = 200
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/Python_Projects/data_base_11w.py", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=629, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/Python_Projects/data_base_11w.py", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Python_Projects/data_base_11w.py", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/Python_Projects/data_base_6w.py", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=629, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/Python_Projects/data_base_6w.py", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Python_Projects/data_base_6w.py", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/Python_Projects/separator.py", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=576, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/Python_Projects/separator.py", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Python_Projects/separator.py", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Documents/Systems-Calls-Project/Python_Projects/data_base_5w.py", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=629, ...}) = 0
+lgetxattr("./Documents/Systems-Calls-Project/Python_Projects/data_base_5w.py", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./Documents/Systems-Calls-Project/Python_Projects/data_base_5w.py", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Downloads", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 6 entries */, 32768) = 184
+statx(AT_FDCWD, "./Downloads/entrada.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=6075, ...}) = 0
+lgetxattr("./Downloads/entrada.txt", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./Downloads/entrada.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Downloads/dark_room.png", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=19370340, ...}) = 0
+lgetxattr("./Downloads/dark_room.png", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./Downloads/dark_room.png", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Downloads/entrada2.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=14859, ...}) = 0
+lgetxattr("./Downloads/entrada2.txt", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./Downloads/entrada2.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./Downloads/strace_r.txt", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=30699, ...}) = 0
+lgetxattr("./Downloads/strace_r.txt", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./Downloads/strace_r.txt", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Music", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 2 entries */, 32768) = 48
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Pictures", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 3 entries */, 32768) = 80
+statx(AT_FDCWD, "./Pictures/Screenshots", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+lgetxattr("./Pictures/Screenshots", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./Pictures/Screenshots", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./Pictures/Screenshots", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Pictures/Screenshots", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0775, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 3 entries */, 32768) = 80
+statx(AT_FDCWD, "./Pictures/Screenshots/Op\303\247\303\243o2.png", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=16975, ...}) = 0
+lgetxattr("./Pictures/Screenshots/Op\303\247\303\243o2.png", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./Pictures/Screenshots/Op\303\247\303\243o2.png", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./Public", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 2 entries */, 32768) = 48
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0700, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0700, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 4 entries */, 32768) = 128
+statx(AT_FDCWD, "./snap/snapd-desktop-integration", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./snap/firefox", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/firefox", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/firefox", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/firefox", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/firefox", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 5 entries */, 32768) = 136
+statx(AT_FDCWD, "./snap/firefox/current", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=4, ...}) = 0
+lgetxattr("./snap/firefox/current", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+readlink("./snap/firefox/current", "3836", 5) = 4
+statx(AT_FDCWD, "./snap/firefox/common", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/firefox/common", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/firefox/common", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/firefox/common", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./snap/firefox/3836", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/firefox/3836", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/firefox/3836", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/firefox/3836", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/firefox/3836", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 6 entries */, 32768) = 184
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/firefox/common", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 4 entries */, 32768) = 112
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 6 entries */, 32768) = 160
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/current", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFLNK|0777, stx_size=3, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/current", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+readlink("./snap/snapd-desktop-integration/current", "253", 4) = 3
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/common", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/common", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/common", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/common", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/83", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/83", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/83", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/83", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/253", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/253", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "./snap/snapd-desktop-integration/253", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_NO_AUTOMOUNT|AT_EMPTY_PATH, STATX_INO, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getdents64(3, 0x593c573a76f0 /* 14 entries */, 32768) = 440
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/253/Videos", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/253/Videos", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Videos", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Videos", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/253/Music", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/253/Music", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Music", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Music", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/253/Templates", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/253/Templates", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Templates", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Templates", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/253/Desktop", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/253/Desktop", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Desktop", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Desktop", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/253/Public", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/253/Public", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Public", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Public", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/253/Documents", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/253/Documents", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Documents", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Documents", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/253/Downloads", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/253/Downloads", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Downloads", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Downloads", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+statx(AT_FDCWD, "./snap/snapd-desktop-integration/253/Pictures", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW|AT_NO_AUTOMOUNT, STATX_MODE|STATX_NLINK|STATX_UID|STATX_GID|STATX_MTIME|STATX_SIZE, {stx_mask=STATX_BASIC_STATS|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lgetxattr("./snap/snapd-desktop-integration/253/Pictures", "security.selinux", 0x593c5739d820, 255) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Pictures", "system.posix_acl_access", NULL, 0) = -1 ENODATA (No data available)
+getxattr("./snap/snapd-desktop-integration/253/Pictures", "system.posix_acl_default", NULL, 0) = -1 ENODATA (No data available)
+getdents64(3, 0x593c573a76f0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+write(1, ".:\ntotal 26M\ndrwxr-xr-x 2 toninh"..., 4096.:
 

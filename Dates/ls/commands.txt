@@ -51,5 +51,7 @@
 49. strace ls *
 50. strace ls *.txt
 51. strace ls -R -l /Downloads
-52. strace ls -R -l 
+52. strace ls -R -l
+53. strace ls -R -1
+54. strace ls -R -lh
 
