@@ -1,6 +1,9 @@
-inputs1 = list(map(str, input("Banco de dados do comportamento normal: ").split()))
-inputs2 = list(map(str, input("Systems Calls analisadas: ").split()))
-
+import sys
+with open('/home/toninho/Documents/Systems-Calls-Project/Dates/ls/date_ls.txt', 'r') as file1:
+    inputs1 = list(map(str, file1.read().split()))
+with open('/home/toninho/Documents/Systems-Calls-Project/Attacks/Ls/teste.txt', 'r') as file2:
+    inputs2 = list(map(str, file2.read().split()))
+    
 #-------------------------------------------------------------------------------------------------------#
 #Construção do banco de dados normal:
 library_normal = {}
@@ -30,42 +33,29 @@ for sc in range(len(inputs2)):
     if inputs2[sc] in library_normal:
         library_lists = library_normal[inputs2[sc]]
 
-        match_found = False
-
-        #Conferindo se há uma lista de 6 elementos EXATAMENTE IGUAIS aos próximos de sc no banco de dados:
-        for library_list in library_lists:
-            # Esse if está me falando quantos elementos tem depois do fixado(len(inputs2) - sc - 1)
-            if len(library_list) <= len(inputs2) - sc - 1:
-                match = True
-                for j in range(len(library_list)):
-                    if library_list[j] != inputs2[sc + j + 1]:
-                        match = False
-                        break
-                if match:
-                    match_found = True
-                    break
-
-        if not match_found:
-            #Se tem +6 posições após o fixado:
-            if (len(inputs2) - sc - 1) > 6:
-                for i in range(6):
-                    there_is_a_position = False
-                    for list in library_lists:
-                        if len(list) > i:
-                            if inputs2[sc+i+1] == list[i]:
-                                there_is_a_position = True
-                                break
-                    if not there_is_a_position:
-                        mismatches += 1
-            #Se não tem 6 posições:
-            else:
+        #Se tem +6 posições após o fixado:
+        if (len(inputs2) - sc - 1) >= 6:
+            for i in range(6):
+                there_is_a_position = False
+                for list in library_lists:
+                    if len(list) > i:
+                        if inputs2[sc+i+1] == list[i]:
+                            there_is_a_position = True
+                            break
+                if not there_is_a_position:
+                    mismatches += 1
+        #Se não tem 6 posições:
+        else:
+            subsequences = len(inputs2) - sc - 1
+            if subsequences != 0:
                 matches = 0
-                for j in range(len(inputs2) - sc - 1):
+                for j in range(subsequences):
                     match_k = False
                     for list in library_lists:
-                        if list[j] == inputs2[sc+j+1]:
-                            match_k = True
-                            break
+                        if len(list) > j:    
+                            if list[j] == inputs2[sc+j+1]:
+                                match_k = True
+                                break
                     if match_k:
                         matches += 1
                 mismatches += (len(inputs2) - sc - 1) - matches
@@ -83,7 +73,7 @@ print("O percentual de mismatches(anomalias) encontrado é: {:.2f}".format(perce
 print("-----------------------------------------------------------------------------")
 #-------------------------------------------------------------------------------------------------------#
 
-
+print("Total de elementos na lista:", len(inputs1))
 
 
 #for i in library_normal:

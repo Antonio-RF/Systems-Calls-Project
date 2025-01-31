@@ -1,1 +1,13 @@
+#Wapper Malicioso que quando 'ls' é chamado pega um arquivo em um diretório e o transferi para outro.
+
+#código para copiar:
 execve brk arch_prctl mmap access openat newfstatat mmap close openat read newfstatat mmap mprotect mmap mmap mmap mmap close openat read pread64 pread64 pread64 newfstatat pread64 mmap mprotect mmap mmap mmap mmap close openat read newfstatat mmap mmap mmap mmap close mmap arch_prctl set_tid_address set_robust_list rseq mprotect mprotect mprotect mprotect mprotect prlimit64 munmap statfs statfs getrandom brk brk openat newfstatat read read close access openat newfstatat mmap close ioctl ioctl openat newfstatat getdents64 getdents64 close newfstatat close close exit_group
+
+#Systems Calls obtidas após o comando: 'strace ls /Documents'
+execve, brk, arch_prctl, mmap, access, openat, newfstatat, mmap, close, openat, read, newfstatat, mmap, mprotect, mmap, mmap, 
+mmap, mmap, close, openat, read, pread64, pread64, pread64, newfstatat, pread64, mmap, mprotect, mmap, mmap, mmap, mmap, close, 
+openat, read, newfstatat, mmap, mmap, mmap, mmap, close, mmap, arch_prctl, set_tid_address, set_robust_list, rseq, mprotect, mprotect, 
+mprotect, mprotect, mprotect, prlimit64, munmap, statfs, statfs, getrandom, brk, brk, openat, newfstatat, read, read, close, access, 
+openat, newfstatat, mmap, close, ioctl, ioctl, openat, newfstatat, getdents64, getdents64, close, newfstatat, close, close, exit_group
+
+
