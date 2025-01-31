@@ -46,7 +46,7 @@ for sc in range(len(inputs2)):
                     break
 
         if not match_found:
-            #Se tem 6 posições após o fixado:
+            #Se tem +6 posições após o fixado:
             if (len(inputs2) - sc - 1) > 6:
                 for i in range(6):
                     there_is_a_position = False
@@ -70,7 +70,9 @@ for sc in range(len(inputs2)):
                         matches += 1
                 mismatches += (len(inputs2) - sc - 1) - matches
     else:
-        mismatches += 1
+        #considerando que se não existe o elemento no banco de dados, está fazendo algo que não é da função 'LS'.
+        #então também acarreta em +7 mismatches(a própria call e as 6 posições subsequentes dela)
+        mismatches += 7
 #-------------------------------------------------------------------------------------------------------#
 #Estatísticas:
 percentual = 100.0 * (mismatches / lenght_of_sc)
