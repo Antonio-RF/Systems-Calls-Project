@@ -3,7 +3,7 @@ with open('/home/toninho/Documents/Systems-Calls-Project/Dates/ls/date_ls.txt', 
     inputs1 = list(map(str, file1.read().split()))
 with open('/home/toninho/Documents/Systems-Calls-Project/Attacks/Ls/teste.txt', 'r') as file2:
     inputs2 = list(map(str, file2.read().split()))
-    
+
 #-------------------------------------------------------------------------------------------------------#
 #Construção do banco de dados normal:
 library_normal = {}
@@ -73,7 +73,8 @@ print("O percentual de mismatches(anomalias) encontrado é: {:.2f}".format(perce
 print("-----------------------------------------------------------------------------")
 #-------------------------------------------------------------------------------------------------------#
 
-print("Total de elementos na lista:", len(inputs1))
+print("Total de elementos no banco de dados:", len(inputs1))
+print("Total de elemento analisados:", len(inputs2))
 
 
 #for i in library_normal:
