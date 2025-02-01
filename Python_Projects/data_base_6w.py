@@ -67,12 +67,11 @@ for sc in range(len(inputs2)):
 #Estatísticas:
 percentual = 100.0 * (mismatches / lenght_of_sc)
 print("-----------------------------------------------------------------------------")
-print("O número total de systems calls analisadas é: {}".format(lenght_of_sc))
+print("O número total de systems calls analisadas é: {}".format(len(inputs1)))
 print("O número total de anomalias achadas é: {}".format(mismatches))
 print("O percentual de mismatches(anomalias) encontrado é: {:.2f}%".format(percentual))
 print("-----------------------------------------------------------------------------")
 #-------------------------------------------------------------------------------------------------------#
 
-print("Total de elementos no banco de dados:", len(inputs1))
 print("Total de elemento analisados:", len(inputs2))
 print("Total de janelas:{}".format(lenght_of_sc))
