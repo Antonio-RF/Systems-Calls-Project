@@ -12,7 +12,7 @@ for i in inputs1:
         library_normal[i] = []
 
 for k in range(len(inputs1)):
-    #adicionando uma lista das 5 próximas chamadas ao sistema de cada(se tiver 5 adiante)
+    #adicionando uma lista das 6 próximas chamadas ao sistema de cada(se tiver 6 adiante)
     next_elements = [k+i for i in range(1,7) if k+i < len(inputs1)]
 
     new_list = [inputs1[i] for i in next_elements]
@@ -69,16 +69,10 @@ percentual = 100.0 * (mismatches / lenght_of_sc)
 print("-----------------------------------------------------------------------------")
 print("O número total de systems calls analisadas é: {}".format(lenght_of_sc))
 print("O número total de anomalias achadas é: {}".format(mismatches))
-print("O percentual de mismatches(anomalias) encontrado é: {:.2f}".format(percentual))
+print("O percentual de mismatches(anomalias) encontrado é: {:.2f}%".format(percentual))
 print("-----------------------------------------------------------------------------")
 #-------------------------------------------------------------------------------------------------------#
 
 print("Total de elementos no banco de dados:", len(inputs1))
 print("Total de elemento analisados:", len(inputs2))
-
-
-#for i in library_normal:
-#    print("Call: {}".format(i))
-#    for j in range(len(library_normal[i])):
-#        print(library_normal[i][j])
-#    print()
+print("Total de janelas:{}".format(lenght_of_sc))
