@@ -18,7 +18,7 @@ primary_directories["Downloads"].extend(["coord.o", "entrada2.txt", "forrest-sen
 
 resultado = []
 comandos = []
-for i in range(50):
+for i in range(1000):
     random_primary_directory = random.choice(list)
 
     there_isnt_more = False
@@ -45,8 +45,15 @@ for i in range(50):
     resultado_preliminar = separator(processo.stderr)
     resultado.extend(resultado_preliminar)
 
-print(resultado)
-print()
-print("-------------------------------------")
-print()
-print(comandos)
+with open('/home/toninho/Documents/Systems-Calls-Project/Dates/mv/date_mv.txt', 'w') as file1:
+    file1.write(" ".join(resultado))
+
+with open('/home/toninho/Documents/Systems-Calls-Project/Dates/mv/commands.txt', 'w') as file2:
+    for i in range(len(comandos)):
+        file2.write("{}. {}\n".format(i+1, comandos[i]))
+
+#print(resultado)
+#print()
+#print("-------------------------------------")
+#print()
+#print(comandos)
