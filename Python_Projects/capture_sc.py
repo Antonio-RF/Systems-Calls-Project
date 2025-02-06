@@ -5,7 +5,7 @@ from separator import separator
 # Adicionando meus diretórios primários:
 # "fake" é usado como diretório que não existe.
 # "nothing" será usado como configuração para não ter nenhum caminho.
-list_primary_directories = ["Desktop", "Documents", "Pictures", "Music", "Downloads", "Public", "Templates", "Videos", "snap", "fake", ""]
+list_primary_directories = ["Desktop", "Documents", "Pictures", "Music", "Downloads", "Public", "Templates", "Videos", "snap", "fake", " "]
 primary_directories = {
     "Documents": {},
     "Pictures": {},
@@ -84,7 +84,7 @@ ls_options = ["", "-a", "-l", "-R", "-i", "-lh", "-l", "-1", "-s", "-t", "/", ".
 
 resultado = []
 comandos = []
-for i in range(10000):
+for i in range(100):
     random_primary_directory = random.choice(list_primary_directories)
 
     there_isnt_more = False
@@ -108,7 +108,7 @@ for i in range(10000):
             there_isnt_more2 = True
     
     if there_isnt_more:
-        if random_primary_directory == "":
+        if random_primary_directory == " ":
             path = ""
         else:
             path = "/"+random_primary_directory

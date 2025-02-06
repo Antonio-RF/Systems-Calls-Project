@@ -22,10 +22,16 @@ for k in range(len(inputs1)):
         library_normal[inputs1[k]].append(new_list)
 
 with open('/home/toninho/Documents/Systems-Calls-Project/Dates/ls/library5.txt', 'w') as file1:
-    for call in range(len(inputs1)):
-        file1.write("Call: {}\n".format(inputs1[call]))
-        for k in range(len(library_normal[inputs1[call]])):
-            file1.write("Call: {}\n".format(library_normal[inputs1[call]][k]))
+    printed_calls = set()
+
+    for call in inputs1:
+        if call not in printed_calls:
+            file1.write("Call: {}\n".format(call))
+            printed_calls.add(call)
+            
+            for item in library_normal[call]:
+                file1.write("{}\n".format(item)) 
+            file1.write("\n")
 #-------------------------------------------------------------------------------------------------------#
 #Verificação de mismatches:
 
@@ -65,6 +71,9 @@ for sc in range(len(inputs2)):
                                 break
                     if match_k:
                         matches += 1
+                    else:
+                        print("não achou os proximos do {} na posicao {}".format(inputs2[sc], sc))
+                        print("O próximo não achado foi: {}".format(inputs2[sc+j+1]))
                 mismatches += (len(inputs2) - sc - 1) - matches
     else:
         #considerando que se não existe o elemento no banco de dados, está fazendo algo que não é da função 'LS'.
