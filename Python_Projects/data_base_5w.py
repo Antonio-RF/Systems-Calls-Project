@@ -56,7 +56,6 @@ for sc in range(len(inputs2)):
                             break
                 if not there_is_a_position:
                     mismatches += 1
-                    print("não achou os proximos do {} na posicao {}".format(inputs2[sc], sc))
         #Se não tem 6 posições:
         else:
             subsequences = len(inputs2) - sc - 1
@@ -71,9 +70,6 @@ for sc in range(len(inputs2)):
                                 break
                     if match_k:
                         matches += 1
-                    else:
-                        print("não achou os proximos do {} na posicao {}".format(inputs2[sc], sc))
-                        print("O próximo não achado foi: {}".format(inputs2[sc+j+1]))
                 mismatches += (len(inputs2) - sc - 1) - matches
     else:
         #considerando que se não existe o elemento no banco de dados, está fazendo algo que não é da função 'LS'.
@@ -83,11 +79,10 @@ for sc in range(len(inputs2)):
 #Estatísticas:
 percentual = 100.0 * (mismatches / lenght_of_sc)
 print("-----------------------------------------------------------------------------")
-print("O número total de systems calls analisadas é: {}".format(len(inputs1)))
+print("O número total de systems calls no banco de dados é: {}".format(len(inputs1)))
+print("Total de elemento analisados:", len(inputs2))
 print("O número total de anomalias achadas é: {}".format(mismatches))
 print("O percentual de mismatches(anomalias) encontrado é: {:.2f}%".format(percentual))
+print("Total de janelas: {}".format(lenght_of_sc))
 print("-----------------------------------------------------------------------------")
 #-------------------------------------------------------------------------------------------------------#
-
-print("Total de elemento analisados:", len(inputs2))
-print("Total de janelas:{}".format(lenght_of_sc))
