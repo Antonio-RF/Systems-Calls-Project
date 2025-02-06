@@ -20,6 +20,12 @@ for k in range(len(inputs1)):
     #Conferindo se já não existe uma lista igual:
     if new_list not in library_normal[inputs1[k]]:
         library_normal[inputs1[k]].append(new_list)
+
+with open('/home/toninho/Documents/Systems-Calls-Project/Dates/ls/library5.txt', 'w') as file1:
+    for call in range(len(inputs1)):
+        file1.write("Call: {}\n".format(inputs1[call]))
+        for k in range(len(library_normal[inputs1[call]])):
+            file1.write("Call: {}\n".format(library_normal[inputs1[call]][k]))
 #-------------------------------------------------------------------------------------------------------#
 #Verificação de mismatches:
 
@@ -44,6 +50,7 @@ for sc in range(len(inputs2)):
                             break
                 if not there_is_a_position:
                     mismatches += 1
+                    print("não achou os proximos do {} na posicao {}".format(inputs2[sc], sc))
         #Se não tem 6 posições:
         else:
             subsequences = len(inputs2) - sc - 1

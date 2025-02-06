@@ -54,7 +54,6 @@ primary_directories["Downloads"].update({
     "Generator.py": [], 
     "main.py": [], 
     "strace_r.txt": [],
-    "teste": [],
     "firefox": []
 })
 
@@ -75,6 +74,10 @@ primary_directories["snap"]["spotify"].extend(["82", "common", "current"])
 primary_directories["Downloads"]["testes"].extend(["entrada1.txt"])
 primary_directories["Downloads"]["firefox"].extend(["application.ini", "browser", "crashreporter", "defaults", "dependentlibs.list", "firefox", "firefox-bin", "firefox-bin.sig", "firefox.sig", "fonts", "glxtest", "gmp-clearkey"])
 
+list_documents = ["circuitos", "Rubiks05.github.io", "Strong-Password-Generator", "Computer-Science-Freshmen-at-UFPR", "Scientific-Calculator", "Sorting-and-Searching-Algorithms", "The-Boys"]
+list_pictures = ["Images", "Screenshots"]
+list_snap = ["firefox", "snapd-desktop-integration", "spotify"]
+list_downloads = ["testes", "firefox", "coord.o", "entrada2.txt", "forrest-sense-of-self-1.pdf", "Generator2.py", "index.html", "outfile.tga", "dark_room.png", "entrada.txt", "forrest-sense-of-self.pdf", "Generator.py", "main.py", "strace_r.txt"]
 
 #Opções que podem ser escolhidas com o comando x: 
 ls_options = ["", "-a", "-l", "-R", "-i", "-lh", "-l", "-1", "-s", "-t", "/", "..", "-la", "-S", "*.txt", "*", "-R -l"]
@@ -86,7 +89,14 @@ for i in range(10000):
 
     there_isnt_more = False
     if random_primary_directory in list_secundary_directories:
-        random_secundary_directory = random.choice(primary_directories[random_primary_directory])
+        if random_primary_directory == "Documents":
+            random_secundary_directory = random.choice(list_documents)
+        if random_primary_directory == "Pictures":
+            random_secundary_directory = random.choice(list_pictures)
+        if random_primary_directory == "snap":
+            random_secundary_directory = random.choice(list_snap)
+        if random_primary_directory == "Downloads":
+            random_secundary_directory = random.choice(list_downloads)
     else:
         there_isnt_more = True
     
