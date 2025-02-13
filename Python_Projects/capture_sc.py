@@ -17,7 +17,7 @@ primary_directories = {
     "Videos": [],
     "snap": {},
     "fake": [],
-    "": []
+    #"": []
 }
 
 list_secundary_directories = ["Documents", "Pictures", "snap", "Downloads"]
@@ -87,8 +87,7 @@ list_downloads = ["testes", "firefox", "coord.o", "entrada2.txt", "forrest-sense
 
 #Opções que podem ser escolhidas com o comando x: 
 ls_options = ["", "-a", "-l", "-R", "-i", "-lh", "-l", "-1", "-s", "-t", "/", "..", "-la", "-S", "*.txt", "*", "-R -l"]
-cat_options = ["", "-A", "-b", "-e", "-E", "-n", "-s", "-T", "-v"]
-
+#cat_options = ["", "-A", "-b", "-e", "-E", "-n", "-s", "-T", "-v"]
 resultado = []
 comandos = []
 for i in range(10):
@@ -125,16 +124,19 @@ for i in range(10):
         else:
             path = "/"+random_primary_directory+"/"+random_secundary_directory+"/"+random_third_directory
     
-    #option_ls = random.choice(ls_options)
-    option_cat = random.choice(cat_options)
+    option_ls = random.choice(ls_options)
+    #option_cat = random.choice(cat_options)
 
-    comando = "strace cat "+option_cat+" "+path
+    #comando = "strace cat "+option_cat+" "+path
+    comando = "strace cat "+path
+    print("Esse é o comando: {}".format(comando))
     comandos.append(comando)
 
     processo = subprocess.run(comando, shell=True, capture_output=True, text=True)
 
     resultado_preliminar = separator(processo.stderr)
     resultado.extend(resultado_preliminar)
+
 
 with open('/home/toninho/Documents/Systems-Calls-Project/Dates/cat/date_cat.txt', 'w') as file1:
     file1.write(" ".join(resultado))
