@@ -1,0 +1,142 @@
+Call: execve
+['brk', 'arch_prctl', 'mmap', 'access', 'openat']
+
+Call: brk
+['arch_prctl', 'mmap', 'access', 'openat', 'newfstatat']
+['brk', 'openat', 'newfstatat', 'read', 'read']
+['openat', 'newfstatat', 'read', 'read', 'close']
+
+Call: arch_prctl
+['mmap', 'access', 'openat', 'newfstatat', 'mmap']
+['set_tid_address', 'set_robust_list', 'rseq', 'mprotect', 'mprotect']
+
+Call: mmap
+['access', 'openat', 'newfstatat', 'mmap', 'close']
+['close', 'openat', 'read', 'newfstatat', 'mmap']
+['mprotect', 'mmap', 'mmap', 'mmap', 'mmap']
+['mmap', 'mmap', 'mmap', 'close', 'openat']
+['mmap', 'mmap', 'close', 'openat', 'read']
+['mmap', 'close', 'openat', 'read', 'newfstatat']
+['mprotect', 'mmap', 'mmap', 'mmap', 'close']
+['mmap', 'close', 'openat', 'read', 'pread64']
+['close', 'openat', 'read', 'pread64', 'pread64']
+['mmap', 'mmap', 'mmap', 'close', 'mmap']
+['mmap', 'mmap', 'close', 'mmap', 'arch_prctl']
+['mmap', 'close', 'mmap', 'arch_prctl', 'set_tid_address']
+['close', 'mmap', 'arch_prctl', 'set_tid_address', 'set_robust_list']
+['arch_prctl', 'set_tid_address', 'set_robust_list', 'rseq', 'mprotect']
+['close', 'geteuid', 'ioctl', 'openat', 'newfstatat']
+['close', 'write', 'write', 'write', 'write']
+
+Call: access
+['openat', 'newfstatat', 'mmap', 'close', 'openat']
+['openat', 'newfstatat', 'mmap', 'close', 'geteuid']
+
+Call: openat
+['newfstatat', 'mmap', 'close', 'openat', 'read']
+['read', 'newfstatat', 'mmap', 'mprotect', 'mmap']
+['read', 'newfstatat', 'mmap', 'mmap', 'mmap']
+['read', 'pread64', 'pread64', 'pread64', 'newfstatat']
+['newfstatat', 'read', 'read', 'close', 'access']
+['newfstatat', 'mmap', 'close', 'geteuid', 'ioctl']
+['newfstatat', 'read', 'read', 'close', 'openat']
+['openat', 'openat', 'openat', 'openat', 'openat']
+['openat', 'openat', 'openat', 'openat', 'newfstatat']
+['openat', 'openat', 'openat', 'newfstatat', 'mmap']
+['openat', 'openat', 'newfstatat', 'mmap', 'close']
+['openat', 'newfstatat', 'mmap', 'close', 'write']
+['newfstatat', 'mmap', 'close', 'write', 'write']
+
+Call: newfstatat
+['mmap', 'close', 'openat', 'read', 'newfstatat']
+['mmap', 'mprotect', 'mmap', 'mmap', 'mmap']
+['mmap', 'mmap', 'mmap', 'mmap', 'close']
+['pread64', 'mmap', 'mprotect', 'mmap', 'mmap']
+['read', 'read', 'close', 'access', 'openat']
+['mmap', 'close', 'geteuid', 'ioctl', 'openat']
+['read', 'read', 'close', 'openat', 'openat']
+['mmap', 'close', 'write', 'write', 'write']
+
+Call: close
+['openat', 'read', 'newfstatat', 'mmap', 'mprotect']
+['openat', 'read', 'newfstatat', 'mmap', 'mmap']
+['openat', 'read', 'pread64', 'pread64', 'pread64']
+['mmap', 'arch_prctl', 'set_tid_address', 'set_robust_list', 'rseq']
+['access', 'openat', 'newfstatat', 'mmap', 'close']
+['geteuid', 'ioctl', 'openat', 'newfstatat', 'read']
+['openat', 'openat', 'openat', 'openat', 'openat']
+['write', 'write', 'write', 'write', 'lseek']
+['close', 'close', 'exit_group', 'execve', 'brk']
+['close', 'exit_group', 'execve', 'brk', 'arch_prctl']
+['exit_group', 'execve', 'brk', 'arch_prctl', 'mmap']
+['close', 'close', 'exit_group']
+['close', 'exit_group']
+['exit_group']
+
+Call: read
+['newfstatat', 'mmap', 'mprotect', 'mmap', 'mmap']
+['newfstatat', 'mmap', 'mmap', 'mmap', 'mmap']
+['pread64', 'pread64', 'pread64', 'newfstatat', 'pread64']
+['read', 'close', 'access', 'openat', 'newfstatat']
+['close', 'access', 'openat', 'newfstatat', 'mmap']
+['read', 'close', 'openat', 'openat', 'openat']
+['close', 'openat', 'openat', 'openat', 'openat']
+
+Call: mprotect
+['mmap', 'mmap', 'mmap', 'mmap', 'close']
+['mmap', 'mmap', 'mmap', 'close', 'openat']
+['mprotect', 'mprotect', 'mprotect', 'mprotect', 'mprotect']
+['mprotect', 'mprotect', 'mprotect', 'mprotect', 'prlimit64']
+['mprotect', 'mprotect', 'mprotect', 'prlimit64', 'munmap']
+['mprotect', 'mprotect', 'prlimit64', 'munmap', 'statfs']
+['mprotect', 'prlimit64', 'munmap', 'statfs', 'statfs']
+['prlimit64', 'munmap', 'statfs', 'statfs', 'getrandom']
+
+Call: pread64
+['pread64', 'pread64', 'newfstatat', 'pread64', 'mmap']
+['pread64', 'newfstatat', 'pread64', 'mmap', 'mprotect']
+['newfstatat', 'pread64', 'mmap', 'mprotect', 'mmap']
+['mmap', 'mprotect', 'mmap', 'mmap', 'mmap']
+
+Call: set_tid_address
+['set_robust_list', 'rseq', 'mprotect', 'mprotect', 'mprotect']
+
+Call: set_robust_list
+['rseq', 'mprotect', 'mprotect', 'mprotect', 'mprotect']
+
+Call: rseq
+['mprotect', 'mprotect', 'mprotect', 'mprotect', 'mprotect']
+
+Call: prlimit64
+['munmap', 'statfs', 'statfs', 'getrandom', 'brk']
+
+Call: munmap
+['statfs', 'statfs', 'getrandom', 'brk', 'brk']
+
+Call: statfs
+['statfs', 'getrandom', 'brk', 'brk', 'openat']
+['getrandom', 'brk', 'brk', 'openat', 'newfstatat']
+
+Call: getrandom
+['brk', 'brk', 'openat', 'newfstatat', 'read']
+
+Call: geteuid
+['ioctl', 'openat', 'newfstatat', 'read', 'read']
+
+Call: ioctl
+['openat', 'newfstatat', 'read', 'read', 'close']
+
+Call: write
+['write', 'write', 'write', 'lseek', 'close']
+['write', 'write', 'lseek', 'close', 'close']
+['write', 'lseek', 'close', 'close', 'close']
+['lseek', 'close', 'close', 'close', 'exit_group']
+
+Call: lseek
+['close', 'close', 'close', 'exit_group', 'execve']
+['close', 'close', 'close', 'exit_group']
+
+Call: exit_group
+['execve', 'brk', 'arch_prctl', 'mmap', 'access']
+[]
+
