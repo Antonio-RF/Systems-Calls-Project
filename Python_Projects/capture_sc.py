@@ -29,7 +29,10 @@ primary_directories["Documents"].update({
     "Computer-Science-Freshmen-at-UFPR": [], 
     "Scientific-Calculator": [], 
     "Sorting-and-Searching-Algorithms": [], 
-    "The-Boys": []
+    "The-Boys": [],
+    "certificados_cursos": [],
+    "Competitive-programming": [],
+    "CTF": [],
 })
 primary_directories["Pictures"].update({
     "Images": [],
@@ -57,7 +60,7 @@ primary_directories["Downloads"].update({
     "firefox": []
 })
 
-list_third_directories = ["circuitos", "Rubiks05.github.io", "Strong-Password-Generator", "Computer-Science-Freshmen-at-UFPR", "Scientific-Calculator", "Sorting-and-Searching-Algorithms", "The-Boys", "Images", "Screenshots", "firefox", "snapd-desktop-integration", "spotify", "testes", "firefox"]
+list_third_directories = ["circuitos", "Rubiks05.github.io", "Strong-Password-Generator", "certificados_cursos", "Competitive-programming", "CTF" ,"Computer-Science-Freshmen-at-UFPR", "Scientific-Calculator", "Sorting-and-Searching-Algorithms", "The-Boys", "Images", "Screenshots", "firefox", "snapd-desktop-integration", "spotify", "testes", "firefox"]
 # Adicionando caminhos terciários:
 primary_directories["Documents"]["circuitos"].extend(["trabalho_semaforos.md", "README.md", "imgs"])
 primary_directories["Documents"]["Rubiks05.github.io"].extend(["Assets", "index.html", "LICENSE", "Script.js", "style.css", "fake"])
@@ -66,6 +69,9 @@ primary_directories["Documents"]["Computer-Science-Freshmen-at-UFPR"].extend(["R
 primary_directories["Documents"]["Scientific-Calculator"].extend(["requirements.txt", "README.md", "main.py", "LICENSE"])
 primary_directories["Documents"]["Sorting-and-Searching-Algorithms"].extend(["docs", "Logs", "'Relatório de ALG2.pdf'", "tp.c", "Images", "README.md", "tp", "tp.c.txt"])
 primary_directories["Documents"]["The-Boys"].extend(["Images", "README.md", "theboys."])
+primary_directories["Documents"]["certificados_cursos"].extend(["Python_Cybersecurity", "python_cybersecurity.jpg"])
+primary_directories["Documents"]["Competitive-programming"].extend(["Bee-Crowd", "CodeForces", "LICENSE", "README.md", "fake"])
+primary_directories["Documents"]["CTF"].extend(["Bandit"])
 primary_directories["Pictures"]["Images"].extend(["grade-bcc.png", "fake"])
 primary_directories["Pictures"]["Screenshots"].extend(["Opção2.png", "'picture1(strong-password).png'", "'Picture2(TheBoys).png'", "'Picture3(sorting&searching).png'", "'Picture4(strong-password).png'", "'Picture5(TheBoys).jpeg'", "Results_Attack1.png", "Results_IC.png", "Results..png", "Results.png", "'Screenshot from 2025-01-30 19-09-58.png'", "'Screenshot from 2025-02-01 15-40-57.png'", "'Screenshot from 2025-02-01 17-03-32.png'", "fake"])
 primary_directories["snap"]["firefox"].extend(["3836", "common", "current"])
