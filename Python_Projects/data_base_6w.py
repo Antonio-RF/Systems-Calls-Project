@@ -1,5 +1,5 @@
 import sys
-with open('/home/toninho/Documents/Systems-Calls-Project/Dates/mv/date_mv.txt', 'r') as file1:
+with open('/home/toninho/Documents/Systems-Calls-Project/Dates/cat/date_cat.txt', 'r') as file1:
     inputs1 = list(map(str, file1.read().split()))
 with open('/home/toninho/Documents/Systems-Calls-Project/Attacks/Ls/teste.txt', 'r') as file2:
     inputs2 = list(map(str, file2.read().split()))
@@ -21,7 +21,7 @@ for k in range(len(inputs1)):
     if new_list not in library_normal[inputs1[k]]:
         library_normal[inputs1[k]].append(new_list)
 
-with open('/home/toninho/Documents/Systems-Calls-Project/Dates/mv/library6.txt', 'w') as file1:
+with open('/home/toninho/Documents/Systems-Calls-Project/Dates/cat/library6.txt', 'w') as file1:
     printed_calls = set()
 
     for call in inputs1:

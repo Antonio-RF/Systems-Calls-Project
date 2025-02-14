@@ -1,0 +1,242 @@
+Call: execve
+['brk', 'arch_prctl', 'mmap', 'access', 'openat']
+['Picture5', 'brk', 'arch_prctl', 'mmap', 'access']
+['Picture3', 'brk', 'arch_prctl', 'mmap', 'access']
+['Picture2', 'brk', 'arch_prctl', 'mmap', 'access']
+['Picture4', 'brk', 'arch_prctl', 'mmap', 'access']
+['picture1', 'brk', 'arch_prctl', 'mmap', 'access']
+
+Call: brk
+['arch_prctl', 'mmap', 'access', 'openat', 'newfstatat']
+['brk', 'openat', 'newfstatat', 'mmap', 'close']
+['openat', 'newfstatat', 'mmap', 'close', 'newfstatat']
+
+Call: arch_prctl
+['mmap', 'access', 'openat', 'newfstatat', 'mmap']
+['set_tid_address', 'set_robust_list', 'rseq', 'mprotect', 'mprotect']
+
+Call: mmap
+['access', 'openat', 'newfstatat', 'mmap', 'close']
+['close', 'openat', 'read', 'pread64', 'pread64']
+['mprotect', 'mmap', 'mmap', 'mmap', 'mmap']
+['mmap', 'mmap', 'mmap', 'close', 'mmap']
+['mmap', 'mmap', 'close', 'mmap', 'arch_prctl']
+['mmap', 'close', 'mmap', 'arch_prctl', 'set_tid_address']
+['close', 'mmap', 'arch_prctl', 'set_tid_address', 'set_robust_list']
+['arch_prctl', 'set_tid_address', 'set_robust_list', 'rseq', 'mprotect']
+['close', 'newfstatat', 'openat', 'write', 'write']
+['close', 'newfstatat', 'openat', 'Picture5', 'write']
+['close', 'newfstatat', 'openat', 'newfstatat', 'fadvise64']
+['mmap', 'ioctl', 'read', 'write', 'write']
+['ioctl', 'read', 'write', 'write', 'openat']
+['close', 'newfstatat', 'openat', 'Picture3', 'write']
+['read', 'write', 'write', 'openat', 'newfstatat']
+['close', 'newfstatat', 'openat', 'Picture2', 'write']
+['close', 'newfstatat', 'openat', 'openat', 'newfstatat']
+['close', 'futex', 'write', 'write', 'openat']
+['close', 'newfstatat', 'openat', 'Picture4', 'write']
+['close', 'newfstatat', 'openat', 'picture1', 'write']
+
+Call: access
+['openat', 'newfstatat', 'mmap', 'close', 'openat']
+
+Call: openat
+['newfstatat', 'mmap', 'close', 'openat', 'read']
+['read', 'pread64', 'pread64', 'pread64', 'newfstatat']
+['newfstatat', 'mmap', 'close', 'newfstatat', 'openat']
+['write', 'write', 'openat', 'newfstatat', 'read']
+['newfstatat', 'read', 'read', 'close', 'openat']
+['openat', 'openat', 'openat', 'openat', 'openat']
+['openat', 'openat', 'openat', 'openat', 'write']
+['openat', 'openat', 'openat', 'write', 'write']
+['openat', 'openat', 'write', 'write', 'close']
+['openat', 'write', 'write', 'close', 'close']
+['write', 'write', 'close', 'close', 'exit_group']
+['Picture5', 'write', 'write', 'Picture5', 'Picture5']
+['newfstatat', 'fadvise64', 'mmap', 'mmap', 'ioctl']
+['openat', 'openat', 'write', 'write', 'munmap']
+['openat', 'write', 'write', 'munmap', 'munmap']
+['write', 'write', 'munmap', 'munmap', 'close']
+['Picture3', 'write', 'write', 'Picture3', 'Picture3']
+['newfstatat', 'fadvise64', 'mmap', 'read', 'write']
+['openat', 'write', 'write', 'munmap', 'close']
+['write', 'write', 'munmap', 'close', 'close']
+['Picture2', 'write', 'write', 'Picture2', 'Picture2']
+['openat', 'newfstatat', 'mmap', 'close', 'futex']
+['newfstatat', 'mmap', 'close', 'futex', 'write']
+['Picture4', 'write', 'write', 'Picture4', 'Picture4']
+['picture1', 'write', 'write', 'picture1', 'picture1']
+
+Call: newfstatat
+['mmap', 'close', 'openat', 'read', 'pread64']
+['pread64', 'mmap', 'mprotect', 'mmap', 'mmap']
+['mmap', 'close', 'newfstatat', 'openat', 'write']
+['openat', 'write', 'write', 'openat', 'newfstatat']
+['read', 'read', 'close', 'openat', 'openat']
+['mmap', 'close', 'newfstatat', 'openat', 'Picture5']
+['openat', 'Picture5', 'write', 'write', 'Picture5']
+['mmap', 'close', 'newfstatat', 'openat', 'newfstatat']
+['openat', 'newfstatat', 'fadvise64', 'mmap', 'mmap']
+['fadvise64', 'mmap', 'mmap', 'ioctl', 'read']
+['mmap', 'close', 'newfstatat', 'openat', 'Picture3']
+['openat', 'Picture3', 'write', 'write', 'Picture3']
+['openat', 'newfstatat', 'fadvise64', 'mmap', 'read']
+['fadvise64', 'mmap', 'read', 'write', 'write']
+['mmap', 'close', 'newfstatat', 'openat', 'Picture2']
+['openat', 'Picture2', 'write', 'write', 'Picture2']
+['mmap', 'close', 'newfstatat', 'openat', 'openat']
+['openat', 'openat', 'newfstatat', 'mmap', 'close']
+['mmap', 'close', 'futex', 'write', 'write']
+['mmap', 'close', 'newfstatat', 'openat', 'Picture4']
+['openat', 'Picture4', 'write', 'write', 'Picture4']
+['mmap', 'close', 'newfstatat', 'openat', 'picture1']
+['openat', 'picture1', 'write', 'write', 'picture1']
+
+Call: close
+['openat', 'read', 'pread64', 'pread64', 'pread64']
+['mmap', 'arch_prctl', 'set_tid_address', 'set_robust_list', 'rseq']
+['newfstatat', 'openat', 'write', 'write', 'openat']
+['openat', 'openat', 'openat', 'openat', 'openat']
+['close', 'exit_group', 'execve', 'brk', 'arch_prctl']
+['exit_group', 'execve', 'brk', 'arch_prctl', 'mmap']
+['close', 'exit_group', 'execve', 'Picture5', 'brk']
+['exit_group', 'execve', 'Picture5', 'brk', 'arch_prctl']
+['newfstatat', 'openat', 'Picture5', 'write', 'write']
+['newfstatat', 'openat', 'newfstatat', 'fadvise64', 'mmap']
+['close', 'close', 'exit_group', 'execve', 'brk']
+['close', 'exit_group', 'execve', 'Picture3', 'brk']
+['exit_group', 'execve', 'Picture3', 'brk', 'arch_prctl']
+['newfstatat', 'openat', 'Picture3', 'write', 'write']
+['close', 'exit_group', 'execve', 'Picture2', 'brk']
+['exit_group', 'execve', 'Picture2', 'brk', 'arch_prctl']
+['newfstatat', 'openat', 'Picture2', 'write', 'write']
+['newfstatat', 'openat', 'openat', 'newfstatat', 'mmap']
+['futex', 'write', 'write', 'openat', 'newfstatat']
+['close', 'exit_group', 'execve', 'Picture4', 'brk']
+['exit_group', 'execve', 'Picture4', 'brk', 'arch_prctl']
+['newfstatat', 'openat', 'Picture4', 'write', 'write']
+['close', 'exit_group', 'execve', 'picture1', 'brk']
+['exit_group', 'execve', 'picture1', 'brk', 'arch_prctl']
+['newfstatat', 'openat', 'picture1', 'write', 'write']
+['close', 'close', 'exit_group', 'execve', 'Picture2']
+['close', 'close', 'exit_group', 'execve', 'Picture3']
+['close', 'close', 'exit_group', 'execve', 'Picture4']
+['close', 'close', 'exit_group', 'execve', 'Picture5']
+['close', 'close', 'exit_group', 'execve', 'picture1']
+['close', 'exit_group']
+['exit_group']
+
+Call: read
+['pread64', 'pread64', 'pread64', 'newfstatat', 'pread64']
+['read', 'close', 'openat', 'openat', 'openat']
+['close', 'openat', 'openat', 'openat', 'openat']
+['write', 'write', 'openat', 'newfstatat', 'read']
+
+Call: pread64
+['pread64', 'pread64', 'newfstatat', 'pread64', 'mmap']
+['pread64', 'newfstatat', 'pread64', 'mmap', 'mprotect']
+['newfstatat', 'pread64', 'mmap', 'mprotect', 'mmap']
+['mmap', 'mprotect', 'mmap', 'mmap', 'mmap']
+
+Call: mprotect
+['mmap', 'mmap', 'mmap', 'mmap', 'close']
+['mprotect', 'mprotect', 'prlimit64', 'munmap', 'getrandom']
+['mprotect', 'prlimit64', 'munmap', 'getrandom', 'brk']
+['prlimit64', 'munmap', 'getrandom', 'brk', 'brk']
+
+Call: set_tid_address
+['set_robust_list', 'rseq', 'mprotect', 'mprotect', 'mprotect']
+
+Call: set_robust_list
+['rseq', 'mprotect', 'mprotect', 'mprotect', 'prlimit64']
+
+Call: rseq
+['mprotect', 'mprotect', 'mprotect', 'prlimit64', 'munmap']
+
+Call: prlimit64
+['munmap', 'getrandom', 'brk', 'brk', 'openat']
+
+Call: munmap
+['getrandom', 'brk', 'brk', 'openat', 'newfstatat']
+['munmap', 'close', 'close', 'close', 'exit_group']
+['close', 'close', 'close', 'exit_group', 'execve']
+
+Call: getrandom
+['brk', 'brk', 'openat', 'newfstatat', 'mmap']
+
+Call: write
+['write', 'openat', 'newfstatat', 'read', 'read']
+['openat', 'newfstatat', 'read', 'read', 'close']
+['write', 'close', 'close', 'exit_group', 'execve']
+['close', 'close', 'exit_group', 'execve', 'brk']
+['close', 'close', 'exit_group', 'execve', 'Picture5']
+['write', 'Picture5', 'Picture5', 'openat', 'newfstatat']
+['Picture5', 'Picture5', 'openat', 'newfstatat', 'read']
+['write', 'munmap', 'munmap', 'close', 'close']
+['munmap', 'munmap', 'close', 'close', 'close']
+['close', 'close', 'exit_group', 'execve', 'Picture3']
+['write', 'Picture3', 'Picture3', 'openat', 'newfstatat']
+['Picture3', 'Picture3', 'openat', 'newfstatat', 'read']
+['write', 'munmap', 'close', 'close', 'close']
+['munmap', 'close', 'close', 'close', 'exit_group']
+['close', 'close', 'exit_group', 'execve', 'Picture2']
+['write', 'Picture2', 'Picture2', 'openat', 'newfstatat']
+['Picture2', 'Picture2', 'openat', 'newfstatat', 'read']
+['close', 'close', 'exit_group', 'execve', 'Picture4']
+['write', 'Picture4', 'Picture4', 'openat', 'newfstatat']
+['Picture4', 'Picture4', 'openat', 'newfstatat', 'read']
+['close', 'close', 'exit_group', 'execve', 'picture1']
+['write', 'picture1', 'picture1', 'openat', 'newfstatat']
+['picture1', 'picture1', 'openat', 'newfstatat', 'read']
+['write', 'close', 'close', 'exit_group']
+['close', 'close', 'exit_group']
+
+Call: exit_group
+['execve', 'brk', 'arch_prctl', 'mmap', 'access']
+['execve', 'Picture5', 'brk', 'arch_prctl', 'mmap']
+['execve', 'Picture3', 'brk', 'arch_prctl', 'mmap']
+['execve', 'Picture2', 'brk', 'arch_prctl', 'mmap']
+['execve', 'Picture4', 'brk', 'arch_prctl', 'mmap']
+['execve', 'picture1', 'brk', 'arch_prctl', 'mmap']
+[]
+
+Call: Picture5
+['brk', 'arch_prctl', 'mmap', 'access', 'openat']
+['write', 'write', 'Picture5', 'Picture5', 'openat']
+['Picture5', 'openat', 'newfstatat', 'read', 'read']
+['openat', 'newfstatat', 'read', 'read', 'close']
+
+Call: fadvise64
+['mmap', 'mmap', 'ioctl', 'read', 'write']
+['mmap', 'read', 'write', 'write', 'openat']
+
+Call: ioctl
+['read', 'write', 'write', 'openat', 'newfstatat']
+
+Call: Picture3
+['brk', 'arch_prctl', 'mmap', 'access', 'openat']
+['write', 'write', 'Picture3', 'Picture3', 'openat']
+['Picture3', 'openat', 'newfstatat', 'read', 'read']
+['openat', 'newfstatat', 'read', 'read', 'close']
+
+Call: Picture2
+['brk', 'arch_prctl', 'mmap', 'access', 'openat']
+['write', 'write', 'Picture2', 'Picture2', 'openat']
+['Picture2', 'openat', 'newfstatat', 'read', 'read']
+['openat', 'newfstatat', 'read', 'read', 'close']
+
+Call: futex
+['write', 'write', 'openat', 'newfstatat', 'read']
+
+Call: Picture4
+['brk', 'arch_prctl', 'mmap', 'access', 'openat']
+['write', 'write', 'Picture4', 'Picture4', 'openat']
+['Picture4', 'openat', 'newfstatat', 'read', 'read']
+['openat', 'newfstatat', 'read', 'read', 'close']
+
+Call: picture1
+['brk', 'arch_prctl', 'mmap', 'access', 'openat']
+['write', 'write', 'picture1', 'picture1', 'openat']
+['picture1', 'openat', 'newfstatat', 'read', 'read']
+['openat', 'newfstatat', 'read', 'read', 'close']
+
