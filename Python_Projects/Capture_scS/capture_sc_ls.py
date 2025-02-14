@@ -17,7 +17,7 @@ primary_directories = {
     "Videos": [],
     "snap": {},
     "fake": [],
-    #"": []
+    "": []
 }
 
 list_secundary_directories = ["Documents", "Pictures", "snap", "Downloads"]
@@ -87,7 +87,6 @@ list_downloads = ["testes", "firefox", "coord.o", "entrada2.txt", "forrest-sense
 
 #Opções que podem ser escolhidas com o comando x: 
 ls_options = ["", "-a", "-l", "-R", "-i", "-lh", "-l", "-1", "-s", "-t", "/", "..", "-la", "-S", "*.txt", "*", "-R -l"]
-#cat_options = ["", "-A", "-b", "-e", "-E", "-n", "-s", "-T", "-v"]
 resultado = []
 comandos = []
 for i in range(10):
@@ -125,10 +124,8 @@ for i in range(10):
             path = "/"+random_primary_directory+"/"+random_secundary_directory+"/"+random_third_directory
     
     option_ls = random.choice(ls_options)
-    #option_cat = random.choice(cat_options)
 
-    #comando = "strace cat "+option_cat+" "+path
-    comando = "strace cat "+path
+    comando = "strace ls "+option_ls+" "+path
     print("Esse é o comando: {}".format(comando))
     comandos.append(comando)
 
@@ -138,9 +135,9 @@ for i in range(10):
     resultado.extend(resultado_preliminar)
 
 
-with open('/home/toninho/Documents/Systems-Calls-Project/Dates/cat/date_cat.txt', 'w') as file1:
+with open('/home/toninho/Documents/Systems-Calls-Project/Dates/ls/date_ls.txt', 'w') as file1:
     file1.write(" ".join(resultado))
 
-with open('/home/toninho/Documents/Systems-Calls-Project/Dates/cat/commands.txt', 'w') as file2:
+with open('/home/toninho/Documents/Systems-Calls-Project/Dates/ls/commands.txt', 'w') as file2:
     for i in range(len(comandos)):
         file2.write("{}. {}\n".format(i+1, comandos[i]))
