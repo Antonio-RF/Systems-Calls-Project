@@ -82,7 +82,7 @@ list_ = ["teste.txt", ""]
 mv_options = ["", "-i", "-f", "-n", "-u", "-v"]
 resultado = []
 comandos = []
-for i in range(10):
+for i in range(1):
     random_primary_directory1 = random.choice(list_primary_directories)
     random_primary_directory2 = random.choice(list_primary_directories)
 
