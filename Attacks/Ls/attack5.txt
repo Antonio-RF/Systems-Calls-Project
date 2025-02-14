@@ -1,0 +1,7 @@
+strace cat ~/Downloads/
+
+execve brk arch_prctl mmap access openat newfstatat mmap close openat read pread64 pread64 pread64 newfstatat pread64 mmap mprotect mmap mmap mmap mmap close mmap arch_prctl set_tid_address set_robust_list rseq mprotect mprotect mprotect prlimit64 munmap getrandom brk brk openat newfstatat mmap close newfstatat openat newfstatat fadvise64 mmap read write write openat newfstatat read read close openat openat openat openat openat openat openat openat openat openat openat openat write munmap close close close exit_group
+
+strace cat -A ~/Documents/
+
+execve brk arch_prctl mmap access openat newfstatat mmap close openat read pread64 pread64 pread64 newfstatat pread64 mmap mprotect mmap mmap mmap mmap close mmap arch_prctl set_tid_address set_robust_list rseq mprotect mprotect mprotect prlimit64 munmap getrandom brk brk openat newfstatat mmap close newfstatat openat newfstatat fadvise64 mmap mmap ioctl read write write openat newfstatat read read close openat openat openat openat openat openat openat openat openat openat openat openat write munmap munmap close close close exit_group
