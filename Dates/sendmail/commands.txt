@@ -1,0 +1,2 @@
+1. strace sendmail emailtesteic1234@gmail.com < ~/Documents/Systems-Calls-Project/Dates/sendmail/email1.txt
+2. 
