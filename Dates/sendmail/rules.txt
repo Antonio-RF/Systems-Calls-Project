@@ -1,0 +1,31 @@
+1. Variação no tamanho das mensagens:
+
+    Foram testados 12 tamanhos diferentes, variando de 1 linha a 300.000 bytes.
+    O tamanho padrão escolhido para a maioria dos testes foi 50.000 bytes, pois gerou o padrão de chamadas de sistema mais variado.
+
+2. Número de mensagens enviadas por execução do sendmail:
+
+    Foram enviados desde 1 até 20 emails por vez, simulando diferentes cargas e bursts de envio.
+
+3. Conteúdo das mensagens:
+
+    Testaram mensagens contendo:
+        Texto ASCII puro
+        Dados uuencoded (um tipo de codificação binária para texto)
+        Arquivos compactados (gzipped)
+        Arquivos criptografados com PGP
+
+4. Outros elementos testados:
+
+    Linha de assunto: Variaram os assuntos das mensagens.
+    Remetentes/Destinatários: Variaram os endereços de envio e recebimento.
+    Diferentes agentes de envio de email (mailers) foram usados.
+    Encaminhamento de email (forwarding) foi testado.
+    Mensagens devolvidas (bounced mail) também foram testadas.
+    Fila de espera (queuing) foi avaliada.
+
+5. Tipos de entrega simulados:
+
+    Entrega remota e local para comparar os efeitos no comportamento do sendmail.
+    Constatou-se que emails encaminhados e mensagens devolvidas tiveram um impacto maior nos testes locais do que nos remotos.
+
