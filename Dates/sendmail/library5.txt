@@ -1,0 +1,627 @@
+Call: execve
+['access', 'brk', 'arch_prctl', 'fcntl', 'fcntl']
+
+Call: access
+['brk', 'arch_prctl', 'fcntl', 'fcntl', 'fcntl']
+['mmap', 'access', 'openat', 'newfstatat', 'mmap']
+['openat', 'newfstatat', 'mmap', 'close', 'openat']
+
+Call: brk
+['arch_prctl', 'fcntl', 'fcntl', 'fcntl', 'access']
+['brk', 'getrandom', 'newfstatat', 'getuid', 'getgid']
+['getrandom', 'newfstatat', 'getuid', 'getgid', 'geteuid']
+['getdents64', 'socket', 'connect', 'getpid', 'epoll_create1']
+['recvfrom', 'epoll_ctl', 'epoll_wait', 'epoll_wait', 'epoll_ctl']
+['recvfrom', 'epoll_wait', 'recvfrom', 'epoll_ctl', 'epoll_wait']
+
+Call: arch_prctl
+['fcntl', 'fcntl', 'fcntl', 'access', 'mmap']
+['set_tid_address', 'set_robust_list', 'rseq', 'mprotect', 'mprotect']
+
+Call: fcntl
+['fcntl', 'fcntl', 'access', 'mmap', 'access']
+['fcntl', 'access', 'mmap', 'access', 'openat']
+['access', 'mmap', 'access', 'openat', 'newfstatat']
+['0x8000', 'newfstatat', 'read', 'read', 'close']
+['0x8000', 'newfstatat', 'newfstatat', 'read', 'Copyright']
+
+Call: mmap
+['access', 'openat', 'newfstatat', 'mmap', 'close']
+['close', 'openat', 'read', 'newfstatat', 'mmap']
+['mmap', 'mmap', 'mmap', 'close', 'openat']
+['mmap', 'mmap', 'close', 'openat', 'read']
+['mmap', 'close', 'openat', 'read', 'newfstatat']
+['mprotect', 'mmap', 'mmap', 'mmap', 'mmap']
+['mprotect', 'mmap', 'mmap', 'mmap', 'close']
+['mmap', 'mmap', 'mmap', 'mmap', 'close']
+['mmap', 'mmap', 'mmap', 'close', 'mmap']
+['mmap', 'mmap', 'close', 'mmap', 'openat']
+['mmap', 'close', 'mmap', 'openat', 'read']
+['close', 'mmap', 'openat', 'read', 'newfstatat']
+['openat', 'read', 'newfstatat', 'mmap', 'mmap']
+['mmap', 'close', 'openat', 'read', 'pread64']
+['close', 'openat', 'read', 'pread64', 'pread64']
+['mmap', 'mprotect', 'mmap', 'mmap', 'mmap']
+['mmap', 'mmap', 'close', 'mmap', 'mmap']
+['mmap', 'close', 'mmap', 'mmap', 'arch_prctl']
+['close', 'mmap', 'mmap', 'arch_prctl', 'set_tid_address']
+['mmap', 'arch_prctl', 'set_tid_address', 'set_robust_list', 'rseq']
+['arch_prctl', 'set_tid_address', 'set_robust_list', 'rseq', 'mprotect']
+['mmap', 'mmap', 'mmap', 'close', 'mprotect']
+['mmap', 'mmap', 'close', 'mprotect', 'munmap']
+['mmap', 'close', 'mprotect', 'munmap', 'rt_sigprocmask']
+['close', 'mprotect', 'munmap', 'rt_sigprocmask', 'futex']
+['recvfrom', 'epoll_ctl', 'epoll_wait', 'epoll_wait', 'epoll_ctl']
+['mmap', 'close', 'mprotect', 'munmap', 'socket']
+['close', 'mprotect', 'munmap', 'socket', 'setsockopt']
+['recvfrom', 'epoll_wait', 'recvfrom', 'epoll_ctl', 'epoll_wait']
+
+Call: openat
+['newfstatat', 'mmap', 'close', 'openat', 'read']
+['read', 'newfstatat', 'mmap', 'mmap', 'mmap']
+['read', 'newfstatat', 'mmap', 'mprotect', 'mmap']
+['read', 'pread64', 'pread64', 'pread64', 'newfstatat']
+['read', 'newfstatat', 'mmap', 'mmap', 'mprotect']
+['read', 'close', 'geteuid', 'geteuid', 'socket']
+['newfstatat', 'read', 'read', 'newfstatat', 'close']
+['newfstatat', 'lseek', 'read', 'read', 'close']
+['newfstatat', 'brk', 'getdents64', 'socket', 'connect']
+['read', 'read', 'close', 'timerfd_settime', 'epoll_wait']
+['openat', 'newfstatat', 'close', 'openat', 'close']
+['newfstatat', 'close', 'openat', 'close', 'openat']
+['close', 'openat', 'openat', 'newfstatat', 'close']
+['openat', 'newfstatat', 'close', 'openat', 'newfstatat']
+['newfstatat', 'close', 'openat', 'newfstatat', 'close']
+['close', 'openat', 'openat', 'newfstatat', 'readlinkat']
+['openat', 'newfstatat', 'readlinkat', 'close', 'openat']
+['newfstatat', 'readlinkat', 'close', 'openat', 'newfstatat']
+['close', 'openat', 'openat', 'openat', 'openat']
+['openat', 'openat', 'openat', 'openat', 'openat']
+['openat', 'openat', 'openat', 'openat', 'close']
+['openat', 'openat', 'openat', 'close', 'close']
+['openat', 'openat', 'close', 'close', 'rt_sigprocmask']
+['openat', 'close', 'close', 'rt_sigprocmask', 'newfstatat']
+['close', 'close', 'rt_sigprocmask', 'newfstatat', 'openat']
+['newfstatat', 'getdents64', 'socket', 'connect', 'epoll_create1']
+['newfstatat', 'lseek', 'read', 'close', 'socket']
+['newfstatat', 'lseek', 'read', 'close', 'geteuid']
+['newfstatat', 'read', 'read', 'close', 'futex']
+['newfstatat', 'fcntl', '0x8000', 'newfstatat', 'read']
+['newfstatat', 'newfstatat', 'read', 'lseek', 'read']
+['newfstatat', 'read', 'close', 'newfstatat', 'newfstatat']
+['newfstatat', 'fcntl', '0x8000', 'newfstatat', 'newfstatat']
+['newfstatat', 'lseek', 'read', 'close', 'newfstatat']
+['newfstatat', 'lseek', 'read', 'close', 'read']
+['newfstatat', 'lseek', 'read', 'close', 'getpid']
+
+Call: newfstatat
+['mmap', 'close', 'openat', 'read', 'newfstatat']
+['mmap', 'mmap', 'mmap', 'mmap', 'close']
+['mmap', 'mprotect', 'mmap', 'mmap', 'mmap']
+['mmap', 'mmap', 'mmap', 'mmap', 'mmap']
+['pread64', 'mmap', 'mprotect', 'mmap', 'mmap']
+['mmap', 'mmap', 'mprotect', 'mmap', 'mmap']
+['getuid', 'getgid', 'geteuid', 'getuid', 'getegid']
+['newfstatat', 'newfstatat', 'close', 'close', 'close']
+['newfstatat', 'close', 'close', 'close', 'close']
+['close', 'close', 'close', 'close', 'close']
+['newfstatat', 'newfstatat', 'getgroups', 'getegid', 'setgroups']
+['newfstatat', 'getgroups', 'getegid', 'setgroups', 'geteuid']
+['getgroups', 'getegid', 'setgroups', 'geteuid', 'rt_sigaction']
+['newfstatat', 'openat', 'newfstatat', 'read', 'read']
+['openat', 'newfstatat', 'read', 'read', 'newfstatat']
+['read', 'read', 'newfstatat', 'close', 'openat']
+['close', 'openat', 'newfstatat', 'lseek', 'read']
+['lseek', 'read', 'read', 'close', 'openat']
+['brk', 'getdents64', 'socket', 'connect', 'getpid']
+['close', 'openat', 'close', 'openat', 'openat']
+['close', 'openat', 'newfstatat', 'close', 'openat']
+['readlinkat', 'close', 'openat', 'newfstatat', 'close']
+['openat', 'newfstatat', 'lseek', 'read', 'read']
+['lseek', 'read', 'read', 'close', 'rt_sigprocmask']
+['getdents64', 'socket', 'connect', 'epoll_create1', 'timerfd_create']
+['openat', 'newfstatat', 'lseek', 'read', 'close']
+['lseek', 'read', 'close', 'socket', 'close']
+['lseek', 'read', 'close', 'geteuid', 'getegid']
+['openat', 'newfstatat', 'read', 'read', 'close']
+['read', 'read', 'close', 'futex', 'openat']
+['read', 'read', 'newfstatat', 'close', 'uname']
+['close', 'uname', 'socket', 'connect', 'close']
+['newfstatat', 'geteuid', 'newfstatat', 'geteuid', 'newfstatat']
+['geteuid', 'newfstatat', 'geteuid', 'newfstatat', 'geteuid']
+['geteuid', 'newfstatat', 'geteuid', 'openat', 'newfstatat']
+['geteuid', 'openat', 'newfstatat', 'fcntl', '0x8000']
+['fcntl', '0x8000', 'newfstatat', 'read', 'read']
+['read', 'read', 'close', 'newfstatat', 'openat']
+['lseek', 'read', 'read', 'close', 'uname']
+['newfstatat', 'read', 'lseek', 'read', 'close']
+['read', 'lseek', 'read', 'close', 'newfstatat']
+['openat', 'newfstatat', 'read', 'close', 'newfstatat']
+['read', 'close', 'newfstatat', 'newfstatat', 'newfstatat']
+['newfstatat', 'newfstatat', 'newfstatat', 'newfstatat', 'newfstatat']
+['newfstatat', 'newfstatat', 'newfstatat', 'newfstatat', 'geteuid']
+['newfstatat', 'newfstatat', 'newfstatat', 'geteuid', 'newfstatat']
+['newfstatat', 'newfstatat', 'geteuid', 'newfstatat', 'geteuid']
+['fcntl', '0x8000', 'newfstatat', 'newfstatat', 'read']
+['newfstatat', 'read', 'Copyright', 'newfstatat', 'newfstatat']
+['read', 'Copyright', 'newfstatat', 'newfstatat', 'geteuid']
+['geteuid', 'newfstatat', 'geteuid', 'read', 'read']
+['geteuid', 'read', 'read', 'newfstatat', 'openat']
+['lseek', 'read', 'close', 'socket', 'connect']
+['lseek', 'read', 'close', 'newfstatat', 'openat']
+['lseek', 'read', 'close', 'newfstatat', 'write']
+['write', 'read', 'newfstatat', 'openat', 'newfstatat']
+['lseek', 'read', 'close', 'read', 'read']
+['read', 'read', 'close', 'newfstatat', 'newfstatat']
+['read', 'read', 'close', 'geteuid', 'rt_sigaction']
+['prlimit64', 'prlimit64', 'prlimit64', 'setgroups', 'geteuid']
+['lseek', 'read', 'close', 'getpid', 'socket']
+
+Call: close
+['openat', 'read', 'newfstatat', 'mmap', 'mmap']
+['openat', 'read', 'newfstatat', 'mmap', 'mprotect']
+['mmap', 'openat', 'read', 'newfstatat', 'mmap']
+['openat', 'read', 'pread64', 'pread64', 'pread64']
+['mmap', 'mmap', 'arch_prctl', 'set_tid_address', 'set_robust_list']
+['close', 'close', 'close', 'close', 'close']
+['close', 'close', 'close', 'close', 'newfstatat']
+['close', 'close', 'close', 'newfstatat', 'newfstatat']
+['close', 'close', 'newfstatat', 'newfstatat', 'newfstatat']
+['close', 'newfstatat', 'newfstatat', 'newfstatat', 'getgroups']
+['newfstatat', 'newfstatat', 'newfstatat', 'getgroups', 'getegid']
+['geteuid', 'geteuid', 'socket', 'connect', 'close']
+['socket', 'connect', 'close', 'newfstatat', 'newfstatat']
+['newfstatat', 'newfstatat', 'openat', 'newfstatat', 'read']
+['openat', 'newfstatat', 'lseek', 'read', 'read']
+['openat', 'newfstatat', 'mmap', 'close', 'openat']
+['mprotect', 'munmap', 'rt_sigprocmask', 'futex', 'openat']
+['epoll_ctl', 'openat', 'read', 'read', 'close']
+['timerfd_settime', 'epoll_wait', 'timerfd_create', 'close', 'sendto']
+['sendto', 'epoll_ctl', 'epoll_wait', 'mmap', 'recvfrom']
+['munmap', 'openat', 'openat', 'newfstatat', 'close']
+['openat', 'close', 'openat', 'openat', 'newfstatat']
+['openat', 'openat', 'newfstatat', 'close', 'openat']
+['openat', 'newfstatat', 'close', 'openat', 'newfstatat']
+['openat', 'newfstatat', 'close', 'openat', 'close']
+['openat', 'openat', 'newfstatat', 'readlinkat', 'close']
+['openat', 'close', 'openat', 'openat', 'openat']
+['openat', 'openat', 'openat', 'openat', 'openat']
+['close', 'rt_sigprocmask', 'newfstatat', 'openat', 'newfstatat']
+['rt_sigprocmask', 'newfstatat', 'openat', 'newfstatat', 'lseek']
+['rt_sigprocmask', 'openat', 'newfstatat', 'getdents64', 'socket']
+['epoll_ctl', 'timerfd_settime', 'epoll_wait', 'sendto', 'epoll_ctl']
+['socket', 'close', 'newfstatat', 'openat', 'newfstatat']
+['newfstatat', 'openat', 'newfstatat', 'lseek', 'read']
+['geteuid', 'getegid', 'rt_sigaction', 'umask', 'newfstatat']
+['futex', 'openat', 'newfstatat', 'read', 'read']
+['uname', 'socket', 'connect', 'close', 'socket']
+['socket', 'connect', 'close', 'newfstatat', 'openat']
+['mprotect', 'munmap', 'socket', 'setsockopt', 'connect']
+['socket', 'setsockopt', 'connect', 'htons', 'inet_addr']
+['newfstatat', 'newfstatat', 'geteuid', 'newfstatat', 'geteuid']
+['uname', 'openat', 'newfstatat', 'newfstatat', 'read']
+['newfstatat', 'openat', 'newfstatat', 'read', 'close']
+['newfstatat', 'newfstatat', 'newfstatat', 'newfstatat', 'newfstatat']
+['socket', 'connect', 'close', 'socket', 'connect']
+['newfstatat', 'write', 'read', 'newfstatat', 'openat']
+['read', 'read', 'the', 'read', 'read']
+['geteuid', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'newfstatat']
+['getpid', 'socket', 'connect', 'sendto', 'write']
+
+Call: read
+['newfstatat', 'mmap', 'mmap', 'mmap', 'mmap']
+['newfstatat', 'mmap', 'mprotect', 'mmap', 'mmap']
+['pread64', 'pread64', 'pread64', 'newfstatat', 'pread64']
+['newfstatat', 'mmap', 'mmap', 'mprotect', 'mmap']
+['close', 'geteuid', 'geteuid', 'socket', 'connect']
+['read', 'newfstatat', 'close', 'openat', 'newfstatat']
+['newfstatat', 'close', 'openat', 'newfstatat', 'lseek']
+['read', 'close', 'openat', 'newfstatat', 'mmap']
+['close', 'openat', 'newfstatat', 'mmap', 'close']
+['read', 'close', 'timerfd_settime', 'epoll_wait', 'timerfd_create']
+['close', 'timerfd_settime', 'epoll_wait', 'timerfd_create', 'close']
+['read', 'close', 'rt_sigprocmask', 'openat', 'newfstatat']
+['close', 'rt_sigprocmask', 'openat', 'newfstatat', 'getdents64']
+['close', 'socket', 'close', 'newfstatat', 'openat']
+['close', 'geteuid', 'getegid', 'rt_sigaction', 'umask']
+['read', 'close', 'futex', 'openat', 'newfstatat']
+['close', 'futex', 'openat', 'newfstatat', 'read']
+['read', 'newfstatat', 'close', 'uname', 'socket']
+['newfstatat', 'close', 'uname', 'socket', 'connect']
+['read', 'close', 'newfstatat', 'openat', 'newfstatat']
+['close', 'newfstatat', 'openat', 'newfstatat', 'lseek']
+['read', 'close', 'uname', 'openat', 'newfstatat']
+['close', 'uname', 'openat', 'newfstatat', 'newfstatat']
+['lseek', 'read', 'close', 'newfstatat', 'openat']
+['close', 'newfstatat', 'openat', 'newfstatat', 'read']
+['close', 'newfstatat', 'newfstatat', 'newfstatat', 'newfstatat']
+['Copyright', 'newfstatat', 'newfstatat', 'geteuid', 'newfstatat']
+['read', 'newfstatat', 'openat', 'newfstatat', 'lseek']
+['newfstatat', 'openat', 'newfstatat', 'lseek', 'read']
+['close', 'socket', 'connect', 'close', 'socket']
+['close', 'newfstatat', 'write', 'read', 'newfstatat']
+['close', 'read', 'read', 'the', 'read']
+['read', 'the', 'read', 'read', 'read']
+['the', 'read', 'read', 'read', 'user']
+['read', 'read', 'user', 'read', 'read']
+['read', 'user', 'read', 'read', 'read']
+['user', 'read', 'read', 'read', 'close']
+['read', 'read', 'close', 'newfstatat', 'newfstatat']
+['read', 'close', 'newfstatat', 'newfstatat', 'geteuid']
+['close', 'newfstatat', 'newfstatat', 'geteuid', 'newfstatat']
+['read', 'close', 'geteuid', 'rt_sigaction', 'rt_sigaction']
+['close', 'geteuid', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction']
+['close', 'getpid', 'socket', 'connect', 'sendto']
+
+Call: mprotect
+['mmap', 'mmap', 'mmap', 'mmap', 'close']
+['mmap', 'mmap', 'mmap', 'close', 'openat']
+['mprotect', 'mprotect', 'mprotect', 'mprotect', 'mprotect']
+['mprotect', 'mprotect', 'mprotect', 'mprotect', 'prlimit64']
+['mprotect', 'mprotect', 'mprotect', 'prlimit64', 'munmap']
+['mprotect', 'mprotect', 'prlimit64', 'munmap', 'getrandom']
+['mprotect', 'prlimit64', 'munmap', 'getrandom', 'brk']
+['prlimit64', 'munmap', 'getrandom', 'brk', 'brk']
+['munmap', 'rt_sigprocmask', 'futex', 'openat', 'newfstatat']
+['munmap', 'socket', 'setsockopt', 'connect', 'htons']
+
+Call: pread64
+['pread64', 'pread64', 'newfstatat', 'pread64', 'mmap']
+['pread64', 'newfstatat', 'pread64', 'mmap', 'mprotect']
+['newfstatat', 'pread64', 'mmap', 'mprotect', 'mmap']
+['mmap', 'mprotect', 'mmap', 'mmap', 'mmap']
+
+Call: set_tid_address
+['set_robust_list', 'rseq', 'mprotect', 'mprotect', 'mprotect']
+
+Call: set_robust_list
+['rseq', 'mprotect', 'mprotect', 'mprotect', 'mprotect']
+
+Call: rseq
+['mprotect', 'mprotect', 'mprotect', 'mprotect', 'mprotect']
+
+Call: prlimit64
+['munmap', 'getrandom', 'brk', 'brk', 'getrandom']
+['newfstatat', 'newfstatat', 'newfstatat', 'close', 'close']
+['prlimit64', 'prlimit64', 'setgroups', 'geteuid', 'setgid']
+['prlimit64', 'setgroups', 'geteuid', 'setgid', 'getegid']
+['setgroups', 'geteuid', 'setgid', 'getegid', 'setuid']
+
+Call: munmap
+['getrandom', 'brk', 'brk', 'getrandom', 'newfstatat']
+['rt_sigprocmask', 'futex', 'openat', 'newfstatat', 'brk']
+['openat', 'openat', 'newfstatat', 'close', 'openat']
+['socket', 'setsockopt', 'connect', 'htons', 'inet_addr']
+
+Call: getrandom
+['brk', 'brk', 'getrandom', 'newfstatat', 'getuid']
+['newfstatat', 'getuid', 'getgid', 'geteuid', 'getuid']
+
+Call: getuid
+['getgid', 'geteuid', 'getuid', 'getegid', 'getgid']
+['getegid', 'getgid', 'getpid', 'prlimit64', 'newfstatat']
+['geteuid', 'setuid', 'geteuid', 'getuid', 'ioctl']
+['ioctl', 'getpeername', 'rt_sigaction', 'rt_sigaction', 'chdir']
+
+Call: getgid
+['geteuid', 'getuid', 'getegid', 'getgid', 'getpid']
+['getpid', 'prlimit64', 'newfstatat', 'newfstatat', 'newfstatat']
+
+Call: geteuid
+['getuid', 'getegid', 'getgid', 'getpid', 'prlimit64']
+['rt_sigaction', 'openat', 'read', 'close', 'geteuid']
+['geteuid', 'socket', 'connect', 'close', 'socket']
+['socket', 'connect', 'close', 'socket', 'connect']
+['getegid', 'rt_sigaction', 'umask', 'newfstatat', 'openat']
+['newfstatat', 'geteuid', 'newfstatat', 'geteuid', 'openat']
+['newfstatat', 'geteuid', 'openat', 'newfstatat', 'fcntl']
+['openat', 'newfstatat', 'fcntl', '0x8000', 'newfstatat']
+['newfstatat', 'geteuid', 'newfstatat', 'geteuid', 'read']
+['newfstatat', 'geteuid', 'read', 'read', 'newfstatat']
+['read', 'read', 'newfstatat', 'openat', 'newfstatat']
+['rt_sigaction', 'rt_sigaction', 'rt_sigaction', 'newfstatat', 'prlimit64']
+['setgid', 'getegid', 'setuid', 'geteuid', 'getuid']
+['getuid', 'geteuid', 'setuid', 'geteuid', 'getuid']
+['setuid', 'geteuid', 'getuid', 'ioctl', 'getpeername']
+['getuid', 'ioctl', 'getpeername', 'rt_sigaction', 'rt_sigaction']
+
+Call: getegid
+['getgid', 'getpid', 'prlimit64', 'newfstatat', 'newfstatat']
+['setgroups', 'geteuid', 'rt_sigaction', 'openat', 'read']
+['rt_sigaction', 'umask', 'newfstatat', 'openat', 'newfstatat']
+['setuid', 'geteuid', 'getuid', 'geteuid', 'setuid']
+
+Call: getpid
+['prlimit64', 'newfstatat', 'newfstatat', 'newfstatat', 'close']
+['epoll_create1', 'timerfd_create', 'epoll_ctl', 'epoll_ctl', 'gettid']
+['socket', 'connect', 'sendto', 'write', 'alarm']
+['setuid', 'exit_group', 'execve', 'access', 'brk']
+['setuid', 'exit_group']
+
+Call: getgroups
+['getegid', 'setgroups', 'geteuid', 'rt_sigaction', 'openat']
+
+Call: setgroups
+['geteuid', 'rt_sigaction', 'openat', 'read', 'close']
+['geteuid', 'setgid', 'getegid', 'setuid', 'geteuid']
+
+Call: rt_sigaction
+['openat', 'read', 'close', 'geteuid', 'geteuid']
+['umask', 'newfstatat', 'openat', 'newfstatat', 'read']
+['rt_sigaction', 'rt_sigaction', 'newfstatat', 'prlimit64', 'prlimit64']
+['rt_sigaction', 'newfstatat', 'prlimit64', 'prlimit64', 'prlimit64']
+['newfstatat', 'prlimit64', 'prlimit64', 'prlimit64', 'setgroups']
+['rt_sigaction', 'chdir', 'write', 'chdir', 'newfstatat']
+['chdir', 'write', 'chdir', 'newfstatat', 'openat']
+
+Call: socket
+['connect', 'close', 'socket', 'connect', 'close']
+['connect', 'close', 'newfstatat', 'newfstatat', 'openat']
+['connect', 'getpid', 'epoll_create1', 'timerfd_create', 'epoll_ctl']
+['connect', 'epoll_create1', 'timerfd_create', 'epoll_ctl', 'epoll_ctl']
+['close', 'newfstatat', 'openat', 'newfstatat', 'lseek']
+['connect', 'close', 'newfstatat', 'openat', 'newfstatat']
+['setsockopt', 'connect', 'htons', 'inet_addr', 'poll']
+['connect', 'sendto', 'write', 'alarm', 'rt_sigprocmask']
+
+Call: connect
+['close', 'socket', 'connect', 'close', 'newfstatat']
+['close', 'newfstatat', 'newfstatat', 'openat', 'newfstatat']
+['getpid', 'epoll_create1', 'timerfd_create', 'epoll_ctl', 'epoll_ctl']
+['epoll_create1', 'timerfd_create', 'epoll_ctl', 'epoll_ctl', 'getdents64']
+['close', 'newfstatat', 'openat', 'newfstatat', 'lseek']
+['htons', 'inet_addr', 'poll', '1', 'sendto']
+['sendto', 'write', 'alarm', 'rt_sigprocmask', 'getpid']
+
+Call: lseek
+['read', 'read', 'close', 'openat', 'newfstatat']
+['read', 'read', 'close', 'rt_sigprocmask', 'openat']
+['read', 'close', 'socket', 'close', 'newfstatat']
+['read', 'close', 'geteuid', 'getegid', 'rt_sigaction']
+['read', 'read', 'close', 'uname', 'openat']
+['read', 'close', 'newfstatat', 'openat', 'newfstatat']
+['read', 'close', 'socket', 'connect', 'close']
+['read', 'close', 'newfstatat', 'write', 'read']
+['read', 'close', 'read', 'read', 'the']
+['read', 'close', 'getpid', 'socket', 'connect']
+
+Call: rt_sigprocmask
+['futex', 'openat', 'newfstatat', 'brk', 'getdents64']
+['newfstatat', 'openat', 'newfstatat', 'lseek', 'read']
+['openat', 'newfstatat', 'getdents64', 'socket', 'connect']
+['getpid', 'setuid', 'exit_group', 'execve', 'access']
+['getpid', 'setuid', 'exit_group']
+
+Call: futex
+['openat', 'newfstatat', 'brk', 'getdents64', 'socket']
+['getdents64', 'close', 'epoll_ctl', 'openat', 'read']
+['openat', 'newfstatat', 'read', 'read', 'newfstatat']
+
+Call: getdents64
+['socket', 'connect', 'getpid', 'epoll_create1', 'timerfd_create']
+['close', 'epoll_ctl', 'openat', 'read', 'read']
+['socket', 'connect', 'epoll_create1', 'timerfd_create', 'epoll_ctl']
+['close', 'epoll_ctl', 'timerfd_settime', 'epoll_wait', 'sendto']
+
+Call: epoll_create1
+['timerfd_create', 'epoll_ctl', 'epoll_ctl', 'gettid', 'futex']
+['timerfd_create', 'epoll_ctl', 'epoll_ctl', 'getdents64', 'close']
+
+Call: timerfd_create
+['epoll_ctl', 'epoll_ctl', 'gettid', 'futex', 'getdents64']
+['close', 'sendto', 'epoll_ctl', 'epoll_wait', 'mmap']
+['epoll_ctl', 'epoll_ctl', 'getdents64', 'close', 'epoll_ctl']
+
+Call: epoll_ctl
+['epoll_ctl', 'gettid', 'futex', 'getdents64', 'close']
+['gettid', 'futex', 'getdents64', 'close', 'epoll_ctl']
+['openat', 'read', 'read', 'close', 'timerfd_settime']
+['epoll_wait', 'mmap', 'recvfrom', 'epoll_ctl', 'epoll_wait']
+['epoll_wait', 'epoll_wait', 'epoll_ctl', 'close', 'munmap']
+['close', 'munmap', 'openat', 'openat', 'newfstatat']
+['epoll_ctl', 'getdents64', 'close', 'epoll_ctl', 'timerfd_settime']
+['getdents64', 'close', 'epoll_ctl', 'timerfd_settime', 'epoll_wait']
+['timerfd_settime', 'epoll_wait', 'sendto', 'epoll_ctl', 'epoll_wait']
+['epoll_wait', 'brk', 'recvfrom', 'epoll_ctl', 'epoll_wait']
+['epoll_wait', 'epoll_wait', 'epoll_ctl', 'close', 'openat']
+['close', 'openat', 'openat', 'newfstatat', 'close']
+['epoll_wait', 'mmap', 'recvfrom', 'epoll_wait', 'recvfrom']
+['epoll_wait', 'brk', 'recvfrom', 'epoll_wait', 'recvfrom']
+['timerfd_settime', 'epoll_wait', 'sendto', 'epoll_ctl', 'timerfd_settime']
+['timerfd_settime', 'epoll_wait', 'brk', 'recvfrom', 'epoll_ctl']
+
+Call: gettid
+['futex', 'getdents64', 'close', 'epoll_ctl', 'openat']
+
+Call: timerfd_settime
+['epoll_wait', 'timerfd_create', 'close', 'sendto', 'epoll_ctl']
+['epoll_wait', 'sendto', 'epoll_ctl', 'epoll_wait', 'brk']
+['epoll_wait', 'sendto', 'epoll_ctl', 'timerfd_settime', 'epoll_wait']
+['epoll_wait', 'brk', 'recvfrom', 'epoll_ctl', 'epoll_wait']
+
+Call: epoll_wait
+['timerfd_create', 'close', 'sendto', 'epoll_ctl', 'epoll_wait']
+['mmap', 'recvfrom', 'epoll_ctl', 'epoll_wait', 'epoll_wait']
+['epoll_wait', 'epoll_ctl', 'close', 'munmap', 'openat']
+['epoll_ctl', 'close', 'munmap', 'openat', 'openat']
+['sendto', 'epoll_ctl', 'epoll_wait', 'brk', 'recvfrom']
+['brk', 'recvfrom', 'epoll_ctl', 'epoll_wait', 'epoll_wait']
+['epoll_wait', 'epoll_ctl', 'close', 'openat', 'openat']
+['epoll_ctl', 'close', 'openat', 'openat', 'newfstatat']
+['mmap', 'recvfrom', 'epoll_wait', 'recvfrom', 'epoll_ctl']
+['recvfrom', 'epoll_ctl', 'epoll_wait', 'epoll_wait', 'epoll_ctl']
+['brk', 'recvfrom', 'epoll_wait', 'recvfrom', 'epoll_ctl']
+['sendto', 'epoll_ctl', 'timerfd_settime', 'epoll_wait', 'brk']
+
+Call: sendto
+['epoll_ctl', 'epoll_wait', 'mmap', 'recvfrom', 'epoll_ctl']
+['epoll_ctl', 'epoll_wait', 'brk', 'recvfrom', 'epoll_ctl']
+['poll', '1', 'ioctl', 'recvfrom', 'htons']
+['write', 'alarm', 'rt_sigprocmask', 'getpid', 'setuid']
+['epoll_ctl', 'epoll_wait', 'mmap', 'recvfrom', 'epoll_wait']
+['37', 'poll', '1', 'ioctl', 'recvfrom']
+['epoll_ctl', 'epoll_wait', 'brk', 'recvfrom', 'epoll_wait']
+['252', 'poll', '1', 'ioctl', 'recvfrom']
+['epoll_ctl', 'timerfd_settime', 'epoll_wait', 'brk', 'recvfrom']
+['q', 'poll', '1', 'ioctl', 'recvfrom']
+['237', 'poll', '1', 'ioctl', 'recvfrom']
+['317', 'poll', '1', 'ioctl', 'recvfrom']
+['j', 'poll', '1', 'ioctl', 'recvfrom']
+
+Call: recvfrom
+['epoll_ctl', 'epoll_wait', 'epoll_wait', 'epoll_ctl', 'close']
+['htons', 'inet_addr', 'close', 'socket', 'setsockopt']
+['htons', 'inet_addr', 'close', 'newfstatat', 'newfstatat']
+['epoll_wait', 'recvfrom', 'epoll_ctl', 'epoll_wait', 'epoll_wait']
+['37', 'htons', 'inet_addr', 'close', 'newfstatat']
+['252', 'htons', 'inet_addr', 'close', 'socket']
+['q', 'htons', 'inet_addr', 'close', 'socket']
+['237', 'htons', 'inet_addr', 'close', 'newfstatat']
+['317', 'htons', 'inet_addr', 'close', 'newfstatat']
+['j', 'htons', 'inet_addr', 'close', 'socket']
+
+Call: readlinkat
+['close', 'openat', 'newfstatat', 'close', 'openat']
+
+Call: umask
+['newfstatat', 'openat', 'newfstatat', 'read', 'read']
+
+Call: uname
+['socket', 'connect', 'close', 'socket', 'connect']
+['openat', 'newfstatat', 'newfstatat', 'read', 'lseek']
+
+Call: setsockopt
+['connect', 'htons', 'inet_addr', 'poll', '1']
+
+Call: htons
+['inet_addr', 'poll', '1', 'sendto', 'poll']
+['inet_addr', 'close', 'socket', 'setsockopt', 'connect']
+['inet_addr', 'close', 'newfstatat', 'newfstatat', 'geteuid']
+['inet_addr', 'poll', '1', 'sendto', '37']
+['inet_addr', 'poll', '1', 'sendto', '252']
+['inet_addr', 'poll', '1', 'sendto', 'q']
+['inet_addr', 'poll', '1', 'sendto', '237']
+['inet_addr', 'poll', '1', 'sendto', '317']
+['inet_addr', 'poll', '1', 'sendto', 'j']
+
+Call: inet_addr
+['poll', '1', 'sendto', 'poll', '1']
+['close', 'socket', 'setsockopt', 'connect', 'htons']
+['close', 'newfstatat', 'newfstatat', 'geteuid', 'newfstatat']
+['poll', '1', 'sendto', '37', 'poll']
+['poll', '1', 'sendto', '252', 'poll']
+['poll', '1', 'sendto', 'q', 'poll']
+['poll', '1', 'sendto', '237', 'poll']
+['poll', '1', 'sendto', '317', 'poll']
+['poll', '1', 'sendto', 'j', 'poll']
+
+Call: poll
+['1', 'sendto', 'poll', '1', 'ioctl']
+['1', 'ioctl', 'recvfrom', 'htons', 'inet_addr']
+['1', 'sendto', '37', 'poll', '1']
+['1', 'ioctl', 'recvfrom', '37', 'htons']
+['1', 'sendto', '252', 'poll', '1']
+['1', 'ioctl', 'recvfrom', '252', 'htons']
+['1', 'sendto', 'q', 'poll', '1']
+['1', 'ioctl', 'recvfrom', 'q', 'htons']
+['1', 'sendto', '237', 'poll', '1']
+['1', 'ioctl', 'recvfrom', '237', 'htons']
+['1', 'sendto', '317', 'poll', '1']
+['1', 'ioctl', 'recvfrom', '317', 'htons']
+['1', 'sendto', 'j', 'poll', '1']
+['1', 'ioctl', 'recvfrom', 'j', 'htons']
+
+Call: 1
+['sendto', 'poll', '1', 'ioctl', 'recvfrom']
+['ioctl', 'recvfrom', 'htons', 'inet_addr', 'close']
+['sendto', '37', 'poll', '1', 'ioctl']
+['ioctl', 'recvfrom', '37', 'htons', 'inet_addr']
+['sendto', '252', 'poll', '1', 'ioctl']
+['ioctl', 'recvfrom', '252', 'htons', 'inet_addr']
+['sendto', 'q', 'poll', '1', 'ioctl']
+['ioctl', 'recvfrom', 'q', 'htons', 'inet_addr']
+['sendto', '237', 'poll', '1', 'ioctl']
+['ioctl', 'recvfrom', '237', 'htons', 'inet_addr']
+['sendto', '317', 'poll', '1', 'ioctl']
+['ioctl', 'recvfrom', '317', 'htons', 'inet_addr']
+['sendto', 'j', 'poll', '1', 'ioctl']
+['ioctl', 'recvfrom', 'j', 'htons', 'inet_addr']
+
+Call: ioctl
+['recvfrom', 'htons', 'inet_addr', 'close', 'socket']
+['recvfrom', 'htons', 'inet_addr', 'close', 'newfstatat']
+['getpeername', 'rt_sigaction', 'rt_sigaction', 'chdir', 'write']
+['recvfrom', '37', 'htons', 'inet_addr', 'close']
+['recvfrom', '252', 'htons', 'inet_addr', 'close']
+['recvfrom', 'q', 'htons', 'inet_addr', 'close']
+['recvfrom', '237', 'htons', 'inet_addr', 'close']
+['recvfrom', '317', 'htons', 'inet_addr', 'close']
+['recvfrom', 'j', 'htons', 'inet_addr', 'close']
+
+Call: 0x8000
+['newfstatat', 'read', 'read', 'close', 'newfstatat']
+['newfstatat', 'newfstatat', 'read', 'Copyright', 'newfstatat']
+['newfstatat', 'read', 'read', 'close', 'geteuid']
+
+Call: Copyright
+['newfstatat', 'newfstatat', 'geteuid', 'newfstatat', 'geteuid']
+
+Call: write
+['read', 'newfstatat', 'openat', 'newfstatat', 'lseek']
+['chdir', 'newfstatat', 'openat', 'newfstatat', 'lseek']
+['alarm', 'rt_sigprocmask', 'getpid', 'setuid', 'exit_group']
+
+Call: the
+['read', 'read', 'read', 'user', 'read']
+
+Call: user
+['read', 'read', 'read', 'close', 'newfstatat']
+
+Call: setgid
+['getegid', 'setuid', 'geteuid', 'getuid', 'geteuid']
+
+Call: setuid
+['geteuid', 'getuid', 'geteuid', 'setuid', 'geteuid']
+['geteuid', 'getuid', 'ioctl', 'getpeername', 'rt_sigaction']
+['exit_group', 'execve', 'access', 'brk', 'arch_prctl']
+['exit_group']
+
+Call: getpeername
+['rt_sigaction', 'rt_sigaction', 'chdir', 'write', 'chdir']
+
+Call: chdir
+['write', 'chdir', 'newfstatat', 'openat', 'newfstatat']
+['newfstatat', 'openat', 'newfstatat', 'lseek', 'read']
+
+Call: alarm
+['rt_sigprocmask', 'getpid', 'setuid', 'exit_group', 'execve']
+['rt_sigprocmask', 'getpid', 'setuid', 'exit_group']
+
+Call: exit_group
+['execve', 'access', 'brk', 'arch_prctl', 'fcntl']
+[]
+
+Call: 37
+['poll', '1', 'ioctl', 'recvfrom', '37']
+['htons', 'inet_addr', 'close', 'newfstatat', 'newfstatat']
+
+Call: 252
+['poll', '1', 'ioctl', 'recvfrom', '252']
+['htons', 'inet_addr', 'close', 'socket', 'setsockopt']
+
+Call: q
+['poll', '1', 'ioctl', 'recvfrom', 'q']
+['htons', 'inet_addr', 'close', 'socket', 'setsockopt']
+
+Call: 237
+['poll', '1', 'ioctl', 'recvfrom', '237']
+['htons', 'inet_addr', 'close', 'newfstatat', 'newfstatat']
+
+Call: 317
+['poll', '1', 'ioctl', 'recvfrom', '317']
+['htons', 'inet_addr', 'close', 'newfstatat', 'newfstatat']
+
+Call: j
+['poll', '1', 'ioctl', 'recvfrom', 'j']
+['htons', 'inet_addr', 'close', 'socket', 'setsockopt']
+
