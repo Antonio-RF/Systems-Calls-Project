@@ -10,10 +10,10 @@
 3. Conteúdo das mensagens:
 
     Testaram mensagens contendo:
-        - Texto ASCII puro.
-        - Dados uuencoded (um tipo de codificação binária para texto).
-        - Arquivos compactados (gzipped).
-        - Arquivos criptografados com PGP.
+        - Texto ASCII puro. [NADA]
+        - Dados uuencoded (um tipo de codificação binária para texto). [uuencoded meuarquivo.txt meuarquivo.txt > meuarquivo.uu]
+        - Arquivos compactados (gzipped). []
+        - Arquivos criptografados com PGP. [gpg --encrypt --recipient "seu@email.com" arquivo.txt]
 
 4. Outros elementos testados:
 
