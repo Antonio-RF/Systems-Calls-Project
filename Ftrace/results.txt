@@ -1,0 +1,309 @@
+strace + skipgram (window 5):
+    ls | ls:
+        ls -i /Downloads/forrest-sense-of-self.pdf: 20 | 142
+        ls -i /Documents/circuitos/trabalho_semaforos.md: 20 | 142
+        ls .. /Pictures/Screenshots/'Picture5(TheBoys).jpeg': 20 | 148
+        ls -t /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png': 20 | 160
+        ls  /Pictures/Screenshots/Opção2.png: 20 | 148
+        ls -S /Documents/Scientific-Calculator/main.py: 20 | 142
+        ls * /Downloads/entrada2.txt: 20 | 148
+        ls -s /Pictures/Images/grade-bcc.png: 20 | 142
+        ls  /Documents/Scientific-Calculator/requirements.txt: 20 | 148
+    ls | grep:
+        grep -x ' ' /Desktop/: 120 | 143
+        grep -B "a" /Videos/: 122 | 131
+        grep -c "c" /Downloads/: 120 | 138
+        grep -x "a" /Public/: 120 | 138
+        grep -x "e" /snap/teste.txt: 120 | 138
+        grep -v ' ' /Music/teste.txt: 120 | 143
+        grep -c "c" /Desktop/teste.txt: 120 | 138
+        grep -c "a" /snap/teste.txt: 120 | 138
+        grep -w "c" /Teste/: 120 | 138
+        grep -x "d" /Music/: 120 | 138
+    ls | cat:
+        cat -b /Documents/The-Boys/README.md: 36 | 111
+        cat -e /snap/firefox/common: 36 | 111
+        cat  /snap/firefox/current: 36 | 116
+        cat -b /Downloads/firefox/fonts: 36 | 111
+        cat -n /snap/snapd-desktop-integration/253: 36 | 111
+        cat  /Pictures/Screenshots/'Picture2(TheBoys).png': 36 | 116
+        cat -E /Downloads/dark_room.png: 36 | 111
+        cat -A /Documents/circuitos/trabalho_semaforos.md: 36 | 111
+        cat -n /Pictures/Screenshots/Opção2.png: 36 | 111
+        cat -s /Documents/The-Boys/theboys.: 36 | 111
+
+    cat | cat:
+        cat -v /Downloads/firefox/firefox.sig: 20 | 111
+        cat -s /Documents/Strong-Password-Generator/passwords.txt: 20 | 111
+        cat -v /Documents/Computer-Science-Freshmen-at-UFPR/CM310: 20 | 111
+        cat -e /Downloads/testes/entrada1.txt: 20 | 111
+        cat -e /Downloads/strace_r.txt: 20 | 111
+        cat -e /Documents/Computer-Science-Freshmen-at-UFPR/README.md: 20 | 111
+        cat -v /snap/snapd-desktop-integration/current: 20 | 111
+        cat  /snap/snapd-desktop-integration/common: 20 | 116
+        cat -T /Downloads/Generator2.py: 20 | 111
+        cat  /Pictures/Images/grade-bcc.png: 20 | 116
+    cat | grep:
+        grep  "c" /Videos/: 102 | 142
+        grep  "c" /Public/: 102 | 142
+        grep -A "d" /Documents/teste.txt: 108 | 131
+        grep -i "a" /Music/teste.txt: 106 | 138
+        grep -i "e" /fake/: 106 | 138
+        grep -A "a" /Public/teste.txt: 108 | 131
+        grep -A "f" /Templates/teste.txt: 108 | 131
+        grep -w "f" /Videos/: 106 | 138
+        grep  "a" /Public/teste.txt: 102 | 142
+        grep -B "b" /Public/teste.txt: 108 | 131
+    cat | ls:
+        ls -S /Pictures/Screenshots/Results.png: 124 | 142
+        ls -i /Documents/Rubiks05.github.io/Script.js: 124 | 142
+        ls -lh /Documents/circuitos/trabalho_semaforos.md: 108 | 144
+        ls -R /Pictures/Screenshots/fake: 124 | 142
+        ls -t /Downloads/Generator2.py: 124 | 142
+        ls -a /Documents/The-Boys/theboys.: 124 | 142
+        ls -la /snap/snapd-desktop-integration/253: 108 | 144
+        ls -1 /Pictures/Screenshots/'Screenshot from 2025-01-30 19-09-58.png': 234 | 160
+        ls -l /snap/snapd-desktop-integration/common: 108 | 144
+        ls / /Videos: 138 | 148
+
+    grep | grep:
+        grep -c "d" /Documents/: 20 | 138
+        grep -n "d" /Teste/: 20 | 138
+        grep -c ' ' /Videos/teste.txt: 20 | 143
+        grep -n "f" /fake/: 20 | 138
+        grep -A "e" /Videos/: 20 | 131
+        grep -B "c" /fake/teste.txt: 20 | 131
+        grep -v ' ' /Teste/teste.txt: 20 | 143
+        grep -x ' ' /Teste/teste.txt: 20 | 143
+        grep -c "f" /fake/teste.txt: 20 | 138
+        grep -v "c" /fake/: 20 | 138
+    grep | cat:
+        cat -E /Pictures/Screenshots/fake: 26 | 111
+        cat -T /Downloads/firefox/firefox: 26 | 111
+        cat -s /Documents/Strong-Password-Generator/Generator.py: 26 | 111
+        cat -e /Desktop: 26 | 111
+        cat  /Documents/Computer-Science-Freshmen-at-UFPR/Images: 26 | 116
+        cat -T /Downloads/forrest-sense-of-self-1.pdf: 26 | 111
+        cat -E /Documents/Strong-Password-Generator/CONTRIBUTING.md: 26 | 111
+        cat -v /Downloads/Generator.py: 26 | 111
+        cat -T /Downloads/firefox/firefox.sig: 26 | 111
+        cat -A /Downloads/coord.o: 26 | 111
+    grep | ls:
+        ls .. /Documents/Rubiks05.github.io/Script.js: 136 | 148
+        ls / /snap/spotify/current: 136 | 148
+        ls -S /snap/snapd-desktop-integration/common: 122 | 142
+        ls -a /Downloads/Generator2.py: 122 | 142
+        ls -1 /Documents/Sorting-and-Searching-Algorithms/'Relatório de ALG2.pdf': 196 | 154
+        ls .. /Documents/Sorting-and-Searching-Algorithms/README.md: 136 | 148
+        ls -s /fake: 122 | 142
+        ls -t /Documents/Rubiks05.github.io/style.css: 122 | 142
+        ls -i /Pictures/Screenshots/'Screenshot from 2025-02-01 15-40-57.png': 232 | 160
+        ls -S /Documents/Sorting-and-Searching-Algorithms/README.md: 122 | 142
+
+
+ftrace + skipgram (window 5):
+    ls | ls:
+        ls / /Downloads/outfile.tga: 20 | 48109
+        ls -l /Pictures/Screenshots/'Picture2(TheBoys).png': 20 | 47443
+        ls -l /snap/spotify/82: 20 | 48465
+        ls -s /Downloads/coord.o: 20 | 48395
+        ls -l /Documents/Rubiks05.github.io/Script.js: 20 | 49024
+        ls -R /Downloads/entrada.txt: 20 | 46838
+        ls -i /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png': 20 | 47582
+        ls -a /Documents/Sorting-and-Searching-Algorithms/tp.c.txt: 20 | 46777
+        ls -R /snap/snapd-desktop-integration/common: 20 | 47735
+        ls -lh /Pictures/Screenshots/Opção2.png: 20 | 46940
+    ls | grep:
+        grep -x "f" /Teste/: 27282 | 51471
+        grep -v "e" /Downloads/teste.txt: 27264 | 49931
+        grep -B "b" /Music/teste.txt: 27766 | 48901
+        grep -i "d" /Templates/teste.txt: 27334 | 51262
+        grep -x "f" /fake/: 27224 | 50691
+        grep -v "a" /Documents/: 27264 | 49863
+        grep  "e" /Music/: 27168 | 49588
+        grep -w "c" /fake/teste.txt: 27372 | 50124
+        grep -C "a" /Templates/: 27126 | 49371
+        grep -C "f" /Videos/: 27108 | 48711
+    ls | cat:
+        cat -s /Documents/Rubiks05.github.io/fake: 110 | 38937
+        cat -A /Downloads/forrest-sense-of-self-1.pdf: 44 | 40081
+        cat -b /Documents/Computer-Science-Freshmen-at-UFPR/CM303: 52 | 38724
+        cat -e /snap/firefox/current: 166 | 40288
+        cat -E /Documents/Scientific-Calculator/README.md: 54 | 38931
+        cat -s /Documents/Computer-Science-Freshmen-at-UFPR/CM303: 62 | 38885
+        cat -e /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png': 86 | 40358
+        cat -A /Pictures/Screenshots/'Picture5(TheBoys).jpeg': 50 | 41851
+        cat -v /Pictures/Screenshots/'Picture3(sorting&searching).png': 112 | 40609
+        cat  /Documents/Scientific-Calculator/README.md: 72 | 38862
+
+    cat | cat:
+        cat -T /Downloads/outfile.tga: 20 | 39406
+        cat -T /Documents/Scientific-Calculator/main.py: 20 | 39126
+        cat -s /Documents/circuitos/imgs: 20 | 39163
+        cat -s /Music: 20 | 41017
+        cat -T /Documents/Sorting-and-Searching-Algorithms/Images: 20 | 40530
+        cat -e /Documents/Rubiks05.github.io/LICENSE: 20 | 39381
+        cat -n /Pictures/Screenshots/'Picture5(TheBoys).jpeg': 20 | 39222
+        cat -v /snap/snapd-desktop-integration/current: 20 | 40125
+        cat  /Documents/Strong-Password-Generator/Generator.py: 20 | 39035
+        cat -A /Pictures/Screenshots/Results.png: 20 | 39489
+    cat | grep:
+        grep -x ' ' /Templates/: 28136 | 49723
+        grep -c "b" /snap/teste.txt: 28228 | 52769
+        grep -l "e" /Teste/: 28106 | 50202
+        grep  "a" /Downloads/teste.txt: 27934 | 49623
+        grep -w "e" /Music/teste.txt: 28168 | 50274
+        grep -n "a" /Public/: 28170 | 50032
+        grep -w "d" /Public/: 28162 | 50058
+        grep -v "f" /Pictures/teste.txt: 28160 | 51110
+        grep -B "a" /Teste/teste.txt: 28042 | 51248
+        grep -C "c" /Music/teste.txt: 28044 | 49883
+    cat | ls:
+        ls -lh /Downloads/outfile.tga: 2956 | 47816
+        ls -l /Downloads/testes/entrada1.txt: 2850 | 47857
+        ls -R /Downloads/forrest-sense-of-self.pdf: 2986 | 47246
+        ls -l /Public: 2840 | 47660
+        ls .. /Documents/Scientific-Calculator/LICENSE: 5166 | 48052
+        ls *.txt /Documents/Sorting-and-Searching-Algorithms/'Relatório de ALG2.pdf': 3948 | 49033
+        ls -S /Documents/Rubiks05.github.io/style.css: 2962 | 46711
+        ls -a /Documents/Computer-Science-Freshmen-at-UFPR/CI1210: 3024 | 46786
+        ls -lh /Downloads/strace_r.txt: 2888 | 48142
+        ls *.txt /Documents/Computer-Science-Freshmen-at-UFPR/CI1210: 3336 | 48332
+
+    grep | grep:
+        grep -A "b" /fake/: 20 | 49047
+        grep -n "b" /Music/teste.txt: 20 | 50153
+        grep -v "a" /Desktop/teste.txt: 20 | 50445
+        grep -C "d" /Videos/teste.txt: 20 | 52133
+        grep  "e" /fake/teste.txt: 20 | 49897
+        grep -i "f" /Music/teste.txt: 20 | 51266
+        grep -v "a" /fake/: 20 | 50781
+        grep -C "d" /Music/: 20 | 49511
+        grep -C "f" /Teste/teste.txt: 20 | 49553
+        grep -v "d" /Teste/teste.txt: 20 | 50553
+    grep | cat:
+        cat -E /Downloads/testes/entrada1.txt: 62 | 38651
+        cat -v /Pictures/Screenshots/fake: 54 | 39035
+        cat -s /Documents/Sorting-and-Searching-Algorithms/Logs: 34 | 39788
+        cat -b /Pictures/Screenshots/fake: 64 | 39610
+        cat -n /snap/spotify/common: 46 | 39703
+        cat -b /Downloads/entrada2.txt: 72 | 38997
+        cat  /Downloads/entrada2.txt: 96 | 39824
+        cat -b /Documents/The-Boys/Images: 46 | 40013
+        cat -b /Pictures/Screenshots/'Picture3(sorting&searching).png': 52 | 40020
+        cat -A /Documents/circuitos/README.md: 46 | 39249
+    grep | ls:
+        ls -t /Pictures/Screenshots/'Picture4(strong-password).png': 2422 | 48536
+        ls  /Pictures/Screenshots/Results_Attack1.png: 2708 | 47817
+        ls -S /Pictures/Screenshots/Results..png: 2426 | 46715
+        ls * /Documents/Computer-Science-Freshmen-at-UFPR/CI1056: 2764 | 47316
+        ls -s /snap/spotify/82: 2416 | 46537
+        ls / /Documents/Sorting-and-Searching-Algorithms/tp.c: 6804 | 48342
+        ls -S /Downloads/entrada.txt: 2426 | 47604
+        ls .. /Downloads/coord.o: 4728 | 47639
+        ls / /Downloads/testes/entrada1.txt: 6808 | 47648
+        ls -lh /snap/snapd-desktop-integration/83: 2276 | 48640
+
+
+ftrace + sliding_window (window 5):
+    ls | ls:
+        ls -lh /Downloads/firefox/firefox-bin.sig: 35 | 48125
+        ls -lh /Downloads/Generator2.py: 35 | 47267
+        ls *.txt /Documents/Computer-Science-Freshmen-at-UFPR/CM311: 35 | 47402
+        ls -1 /snap/firefox/common: 35 | 46426
+        ls -s /Documents/Rubiks05.github.io/index.html: 35 | 47368
+        ls -l /Pictures/Screenshots/fake: 35 | 48388
+        ls * /snap/snapd-desktop-integration/83: 35 | 47212
+        ls -lh /snap/spotify/current: 35 | 48377
+        ls -R /Downloads/index.html: 35 | 46924
+        ls / /Documents/Sorting-and-Searching-Algorithms/tp.c.txt: 35 | 48564
+    ls | grep:
+        grep -c "c" /Videos/: 15350 | 50746
+        grep -x "c" /Public/teste.txt: 15265 | 51544
+        grep -w "c" /fake/: 15320 | 51035
+        grep -n "a" /Teste/teste.txt: 15310 | 50756
+        grep -w "c" /Documents/: 15345 | 51011
+        grep -l "b" /Videos/teste.txt: 15325 | 50433
+        grep -A "f" /Templates/: 15230 | 48605
+        grep -c "b" /Public/teste.txt: 15330 | 50574
+        grep -i "f" /Downloads/: 15330 | 52966
+        grep -n "b" /fake/: 15425 | 51617
+    ls | cat:
+        cat -T /Documents/Rubiks05.github.io/index.html: 165 | 40498
+        cat -v /Documents/Rubiks05.github.io/index.html: 210 | 39457
+        cat -n /Documents/Computer-Science-Freshmen-at-UFPR/CI1056: 225 | 39538
+        cat  /Documents/circuitos/imgs: 250 | 39320
+        cat -A /Pictures/Screenshots/Results_IC.png: 170 | 39399
+        cat -v /Documents/Sorting-and-Searching-Algorithms/tp: 275 | 39858
+        cat -E /Pictures/Screenshots/'Picture3(sorting&searching).png': 205 | 39013
+        cat -v /snap/snapd-desktop-integration/83: 195 | 39539
+        cat -E /fake: 220 | 38776
+        cat -n /Documents/Strong-Password-Generator/README.md: 220 | 39294
+
+    grep | grep:
+        grep -i "f" /Videos/: 35 | 51839
+        grep -B "d" /Public/teste.txt: 35 | 49744
+        grep -w "c" /Videos/: 35 | 53729
+        grep -n "c" /Pictures/: 35 | 50196
+        grep -v "b" /Public/: 35 | 50695
+        grep  "c" /Videos/: 35 | 49680
+        grep -v "e" /Templates/: 35 | 50221
+        grep -A "e" /Desktop/: 35 | 50445
+        grep -c "b" /Pictures/: 35 | 50556
+        grep -A "c" /Videos/teste.txt: 35 | 48470
+    grep | cat:
+        cat -v /Documents/Computer-Science-Freshmen-at-UFPR/CM304: 235 | 39313
+        cat -e /Downloads/entrada.txt: 225 | 41960
+        cat -s /Documents/The-Boys/Images: 230 | 39459
+        cat -T /Documents/Strong-Password-Generator/CONTRIBUTING.md: 205 | 39514
+        cat -v /Documents/Strong-Password-Generator/CONTRIBUTING.md: 210 | 39867
+        cat  /Documents/The-Boys/Images: 200 | 38968
+        cat -n /Documents/Rubiks05.github.io/Script.js: 220 | 39322
+        cat -e /Videos: 215 | 39217
+        cat  /Documents/circuitos/imgs: 200 | 39320
+        cat -T /Documents/Sorting-and-Searching-Algorithms/tp.c.txt: 185 | 38872
+    grep | ls
+        ls .. /Downloads/forrest-sense-of-self-1.pdf: 3265 | 47588
+        ls -a /Documents/Strong-Password-Generator/passwords.txt: 1790 | 47320
+        ls / /Public: 4395 | 48351
+        ls -t /Downloads/main.py: 1850 | 47968
+        ls -l /Downloads/forrest-sense-of-self-1.pdf: 1745 | 49307
+        ls * /Documents/circuitos/README.md: 2120 | 46921
+        ls .. /Documents/The-Boys/theboys.: 3300 | 48120
+        ls -a /snap/spotify/current: 1785 | 46536
+        ls -lh /Downloads/coord.o: 1745 | 48689
+        ls  /Pictures/Screenshots/'Screenshot from 2025-01-30 19-09-58.png': 4035 | 48158
+
+    cat | cat:
+        cat -s /Music: 35 | 41017
+        cat -n /snap/spotify/common: 35 | 39703
+        cat -b /Documents/Computer-Science-Freshmen-at-UFPR/CM310: 35 | 39079
+        cat -T /snap/spotify/common: 35 | 39126
+        cat -b /Documents/Scientific-Calculator/LICENSE: 35 | 39638
+        cat -n /Pictures/Images/grade-bcc.png: 35 | 39080
+        cat -s /snap/snapd-desktop-integration/common: 35 | 39867
+        cat -b /Pictures/Screenshots/'Picture4(strong-password).png': 35 | 38620
+        cat -v /Documents/Strong-Password-Generator/Generator.py: 35 | 39132
+        cat -n /Documents/Rubiks05.github.io/index.html: 35 | 39193
+    cat | grep:
+        grep  "f" /Desktop/: 15960 | 49534
+        grep -w "b" /Desktop/: 16075 | 52631
+        grep -l "b" /Pictures/: 16115 | 50798
+        grep -A ' ' /Desktop/teste.txt: 16040 | 50308
+        grep -i "e" /Downloads/: 16085 | 50715
+        grep -C "c" /Templates/teste.txt: 15970 | 49764
+        grep -c ' ' /Pictures/teste.txt: 16130 | 50551
+        grep -l "b" /Videos/teste.txt: 16075 | 50433
+        grep -A "e" /Public/teste.txt: 15880 | 48694
+        grep -A "c" /Teste/: 15885 | 49553
+    cat | ls:
+        ls -S /Templates: 2285 | 48192
+        ls -s /Documents/Rubiks05.github.io/style.css: 2310 | 48222
+        ls  /Downloads/forrest-sense-of-self.pdf: 2475 | 47011
+        ls -l /Pictures/Images/fake: 2240 | 47278
+        ls / /Documents/Sorting-and-Searching-Algorithms/tp.c.txt: 4850 | 48564
+        ls -1 /Templates: 2385 | 47142
+        ls -i /Documents/circuitos/trabalho_semaforos.md: 2410 | 47043
+        ls -S /Pictures/Screenshots/'Screenshot from 2025-01-30 19-09-58.png': 3320 | 47634
+        ls -1 /Documents/Sorting-and-Searching-Algorithms/Logs: 2390 | 48021
+        ls .. /Documents/Sorting-and-Searching-Algorithms/tp.c.txt: 3810 | 48408
