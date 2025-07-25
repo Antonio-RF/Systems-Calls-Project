@@ -1,9 +1,0 @@
-ls  
-ls -l /
-ls -la /root
-ls /etc/passwd
-ls -a /etc/shadow
-ls /root/.ssh
-ls /sys/
-ls -lah /etc/asdf
-ls -h /etc/asdf
