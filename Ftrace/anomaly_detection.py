@@ -3,12 +3,13 @@ import pandas as pd
 from sklearn import svm
 from sklearn.preprocessing import LabelEncoder
 
+
 data = []
-cat_file = open('trace_files/cat_ftrace_parsed.txt')
-data += cat_file.readlines()
-'''
 ls_file = open('trace_files/ls_ftrace_parsed.txt')
 data += ls_file.readlines()
+'''
+cat_file = open('trace_files/cat_ftrace_parsed.txt')
+data += cat_file.readlines()
 grep_file = open('trace_files/grep_syscall_parsed.txt')
 data += grep_file.readlines()
 '''

@@ -1,0 +1,788 @@
+cat  /Desktop
+cat  /Documents/Computer-Science-Freshmen-at-UFPR/CI1055
+cat  /Documents/Computer-Science-Freshmen-at-UFPR/CI1056
+cat  /Documents/Computer-Science-Freshmen-at-UFPR/CI1068
+cat  /Documents/Computer-Science-Freshmen-at-UFPR/CI1210
+cat  /Documents/Computer-Science-Freshmen-at-UFPR/CM303
+cat  /Documents/Computer-Science-Freshmen-at-UFPR/CM304
+cat  /Documents/Computer-Science-Freshmen-at-UFPR/CM310
+cat  /Documents/Computer-Science-Freshmen-at-UFPR/CM311
+cat  /Documents/Computer-Science-Freshmen-at-UFPR/Images
+cat  /Documents/Rubiks05.github.io/Assets
+cat  /Documents/Rubiks05.github.io/LICENSE
+cat  /Documents/Rubiks05.github.io/Script.js
+cat  /Documents/Rubiks05.github.io/fake
+cat  /Documents/Rubiks05.github.io/index.html
+cat  /Documents/Rubiks05.github.io/style.css
+cat  /Documents/Scientific-Calculator/LICENSE
+cat  /Documents/Scientific-Calculator/README.md
+cat  /Documents/Scientific-Calculator/main.py
+cat  /Documents/Scientific-Calculator/requirements.txt
+cat  /Documents/Sorting-and-Searching-Algorithms/Images
+cat  /Documents/Sorting-and-Searching-Algorithms/Logs
+cat  /Documents/Sorting-and-Searching-Algorithms/README.md
+cat  /Documents/Sorting-and-Searching-Algorithms/docs
+cat  /Documents/Sorting-and-Searching-Algorithms/tp
+cat  /Documents/Sorting-and-Searching-Algorithms/tp.c
+cat  /Documents/Sorting-and-Searching-Algorithms/tp.c.txt
+cat  /Documents/Strong-Password-Generator/CONTRIBUTING.md
+cat  /Documents/Strong-Password-Generator/Comments.txt
+cat  /Documents/Strong-Password-Generator/Generator.py
+cat  /Documents/Strong-Password-Generator/README.md
+cat  /Documents/Strong-Password-Generator/passwords.txt
+cat  /Documents/The-Boys/Images
+cat  /Documents/The-Boys/README.md
+cat  /Documents/The-Boys/theboys.
+cat  /Documents/circuitos/README.md
+cat  /Documents/circuitos/imgs
+cat  /Documents/circuitos/trabalho_semaforos.md
+cat  /Downloads/Generator.py
+cat  /Downloads/Generator2.py
+cat  /Downloads/coord.o
+cat  /Downloads/dark_room.png
+cat  /Downloads/entrada.txt
+cat  /Downloads/entrada2.txt
+cat  /Downloads/firefox/browser
+cat  /Downloads/firefox/firefox-bin
+cat  /Downloads/firefox/firefox.sig
+cat  /Downloads/firefox/fonts
+cat  /Downloads/firefox/gmp-clearkey
+cat  /Downloads/forrest-sense-of-self-1.pdf
+cat  /Downloads/forrest-sense-of-self.pdf
+cat  /Downloads/index.html
+cat  /Downloads/main.py
+cat  /Downloads/outfile.tga
+cat  /Downloads/strace_r.txt
+cat  /Downloads/testes/entrada1.txt
+cat  /Music
+cat  /Pictures/Images/fake
+cat  /Pictures/Images/grade-bcc.png
+cat  /Pictures/Screenshots/'Picture2(TheBoys).png'
+cat  /Pictures/Screenshots/'Picture3(sorting&searching).png'
+cat  /Pictures/Screenshots/'Picture4(strong-password).png'
+cat  /Pictures/Screenshots/'Screenshot from 2025-01-30 19-09-58.png'
+cat  /Pictures/Screenshots/'Screenshot from 2025-02-01 15-40-57.png'
+cat  /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png'
+cat  /Pictures/Screenshots/'picture1(strong-password).png'
+cat  /Pictures/Screenshots/Opção2.png
+cat  /Pictures/Screenshots/Results..png
+cat  /Pictures/Screenshots/Results.png
+cat  /Pictures/Screenshots/Results_Attack1.png
+cat  /Pictures/Screenshots/Results_IC.png
+cat  /Pictures/Screenshots/fake
+cat  /Public
+cat  /Templates
+cat  /Videos
+cat  /fake
+cat  /snap/firefox/3836
+cat  /snap/firefox/common
+cat  /snap/firefox/current
+cat  /snap/snapd-desktop-integration/253
+cat  /snap/snapd-desktop-integration/83
+cat  /snap/snapd-desktop-integration/common
+cat  /snap/snapd-desktop-integration/current
+cat  /snap/spotify/82
+cat  /snap/spotify/common
+cat  /snap/spotify/current
+cat -A /Desktop
+cat -A /Documents/Computer-Science-Freshmen-at-UFPR/CI1055
+cat -A /Documents/Computer-Science-Freshmen-at-UFPR/CI1056
+cat -A /Documents/Computer-Science-Freshmen-at-UFPR/CI1068
+cat -A /Documents/Computer-Science-Freshmen-at-UFPR/CI1210
+cat -A /Documents/Computer-Science-Freshmen-at-UFPR/CM303
+cat -A /Documents/Computer-Science-Freshmen-at-UFPR/CM304
+cat -A /Documents/Computer-Science-Freshmen-at-UFPR/CM311
+cat -A /Documents/Computer-Science-Freshmen-at-UFPR/fake
+cat -A /Documents/Rubiks05.github.io/Assets
+cat -A /Documents/Rubiks05.github.io/LICENSE
+cat -A /Documents/Rubiks05.github.io/Script.js
+cat -A /Documents/Rubiks05.github.io/fake
+cat -A /Documents/Rubiks05.github.io/index.html
+cat -A /Documents/Rubiks05.github.io/style.css
+cat -A /Documents/Scientific-Calculator/LICENSE
+cat -A /Documents/Scientific-Calculator/README.md
+cat -A /Documents/Scientific-Calculator/main.py
+cat -A /Documents/Scientific-Calculator/requirements.txt
+cat -A /Documents/Sorting-and-Searching-Algorithms/'Relatório de ALG2.pdf'
+cat -A /Documents/Sorting-and-Searching-Algorithms/Images
+cat -A /Documents/Sorting-and-Searching-Algorithms/Logs
+cat -A /Documents/Sorting-and-Searching-Algorithms/README.md
+cat -A /Documents/Sorting-and-Searching-Algorithms/docs
+cat -A /Documents/Sorting-and-Searching-Algorithms/tp.c
+cat -A /Documents/Sorting-and-Searching-Algorithms/tp.c.txt
+cat -A /Documents/Strong-Password-Generator/CONTRIBUTING.md
+cat -A /Documents/Strong-Password-Generator/Comments.txt
+cat -A /Documents/Strong-Password-Generator/Generator.py
+cat -A /Documents/Strong-Password-Generator/Images
+cat -A /Documents/Strong-Password-Generator/README.md
+cat -A /Documents/Strong-Password-Generator/fake
+cat -A /Documents/Strong-Password-Generator/passwords.txt
+cat -A /Documents/The-Boys/Images
+cat -A /Documents/The-Boys/README.md
+cat -A /Documents/The-Boys/theboys.
+cat -A /Documents/circuitos/README.md
+cat -A /Documents/circuitos/imgs
+cat -A /Documents/circuitos/trabalho_semaforos.md
+cat -A /Downloads/Generator.py
+cat -A /Downloads/Generator2.py
+cat -A /Downloads/coord.o
+cat -A /Downloads/dark_room.png
+cat -A /Downloads/entrada.txt
+cat -A /Downloads/entrada2.txt
+cat -A /Downloads/firefox/defaults
+cat -A /Downloads/firefox/firefox
+cat -A /Downloads/firefox/glxtest
+cat -A /Downloads/firefox/gmp-clearkey
+cat -A /Downloads/forrest-sense-of-self-1.pdf
+cat -A /Downloads/forrest-sense-of-self.pdf
+cat -A /Downloads/index.html
+cat -A /Downloads/main.py
+cat -A /Downloads/outfile.tga
+cat -A /Downloads/strace_r.txt
+cat -A /Downloads/testes/entrada1.txt
+cat -A /Music
+cat -A /Pictures/Images/fake
+cat -A /Pictures/Images/grade-bcc.png
+cat -A /Pictures/Screenshots/'Picture2(TheBoys).png'
+cat -A /Pictures/Screenshots/'Picture3(sorting&searching).png'
+cat -A /Pictures/Screenshots/'Picture4(strong-password).png'
+cat -A /Pictures/Screenshots/'Picture5(TheBoys).jpeg'
+cat -A /Pictures/Screenshots/'Screenshot from 2025-01-30 19-09-58.png'
+cat -A /Pictures/Screenshots/'Screenshot from 2025-02-01 15-40-57.png'
+cat -A /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png'
+cat -A /Pictures/Screenshots/'picture1(strong-password).png'
+cat -A /Pictures/Screenshots/Opção2.png
+cat -A /Pictures/Screenshots/Results..png
+cat -A /Pictures/Screenshots/Results.png
+cat -A /Pictures/Screenshots/Results_Attack1.png
+cat -A /Pictures/Screenshots/Results_IC.png
+cat -A /Pictures/Screenshots/fake
+cat -A /Public
+cat -A /Templates
+cat -A /Videos
+cat -A /fake
+cat -A /snap/firefox/3836
+cat -A /snap/firefox/common
+cat -A /snap/firefox/current
+cat -A /snap/snapd-desktop-integration/253
+cat -A /snap/snapd-desktop-integration/83
+cat -A /snap/snapd-desktop-integration/common
+cat -A /snap/snapd-desktop-integration/current
+cat -A /snap/spotify/82
+cat -A /snap/spotify/common
+cat -A /snap/spotify/current
+cat -E /Desktop
+cat -E /Documents/Computer-Science-Freshmen-at-UFPR/CI1055
+cat -E /Documents/Computer-Science-Freshmen-at-UFPR/CI1056
+cat -E /Documents/Computer-Science-Freshmen-at-UFPR/CI1068
+cat -E /Documents/Computer-Science-Freshmen-at-UFPR/CI1210
+cat -E /Documents/Computer-Science-Freshmen-at-UFPR/CM303
+cat -E /Documents/Computer-Science-Freshmen-at-UFPR/CM304
+cat -E /Documents/Computer-Science-Freshmen-at-UFPR/CM310
+cat -E /Documents/Computer-Science-Freshmen-at-UFPR/CM311
+cat -E /Documents/Computer-Science-Freshmen-at-UFPR/Images
+cat -E /Documents/Computer-Science-Freshmen-at-UFPR/README.md
+cat -E /Documents/Computer-Science-Freshmen-at-UFPR/fake
+cat -E /Documents/Rubiks05.github.io/Assets
+cat -E /Documents/Rubiks05.github.io/LICENSE
+cat -E /Documents/Rubiks05.github.io/Script.js
+cat -E /Documents/Rubiks05.github.io/fake
+cat -E /Documents/Rubiks05.github.io/index.html
+cat -E /Documents/Rubiks05.github.io/style.css
+cat -E /Documents/Scientific-Calculator/LICENSE
+cat -E /Documents/Scientific-Calculator/README.md
+cat -E /Documents/Scientific-Calculator/main.py
+cat -E /Documents/Scientific-Calculator/requirements.txt
+cat -E /Documents/Sorting-and-Searching-Algorithms/'Relatório de ALG2.pdf'
+cat -E /Documents/Sorting-and-Searching-Algorithms/Images
+cat -E /Documents/Sorting-and-Searching-Algorithms/Logs
+cat -E /Documents/Sorting-and-Searching-Algorithms/README.md
+cat -E /Documents/Sorting-and-Searching-Algorithms/docs
+cat -E /Documents/Sorting-and-Searching-Algorithms/tp
+cat -E /Documents/Strong-Password-Generator/CONTRIBUTING.md
+cat -E /Documents/Strong-Password-Generator/Generator.py
+cat -E /Documents/Strong-Password-Generator/Images
+cat -E /Documents/Strong-Password-Generator/Menu.txt
+cat -E /Documents/Strong-Password-Generator/README.md
+cat -E /Documents/Strong-Password-Generator/fake
+cat -E /Documents/Strong-Password-Generator/passwords.txt
+cat -E /Documents/The-Boys/Images
+cat -E /Documents/The-Boys/README.md
+cat -E /Documents/The-Boys/theboys.
+cat -E /Documents/circuitos/README.md
+cat -E /Documents/circuitos/imgs
+cat -E /Documents/circuitos/trabalho_semaforos.md
+cat -E /Downloads/Generator.py
+cat -E /Downloads/Generator2.py
+cat -E /Downloads/coord.o
+cat -E /Downloads/dark_room.png
+cat -E /Downloads/entrada.txt
+cat -E /Downloads/entrada2.txt
+cat -E /Downloads/firefox/defaults
+cat -E /Downloads/firefox/firefox
+cat -E /Downloads/firefox/firefox-bin
+cat -E /Downloads/firefox/firefox-bin.sig
+cat -E /Downloads/firefox/firefox.sig
+cat -E /Downloads/firefox/glxtest
+cat -E /Downloads/forrest-sense-of-self-1.pdf
+cat -E /Downloads/forrest-sense-of-self.pdf
+cat -E /Downloads/index.html
+cat -E /Downloads/main.py
+cat -E /Downloads/outfile.tga
+cat -E /Downloads/strace_r.txt
+cat -E /Downloads/testes/entrada1.txt
+cat -E /Music
+cat -E /Pictures/Images/fake
+cat -E /Pictures/Images/grade-bcc.png
+cat -E /Pictures/Screenshots/'Picture2(TheBoys).png'
+cat -E /Pictures/Screenshots/'Picture3(sorting&searching).png'
+cat -E /Pictures/Screenshots/'Picture4(strong-password).png'
+cat -E /Pictures/Screenshots/'Picture5(TheBoys).jpeg'
+cat -E /Pictures/Screenshots/'Screenshot from 2025-01-30 19-09-58.png'
+cat -E /Pictures/Screenshots/'Screenshot from 2025-02-01 15-40-57.png'
+cat -E /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png'
+cat -E /Pictures/Screenshots/Opção2.png
+cat -E /Pictures/Screenshots/Results..png
+cat -E /Pictures/Screenshots/Results.png
+cat -E /Pictures/Screenshots/Results_Attack1.png
+cat -E /Pictures/Screenshots/Results_IC.png
+cat -E /Pictures/Screenshots/fake
+cat -E /Public
+cat -E /Templates
+cat -E /Videos
+cat -E /fake
+cat -E /snap/firefox/3836
+cat -E /snap/firefox/common
+cat -E /snap/firefox/current
+cat -E /snap/snapd-desktop-integration/253
+cat -E /snap/snapd-desktop-integration/83
+cat -E /snap/snapd-desktop-integration/common
+cat -E /snap/snapd-desktop-integration/current
+cat -E /snap/spotify/82
+cat -E /snap/spotify/common
+cat -E /snap/spotify/current
+cat -T /Desktop
+cat -T /Documents/Computer-Science-Freshmen-at-UFPR/CI1055
+cat -T /Documents/Computer-Science-Freshmen-at-UFPR/CI1056
+cat -T /Documents/Computer-Science-Freshmen-at-UFPR/CI1068
+cat -T /Documents/Computer-Science-Freshmen-at-UFPR/CI1210
+cat -T /Documents/Computer-Science-Freshmen-at-UFPR/CM303
+cat -T /Documents/Computer-Science-Freshmen-at-UFPR/CM304
+cat -T /Documents/Computer-Science-Freshmen-at-UFPR/CM310
+cat -T /Documents/Computer-Science-Freshmen-at-UFPR/CM311
+cat -T /Documents/Computer-Science-Freshmen-at-UFPR/Images
+cat -T /Documents/Computer-Science-Freshmen-at-UFPR/README.md
+cat -T /Documents/Rubiks05.github.io/Assets
+cat -T /Documents/Rubiks05.github.io/LICENSE
+cat -T /Documents/Rubiks05.github.io/Script.js
+cat -T /Documents/Rubiks05.github.io/fake
+cat -T /Documents/Rubiks05.github.io/index.html
+cat -T /Documents/Rubiks05.github.io/style.css
+cat -T /Documents/Scientific-Calculator/LICENSE
+cat -T /Documents/Scientific-Calculator/README.md
+cat -T /Documents/Scientific-Calculator/main.py
+cat -T /Documents/Scientific-Calculator/requirements.txt
+cat -T /Documents/Sorting-and-Searching-Algorithms/'Relatório de ALG2.pdf'
+cat -T /Documents/Sorting-and-Searching-Algorithms/Images
+cat -T /Documents/Sorting-and-Searching-Algorithms/Logs
+cat -T /Documents/Sorting-and-Searching-Algorithms/README.md
+cat -T /Documents/Sorting-and-Searching-Algorithms/docs
+cat -T /Documents/Sorting-and-Searching-Algorithms/tp
+cat -T /Documents/Sorting-and-Searching-Algorithms/tp.c
+cat -T /Documents/Sorting-and-Searching-Algorithms/tp.c.txt
+cat -T /Documents/Strong-Password-Generator/CONTRIBUTING.md
+cat -T /Documents/Strong-Password-Generator/Comments.txt
+cat -T /Documents/Strong-Password-Generator/Generator.py
+cat -T /Documents/Strong-Password-Generator/Menu.txt
+cat -T /Documents/Strong-Password-Generator/README.md
+cat -T /Documents/Strong-Password-Generator/fake
+cat -T /Documents/Strong-Password-Generator/passwords.txt
+cat -T /Documents/The-Boys/Images
+cat -T /Documents/The-Boys/README.md
+cat -T /Documents/The-Boys/theboys.
+cat -T /Documents/circuitos/README.md
+cat -T /Documents/circuitos/imgs
+cat -T /Documents/circuitos/trabalho_semaforos.md
+cat -T /Downloads/Generator.py
+cat -T /Downloads/Generator2.py
+cat -T /Downloads/coord.o
+cat -T /Downloads/dark_room.png
+cat -T /Downloads/entrada.txt
+cat -T /Downloads/entrada2.txt
+cat -T /Downloads/firefox/application.ini
+cat -T /Downloads/firefox/crashreporter
+cat -T /Downloads/firefox/defaults
+cat -T /Downloads/firefox/firefox
+cat -T /Downloads/firefox/firefox-bin
+cat -T /Downloads/firefox/firefox.sig
+cat -T /Downloads/firefox/glxtest
+cat -T /Downloads/firefox/gmp-clearkey
+cat -T /Downloads/forrest-sense-of-self-1.pdf
+cat -T /Downloads/forrest-sense-of-self.pdf
+cat -T /Downloads/index.html
+cat -T /Downloads/main.py
+cat -T /Downloads/outfile.tga
+cat -T /Downloads/strace_r.txt
+cat -T /Downloads/testes/entrada1.txt
+cat -T /Music
+cat -T /Pictures/Images/fake
+cat -T /Pictures/Images/grade-bcc.png
+cat -T /Pictures/Screenshots/'Picture2(TheBoys).png'
+cat -T /Pictures/Screenshots/'Picture3(sorting&searching).png'
+cat -T /Pictures/Screenshots/'Picture5(TheBoys).jpeg'
+cat -T /Pictures/Screenshots/'Screenshot from 2025-01-30 19-09-58.png'
+cat -T /Pictures/Screenshots/'Screenshot from 2025-02-01 15-40-57.png'
+cat -T /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png'
+cat -T /Pictures/Screenshots/'picture1(strong-password).png'
+cat -T /Pictures/Screenshots/Opção2.png
+cat -T /Pictures/Screenshots/Results..png
+cat -T /Pictures/Screenshots/Results.png
+cat -T /Pictures/Screenshots/Results_Attack1.png
+cat -T /Pictures/Screenshots/Results_IC.png
+cat -T /Pictures/Screenshots/fake
+cat -T /Public
+cat -T /Templates
+cat -T /Videos
+cat -T /fake
+cat -T /snap/firefox/3836
+cat -T /snap/firefox/common
+cat -T /snap/firefox/current
+cat -T /snap/snapd-desktop-integration/253
+cat -T /snap/snapd-desktop-integration/83
+cat -T /snap/snapd-desktop-integration/common
+cat -T /snap/snapd-desktop-integration/current
+cat -T /snap/spotify/82
+cat -T /snap/spotify/common
+cat -T /snap/spotify/current
+cat -b /Desktop
+cat -b /Documents/Computer-Science-Freshmen-at-UFPR/CI1055
+cat -b /Documents/Computer-Science-Freshmen-at-UFPR/CI1056
+cat -b /Documents/Computer-Science-Freshmen-at-UFPR/CI1068
+cat -b /Documents/Computer-Science-Freshmen-at-UFPR/CI1210
+cat -b /Documents/Computer-Science-Freshmen-at-UFPR/CM303
+cat -b /Documents/Computer-Science-Freshmen-at-UFPR/CM310
+cat -b /Documents/Computer-Science-Freshmen-at-UFPR/CM311
+cat -b /Documents/Computer-Science-Freshmen-at-UFPR/Images
+cat -b /Documents/Computer-Science-Freshmen-at-UFPR/README.md
+cat -b /Documents/Computer-Science-Freshmen-at-UFPR/fake
+cat -b /Documents/Rubiks05.github.io/Assets
+cat -b /Documents/Rubiks05.github.io/LICENSE
+cat -b /Documents/Rubiks05.github.io/Script.js
+cat -b /Documents/Rubiks05.github.io/fake
+cat -b /Documents/Rubiks05.github.io/index.html
+cat -b /Documents/Rubiks05.github.io/style.css
+cat -b /Documents/Scientific-Calculator/LICENSE
+cat -b /Documents/Scientific-Calculator/README.md
+cat -b /Documents/Scientific-Calculator/main.py
+cat -b /Documents/Scientific-Calculator/requirements.txt
+cat -b /Documents/Sorting-and-Searching-Algorithms/'Relatório de ALG2.pdf'
+cat -b /Documents/Sorting-and-Searching-Algorithms/Images
+cat -b /Documents/Sorting-and-Searching-Algorithms/README.md
+cat -b /Documents/Sorting-and-Searching-Algorithms/tp
+cat -b /Documents/Sorting-and-Searching-Algorithms/tp.c
+cat -b /Documents/Sorting-and-Searching-Algorithms/tp.c.txt
+cat -b /Documents/Strong-Password-Generator/CONTRIBUTING.md
+cat -b /Documents/Strong-Password-Generator/Comments.txt
+cat -b /Documents/Strong-Password-Generator/Generator.py
+cat -b /Documents/Strong-Password-Generator/Images
+cat -b /Documents/Strong-Password-Generator/Menu.txt
+cat -b /Documents/Strong-Password-Generator/README.md
+cat -b /Documents/Strong-Password-Generator/passwords.txt
+cat -b /Documents/The-Boys/Images
+cat -b /Documents/The-Boys/README.md
+cat -b /Documents/The-Boys/theboys.
+cat -b /Documents/circuitos/README.md
+cat -b /Documents/circuitos/imgs
+cat -b /Documents/circuitos/trabalho_semaforos.md
+cat -b /Downloads/Generator.py
+cat -b /Downloads/Generator2.py
+cat -b /Downloads/coord.o
+cat -b /Downloads/dark_room.png
+cat -b /Downloads/entrada.txt
+cat -b /Downloads/entrada2.txt
+cat -b /Downloads/firefox/application.ini
+cat -b /Downloads/firefox/crashreporter
+cat -b /Downloads/firefox/defaults
+cat -b /Downloads/firefox/firefox-bin
+cat -b /Downloads/firefox/firefox-bin.sig
+cat -b /Downloads/firefox/fonts
+cat -b /Downloads/firefox/glxtest
+cat -b /Downloads/forrest-sense-of-self-1.pdf
+cat -b /Downloads/forrest-sense-of-self.pdf
+cat -b /Downloads/index.html
+cat -b /Downloads/main.py
+cat -b /Downloads/outfile.tga
+cat -b /Downloads/strace_r.txt
+cat -b /Downloads/testes/entrada1.txt
+cat -b /Music
+cat -b /Pictures/Images/fake
+cat -b /Pictures/Images/grade-bcc.png
+cat -b /Pictures/Screenshots/'Picture2(TheBoys).png'
+cat -b /Pictures/Screenshots/'Picture3(sorting&searching).png'
+cat -b /Pictures/Screenshots/'Picture4(strong-password).png'
+cat -b /Pictures/Screenshots/'Picture5(TheBoys).jpeg'
+cat -b /Pictures/Screenshots/'Screenshot from 2025-02-01 15-40-57.png'
+cat -b /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png'
+cat -b /Pictures/Screenshots/'picture1(strong-password).png'
+cat -b /Pictures/Screenshots/Opção2.png
+cat -b /Pictures/Screenshots/Results..png
+cat -b /Pictures/Screenshots/Results.png
+cat -b /Pictures/Screenshots/Results_Attack1.png
+cat -b /Pictures/Screenshots/Results_IC.png
+cat -b /Pictures/Screenshots/fake
+cat -b /Public
+cat -b /Templates
+cat -b /Videos
+cat -b /fake
+cat -b /snap/firefox/3836
+cat -b /snap/firefox/common
+cat -b /snap/firefox/current
+cat -b /snap/snapd-desktop-integration/253
+cat -b /snap/snapd-desktop-integration/83
+cat -b /snap/snapd-desktop-integration/common
+cat -b /snap/snapd-desktop-integration/current
+cat -b /snap/spotify/82
+cat -b /snap/spotify/common
+cat -b /snap/spotify/current
+cat -e /Desktop
+cat -e /Documents/Computer-Science-Freshmen-at-UFPR/CI1055
+cat -e /Documents/Computer-Science-Freshmen-at-UFPR/CI1056
+cat -e /Documents/Computer-Science-Freshmen-at-UFPR/CM303
+cat -e /Documents/Computer-Science-Freshmen-at-UFPR/CM311
+cat -e /Documents/Computer-Science-Freshmen-at-UFPR/Images
+cat -e /Documents/Computer-Science-Freshmen-at-UFPR/README.md
+cat -e /Documents/Computer-Science-Freshmen-at-UFPR/fake
+cat -e /Documents/Rubiks05.github.io/Assets
+cat -e /Documents/Rubiks05.github.io/LICENSE
+cat -e /Documents/Rubiks05.github.io/Script.js
+cat -e /Documents/Rubiks05.github.io/fake
+cat -e /Documents/Rubiks05.github.io/index.html
+cat -e /Documents/Rubiks05.github.io/style.css
+cat -e /Documents/Scientific-Calculator/README.md
+cat -e /Documents/Scientific-Calculator/main.py
+cat -e /Documents/Scientific-Calculator/requirements.txt
+cat -e /Documents/Sorting-and-Searching-Algorithms/'Relatório de ALG2.pdf'
+cat -e /Documents/Sorting-and-Searching-Algorithms/Logs
+cat -e /Documents/Sorting-and-Searching-Algorithms/README.md
+cat -e /Documents/Sorting-and-Searching-Algorithms/docs
+cat -e /Documents/Sorting-and-Searching-Algorithms/tp
+cat -e /Documents/Sorting-and-Searching-Algorithms/tp.c
+cat -e /Documents/Sorting-and-Searching-Algorithms/tp.c.txt
+cat -e /Documents/Strong-Password-Generator/CONTRIBUTING.md
+cat -e /Documents/Strong-Password-Generator/Comments.txt
+cat -e /Documents/Strong-Password-Generator/Generator.py
+cat -e /Documents/Strong-Password-Generator/Images
+cat -e /Documents/Strong-Password-Generator/Menu.txt
+cat -e /Documents/Strong-Password-Generator/fake
+cat -e /Documents/Strong-Password-Generator/passwords.txt
+cat -e /Documents/The-Boys/Images
+cat -e /Documents/The-Boys/README.md
+cat -e /Documents/The-Boys/theboys.
+cat -e /Documents/circuitos/README.md
+cat -e /Documents/circuitos/imgs
+cat -e /Documents/circuitos/trabalho_semaforos.md
+cat -e /Downloads/Generator.py
+cat -e /Downloads/Generator2.py
+cat -e /Downloads/coord.o
+cat -e /Downloads/dark_room.png
+cat -e /Downloads/entrada.txt
+cat -e /Downloads/entrada2.txt
+cat -e /Downloads/firefox/application.ini
+cat -e /Downloads/firefox/browser
+cat -e /Downloads/firefox/firefox
+cat -e /Downloads/firefox/firefox-bin
+cat -e /Downloads/firefox/firefox-bin.sig
+cat -e /Downloads/firefox/gmp-clearkey
+cat -e /Downloads/forrest-sense-of-self-1.pdf
+cat -e /Downloads/forrest-sense-of-self.pdf
+cat -e /Downloads/index.html
+cat -e /Downloads/main.py
+cat -e /Downloads/outfile.tga
+cat -e /Downloads/strace_r.txt
+cat -e /Downloads/testes/entrada1.txt
+cat -e /Music
+cat -e /Pictures/Images/fake
+cat -e /Pictures/Images/grade-bcc.png
+cat -e /Pictures/Screenshots/'Picture2(TheBoys).png'
+cat -e /Pictures/Screenshots/'Picture3(sorting&searching).png'
+cat -e /Pictures/Screenshots/'Picture4(strong-password).png'
+cat -e /Pictures/Screenshots/'Picture5(TheBoys).jpeg'
+cat -e /Pictures/Screenshots/'Screenshot from 2025-01-30 19-09-58.png'
+cat -e /Pictures/Screenshots/'Screenshot from 2025-02-01 15-40-57.png'
+cat -e /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png'
+cat -e /Pictures/Screenshots/'picture1(strong-password).png'
+cat -e /Pictures/Screenshots/Opção2.png
+cat -e /Pictures/Screenshots/Results..png
+cat -e /Pictures/Screenshots/Results.png
+cat -e /Pictures/Screenshots/Results_Attack1.png
+cat -e /Pictures/Screenshots/Results_IC.png
+cat -e /Pictures/Screenshots/fake
+cat -e /Public
+cat -e /Templates
+cat -e /Videos
+cat -e /fake
+cat -e /snap/firefox/3836
+cat -e /snap/firefox/common
+cat -e /snap/firefox/current
+cat -e /snap/snapd-desktop-integration/253
+cat -e /snap/snapd-desktop-integration/83
+cat -e /snap/snapd-desktop-integration/common
+cat -e /snap/snapd-desktop-integration/current
+cat -e /snap/spotify/82
+cat -e /snap/spotify/common
+cat -e /snap/spotify/current
+cat -n /Desktop
+cat -n /Documents/Computer-Science-Freshmen-at-UFPR/CI1055
+cat -n /Documents/Computer-Science-Freshmen-at-UFPR/CI1056
+cat -n /Documents/Computer-Science-Freshmen-at-UFPR/CI1068
+cat -n /Documents/Computer-Science-Freshmen-at-UFPR/CI1210
+cat -n /Documents/Computer-Science-Freshmen-at-UFPR/CM304
+cat -n /Documents/Computer-Science-Freshmen-at-UFPR/CM310
+cat -n /Documents/Computer-Science-Freshmen-at-UFPR/Images
+cat -n /Documents/Computer-Science-Freshmen-at-UFPR/fake
+cat -n /Documents/Rubiks05.github.io/Assets
+cat -n /Documents/Rubiks05.github.io/LICENSE
+cat -n /Documents/Rubiks05.github.io/Script.js
+cat -n /Documents/Rubiks05.github.io/fake
+cat -n /Documents/Rubiks05.github.io/index.html
+cat -n /Documents/Rubiks05.github.io/style.css
+cat -n /Documents/Scientific-Calculator/README.md
+cat -n /Documents/Scientific-Calculator/main.py
+cat -n /Documents/Scientific-Calculator/requirements.txt
+cat -n /Documents/Sorting-and-Searching-Algorithms/'Relatório de ALG2.pdf'
+cat -n /Documents/Sorting-and-Searching-Algorithms/Images
+cat -n /Documents/Sorting-and-Searching-Algorithms/docs
+cat -n /Documents/Sorting-and-Searching-Algorithms/tp
+cat -n /Documents/Sorting-and-Searching-Algorithms/tp.c
+cat -n /Documents/Strong-Password-Generator/CONTRIBUTING.md
+cat -n /Documents/Strong-Password-Generator/Comments.txt
+cat -n /Documents/Strong-Password-Generator/Images
+cat -n /Documents/Strong-Password-Generator/README.md
+cat -n /Documents/Strong-Password-Generator/passwords.txt
+cat -n /Documents/The-Boys/Images
+cat -n /Documents/The-Boys/README.md
+cat -n /Documents/The-Boys/theboys.
+cat -n /Documents/circuitos/README.md
+cat -n /Documents/circuitos/imgs
+cat -n /Documents/circuitos/trabalho_semaforos.md
+cat -n /Downloads/Generator.py
+cat -n /Downloads/Generator2.py
+cat -n /Downloads/coord.o
+cat -n /Downloads/dark_room.png
+cat -n /Downloads/entrada.txt
+cat -n /Downloads/entrada2.txt
+cat -n /Downloads/firefox/application.ini
+cat -n /Downloads/firefox/defaults
+cat -n /Downloads/firefox/dependentlibs.list
+cat -n /Downloads/firefox/firefox-bin.sig
+cat -n /Downloads/firefox/glxtest
+cat -n /Downloads/forrest-sense-of-self-1.pdf
+cat -n /Downloads/forrest-sense-of-self.pdf
+cat -n /Downloads/index.html
+cat -n /Downloads/main.py
+cat -n /Downloads/outfile.tga
+cat -n /Downloads/strace_r.txt
+cat -n /Downloads/testes/entrada1.txt
+cat -n /Music
+cat -n /Pictures/Images/fake
+cat -n /Pictures/Images/grade-bcc.png
+cat -n /Pictures/Screenshots/'Picture2(TheBoys).png'
+cat -n /Pictures/Screenshots/'Picture3(sorting&searching).png'
+cat -n /Pictures/Screenshots/'Picture4(strong-password).png'
+cat -n /Pictures/Screenshots/'Picture5(TheBoys).jpeg'
+cat -n /Pictures/Screenshots/'Screenshot from 2025-01-30 19-09-58.png'
+cat -n /Pictures/Screenshots/'Screenshot from 2025-02-01 15-40-57.png'
+cat -n /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png'
+cat -n /Pictures/Screenshots/'picture1(strong-password).png'
+cat -n /Pictures/Screenshots/Opção2.png
+cat -n /Pictures/Screenshots/Results..png
+cat -n /Pictures/Screenshots/Results.png
+cat -n /Pictures/Screenshots/Results_Attack1.png
+cat -n /Pictures/Screenshots/Results_IC.png
+cat -n /Pictures/Screenshots/fake
+cat -n /Public
+cat -n /Templates
+cat -n /Videos
+cat -n /fake
+cat -n /snap/firefox/3836
+cat -n /snap/firefox/common
+cat -n /snap/firefox/current
+cat -n /snap/snapd-desktop-integration/253
+cat -n /snap/snapd-desktop-integration/83
+cat -n /snap/snapd-desktop-integration/common
+cat -n /snap/snapd-desktop-integration/current
+cat -n /snap/spotify/82
+cat -n /snap/spotify/common
+cat -n /snap/spotify/current
+cat -s /Desktop
+cat -s /Documents/Computer-Science-Freshmen-at-UFPR/CI1056
+cat -s /Documents/Computer-Science-Freshmen-at-UFPR/CM303
+cat -s /Documents/Computer-Science-Freshmen-at-UFPR/CM304
+cat -s /Documents/Computer-Science-Freshmen-at-UFPR/CM311
+cat -s /Documents/Computer-Science-Freshmen-at-UFPR/fake
+cat -s /Documents/Rubiks05.github.io/Assets
+cat -s /Documents/Rubiks05.github.io/LICENSE
+cat -s /Documents/Rubiks05.github.io/Script.js
+cat -s /Documents/Rubiks05.github.io/fake
+cat -s /Documents/Rubiks05.github.io/index.html
+cat -s /Documents/Rubiks05.github.io/style.css
+cat -s /Documents/Scientific-Calculator/LICENSE
+cat -s /Documents/Scientific-Calculator/README.md
+cat -s /Documents/Scientific-Calculator/requirements.txt
+cat -s /Documents/Sorting-and-Searching-Algorithms/'Relatório de ALG2.pdf'
+cat -s /Documents/Sorting-and-Searching-Algorithms/Images
+cat -s /Documents/Sorting-and-Searching-Algorithms/Logs
+cat -s /Documents/Sorting-and-Searching-Algorithms/README.md
+cat -s /Documents/Sorting-and-Searching-Algorithms/docs
+cat -s /Documents/Sorting-and-Searching-Algorithms/tp
+cat -s /Documents/Sorting-and-Searching-Algorithms/tp.c
+cat -s /Documents/Sorting-and-Searching-Algorithms/tp.c.txt
+cat -s /Documents/Strong-Password-Generator/CONTRIBUTING.md
+cat -s /Documents/Strong-Password-Generator/Comments.txt
+cat -s /Documents/Strong-Password-Generator/Generator.py
+cat -s /Documents/Strong-Password-Generator/Images
+cat -s /Documents/Strong-Password-Generator/README.md
+cat -s /Documents/Strong-Password-Generator/fake
+cat -s /Documents/Strong-Password-Generator/passwords.txt
+cat -s /Documents/The-Boys/Images
+cat -s /Documents/The-Boys/README.md
+cat -s /Documents/The-Boys/theboys.
+cat -s /Documents/circuitos/README.md
+cat -s /Documents/circuitos/imgs
+cat -s /Documents/circuitos/trabalho_semaforos.md
+cat -s /Downloads/Generator.py
+cat -s /Downloads/Generator2.py
+cat -s /Downloads/coord.o
+cat -s /Downloads/dark_room.png
+cat -s /Downloads/entrada.txt
+cat -s /Downloads/entrada2.txt
+cat -s /Downloads/firefox/browser
+cat -s /Downloads/firefox/crashreporter
+cat -s /Downloads/firefox/defaults
+cat -s /Downloads/firefox/firefox-bin
+cat -s /Downloads/firefox/firefox-bin.sig
+cat -s /Downloads/firefox/fonts
+cat -s /Downloads/forrest-sense-of-self-1.pdf
+cat -s /Downloads/forrest-sense-of-self.pdf
+cat -s /Downloads/index.html
+cat -s /Downloads/main.py
+cat -s /Downloads/outfile.tga
+cat -s /Downloads/strace_r.txt
+cat -s /Downloads/testes/entrada1.txt
+cat -s /Music
+cat -s /Pictures/Images/fake
+cat -s /Pictures/Images/grade-bcc.png
+cat -s /Pictures/Screenshots/'Picture2(TheBoys).png'
+cat -s /Pictures/Screenshots/'Picture3(sorting&searching).png'
+cat -s /Pictures/Screenshots/'Picture4(strong-password).png'
+cat -s /Pictures/Screenshots/'Picture5(TheBoys).jpeg'
+cat -s /Pictures/Screenshots/'Screenshot from 2025-01-30 19-09-58.png'
+cat -s /Pictures/Screenshots/'Screenshot from 2025-02-01 15-40-57.png'
+cat -s /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png'
+cat -s /Pictures/Screenshots/'picture1(strong-password).png'
+cat -s /Pictures/Screenshots/Opção2.png
+cat -s /Pictures/Screenshots/Results..png
+cat -s /Pictures/Screenshots/Results.png
+cat -s /Pictures/Screenshots/Results_Attack1.png
+cat -s /Pictures/Screenshots/Results_IC.png
+cat -s /Pictures/Screenshots/fake
+cat -s /Public
+cat -s /Templates
+cat -s /Videos
+cat -s /fake
+cat -s /snap/firefox/3836
+cat -s /snap/firefox/common
+cat -s /snap/firefox/current
+cat -s /snap/snapd-desktop-integration/253
+cat -s /snap/snapd-desktop-integration/83
+cat -s /snap/snapd-desktop-integration/common
+cat -s /snap/snapd-desktop-integration/current
+cat -s /snap/spotify/82
+cat -s /snap/spotify/common
+cat -s /snap/spotify/current
+cat -v /Desktop
+cat -v /Documents/Computer-Science-Freshmen-at-UFPR/CI1055
+cat -v /Documents/Computer-Science-Freshmen-at-UFPR/CI1068
+cat -v /Documents/Computer-Science-Freshmen-at-UFPR/CI1210
+cat -v /Documents/Computer-Science-Freshmen-at-UFPR/CM303
+cat -v /Documents/Computer-Science-Freshmen-at-UFPR/CM304
+cat -v /Documents/Computer-Science-Freshmen-at-UFPR/CM310
+cat -v /Documents/Computer-Science-Freshmen-at-UFPR/CM311
+cat -v /Documents/Computer-Science-Freshmen-at-UFPR/Images
+cat -v /Documents/Computer-Science-Freshmen-at-UFPR/README.md
+cat -v /Documents/Computer-Science-Freshmen-at-UFPR/fake
+cat -v /Documents/Rubiks05.github.io/Assets
+cat -v /Documents/Rubiks05.github.io/fake
+cat -v /Documents/Rubiks05.github.io/index.html
+cat -v /Documents/Rubiks05.github.io/style.css
+cat -v /Documents/Scientific-Calculator/LICENSE
+cat -v /Documents/Scientific-Calculator/README.md
+cat -v /Documents/Scientific-Calculator/main.py
+cat -v /Documents/Scientific-Calculator/requirements.txt
+cat -v /Documents/Sorting-and-Searching-Algorithms/'Relatório de ALG2.pdf'
+cat -v /Documents/Sorting-and-Searching-Algorithms/Images
+cat -v /Documents/Sorting-and-Searching-Algorithms/README.md
+cat -v /Documents/Sorting-and-Searching-Algorithms/docs
+cat -v /Documents/Sorting-and-Searching-Algorithms/tp
+cat -v /Documents/Sorting-and-Searching-Algorithms/tp.c
+cat -v /Documents/Sorting-and-Searching-Algorithms/tp.c.txt
+cat -v /Documents/Strong-Password-Generator/CONTRIBUTING.md
+cat -v /Documents/Strong-Password-Generator/Comments.txt
+cat -v /Documents/Strong-Password-Generator/Generator.py
+cat -v /Documents/Strong-Password-Generator/Images
+cat -v /Documents/Strong-Password-Generator/Menu.txt
+cat -v /Documents/Strong-Password-Generator/fake
+cat -v /Documents/The-Boys/Images
+cat -v /Documents/The-Boys/README.md
+cat -v /Documents/The-Boys/theboys.
+cat -v /Documents/circuitos/README.md
+cat -v /Documents/circuitos/imgs
+cat -v /Documents/circuitos/trabalho_semaforos.md
+cat -v /Downloads/Generator.py
+cat -v /Downloads/Generator2.py
+cat -v /Downloads/coord.o
+cat -v /Downloads/dark_room.png
+cat -v /Downloads/entrada.txt
+cat -v /Downloads/entrada2.txt
+cat -v /Downloads/firefox/application.ini
+cat -v /Downloads/firefox/firefox-bin
+cat -v /Downloads/firefox/firefox.sig
+cat -v /Downloads/firefox/fonts
+cat -v /Downloads/forrest-sense-of-self-1.pdf
+cat -v /Downloads/forrest-sense-of-self.pdf
+cat -v /Downloads/index.html
+cat -v /Downloads/main.py
+cat -v /Downloads/outfile.tga
+cat -v /Downloads/strace_r.txt
+cat -v /Downloads/testes/entrada1.txt
+cat -v /Music
+cat -v /Pictures/Images/fake
+cat -v /Pictures/Images/grade-bcc.png
+cat -v /Pictures/Screenshots/'Picture2(TheBoys).png'
+cat -v /Pictures/Screenshots/'Picture3(sorting&searching).png'
+cat -v /Pictures/Screenshots/'Picture4(strong-password).png'
+cat -v /Pictures/Screenshots/'Picture5(TheBoys).jpeg'
+cat -v /Pictures/Screenshots/'Screenshot from 2025-01-30 19-09-58.png'
+cat -v /Pictures/Screenshots/'Screenshot from 2025-02-01 15-40-57.png'
+cat -v /Pictures/Screenshots/'Screenshot from 2025-02-01 17-03-32.png'
+cat -v /Pictures/Screenshots/'picture1(strong-password).png'
+cat -v /Pictures/Screenshots/Opção2.png
+cat -v /Pictures/Screenshots/Results..png
+cat -v /Pictures/Screenshots/Results.png
+cat -v /Pictures/Screenshots/Results_Attack1.png
+cat -v /Pictures/Screenshots/Results_IC.png
+cat -v /Pictures/Screenshots/fake
+cat -v /Public
+cat -v /Templates
+cat -v /Videos
+cat -v /fake
+cat -v /snap/firefox/3836
+cat -v /snap/firefox/common
+cat -v /snap/firefox/current
+cat -v /snap/snapd-desktop-integration/253
+cat -v /snap/snapd-desktop-integration/83
+cat -v /snap/snapd-desktop-integration/common
+cat -v /snap/snapd-desktop-integration/current
+cat -v /snap/spotify/82
+cat -v /snap/spotify/common
+cat -v /snap/spotify/current

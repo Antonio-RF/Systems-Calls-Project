@@ -1,0 +1,1689 @@
+grep  "a" /Desktop/
+grep  "a" /Desktop/teste.txt
+grep  "a" /Documents/
+grep  "a" /Documents/teste.txt
+grep  "a" /Downloads/
+grep  "a" /Downloads/teste.txt
+grep  "a" /Music/
+grep  "a" /Music/teste.txt
+grep  "a" /Pictures/
+grep  "a" /Pictures/teste.txt
+grep  "a" /Public/
+grep  "a" /Public/teste.txt
+grep  "a" /Templates/
+grep  "a" /Templates/teste.txt
+grep  "a" /Teste/
+grep  "a" /Teste/teste.txt
+grep  "a" /Videos/
+grep  "a" /Videos/teste.txt
+grep  "a" /fake/
+grep  "a" /fake/teste.txt
+grep  "a" /snap/
+grep  "a" /snap/teste.txt
+grep  "b" /Desktop/
+grep  "b" /Desktop/teste.txt
+grep  "b" /Documents/
+grep  "b" /Documents/teste.txt
+grep  "b" /Downloads/
+grep  "b" /Downloads/teste.txt
+grep  "b" /Music/
+grep  "b" /Music/teste.txt
+grep  "b" /Pictures/
+grep  "b" /Pictures/teste.txt
+grep  "b" /Public/
+grep  "b" /Public/teste.txt
+grep  "b" /Templates/
+grep  "b" /Templates/teste.txt
+grep  "b" /Teste/
+grep  "b" /Teste/teste.txt
+grep  "b" /Videos/
+grep  "b" /Videos/teste.txt
+grep  "b" /fake/
+grep  "b" /fake/teste.txt
+grep  "b" /snap/
+grep  "b" /snap/teste.txt
+grep  "c" /Desktop/
+grep  "c" /Desktop/teste.txt
+grep  "c" /Documents/
+grep  "c" /Documents/teste.txt
+grep  "c" /Downloads/
+grep  "c" /Downloads/teste.txt
+grep  "c" /Music/
+grep  "c" /Music/teste.txt
+grep  "c" /Pictures/
+grep  "c" /Pictures/teste.txt
+grep  "c" /Public/
+grep  "c" /Public/teste.txt
+grep  "c" /Templates/
+grep  "c" /Templates/teste.txt
+grep  "c" /Teste/
+grep  "c" /Teste/teste.txt
+grep  "c" /Videos/
+grep  "c" /Videos/teste.txt
+grep  "c" /fake/
+grep  "c" /fake/teste.txt
+grep  "c" /snap/
+grep  "c" /snap/teste.txt
+grep  "d" /Desktop/
+grep  "d" /Desktop/teste.txt
+grep  "d" /Documents/
+grep  "d" /Documents/teste.txt
+grep  "d" /Downloads/
+grep  "d" /Downloads/teste.txt
+grep  "d" /Music/
+grep  "d" /Music/teste.txt
+grep  "d" /Pictures/
+grep  "d" /Pictures/teste.txt
+grep  "d" /Public/
+grep  "d" /Public/teste.txt
+grep  "d" /Templates/
+grep  "d" /Templates/teste.txt
+grep  "d" /Teste/
+grep  "d" /Teste/teste.txt
+grep  "d" /Videos/
+grep  "d" /Videos/teste.txt
+grep  "d" /fake/
+grep  "d" /fake/teste.txt
+grep  "d" /snap/
+grep  "d" /snap/teste.txt
+grep  "e" /Desktop/
+grep  "e" /Desktop/teste.txt
+grep  "e" /Documents/teste.txt
+grep  "e" /Downloads/
+grep  "e" /Downloads/teste.txt
+grep  "e" /Music/
+grep  "e" /Music/teste.txt
+grep  "e" /Pictures/
+grep  "e" /Pictures/teste.txt
+grep  "e" /Public/
+grep  "e" /Public/teste.txt
+grep  "e" /Templates/
+grep  "e" /Templates/teste.txt
+grep  "e" /Teste/
+grep  "e" /Teste/teste.txt
+grep  "e" /Videos/
+grep  "e" /Videos/teste.txt
+grep  "e" /fake/
+grep  "e" /fake/teste.txt
+grep  "e" /snap/
+grep  "e" /snap/teste.txt
+grep  "f" /Desktop/
+grep  "f" /Desktop/teste.txt
+grep  "f" /Documents/
+grep  "f" /Documents/teste.txt
+grep  "f" /Downloads/
+grep  "f" /Downloads/teste.txt
+grep  "f" /Music/
+grep  "f" /Music/teste.txt
+grep  "f" /Pictures/
+grep  "f" /Pictures/teste.txt
+grep  "f" /Public/
+grep  "f" /Public/teste.txt
+grep  "f" /Templates/
+grep  "f" /Templates/teste.txt
+grep  "f" /Teste/
+grep  "f" /Teste/teste.txt
+grep  "f" /Videos/
+grep  "f" /Videos/teste.txt
+grep  "f" /fake/
+grep  "f" /fake/teste.txt
+grep  "f" /snap/
+grep  "f" /snap/teste.txt
+grep  ' ' /Desktop/
+grep  ' ' /Desktop/teste.txt
+grep  ' ' /Documents/
+grep  ' ' /Documents/teste.txt
+grep  ' ' /Downloads/
+grep  ' ' /Downloads/teste.txt
+grep  ' ' /Music/
+grep  ' ' /Music/teste.txt
+grep  ' ' /Pictures/
+grep  ' ' /Pictures/teste.txt
+grep  ' ' /Public/
+grep  ' ' /Public/teste.txt
+grep  ' ' /Templates/
+grep  ' ' /Templates/teste.txt
+grep  ' ' /Teste/
+grep  ' ' /Teste/teste.txt
+grep  ' ' /Videos/
+grep  ' ' /Videos/teste.txt
+grep  ' ' /fake/
+grep  ' ' /fake/teste.txt
+grep  ' ' /snap/
+grep  ' ' /snap/teste.txt
+grep -A "a" /Desktop/
+grep -A "a" /Desktop/teste.txt
+grep -A "a" /Documents/
+grep -A "a" /Documents/teste.txt
+grep -A "a" /Downloads/
+grep -A "a" /Downloads/teste.txt
+grep -A "a" /Music/
+grep -A "a" /Music/teste.txt
+grep -A "a" /Pictures/
+grep -A "a" /Pictures/teste.txt
+grep -A "a" /Public/
+grep -A "a" /Public/teste.txt
+grep -A "a" /Templates/
+grep -A "a" /Templates/teste.txt
+grep -A "a" /Teste/
+grep -A "a" /Teste/teste.txt
+grep -A "a" /Videos/
+grep -A "a" /Videos/teste.txt
+grep -A "a" /fake/
+grep -A "a" /fake/teste.txt
+grep -A "a" /snap/
+grep -A "a" /snap/teste.txt
+grep -A "b" /Desktop/
+grep -A "b" /Desktop/teste.txt
+grep -A "b" /Documents/
+grep -A "b" /Documents/teste.txt
+grep -A "b" /Downloads/
+grep -A "b" /Downloads/teste.txt
+grep -A "b" /Music/
+grep -A "b" /Music/teste.txt
+grep -A "b" /Pictures/
+grep -A "b" /Pictures/teste.txt
+grep -A "b" /Public/
+grep -A "b" /Public/teste.txt
+grep -A "b" /Templates/
+grep -A "b" /Templates/teste.txt
+grep -A "b" /Teste/
+grep -A "b" /Teste/teste.txt
+grep -A "b" /Videos/
+grep -A "b" /Videos/teste.txt
+grep -A "b" /fake/
+grep -A "b" /fake/teste.txt
+grep -A "b" /snap/
+grep -A "b" /snap/teste.txt
+grep -A "c" /Desktop/
+grep -A "c" /Desktop/teste.txt
+grep -A "c" /Documents/
+grep -A "c" /Documents/teste.txt
+grep -A "c" /Downloads/
+grep -A "c" /Downloads/teste.txt
+grep -A "c" /Music/
+grep -A "c" /Music/teste.txt
+grep -A "c" /Pictures/
+grep -A "c" /Pictures/teste.txt
+grep -A "c" /Public/
+grep -A "c" /Public/teste.txt
+grep -A "c" /Templates/
+grep -A "c" /Templates/teste.txt
+grep -A "c" /Teste/
+grep -A "c" /Teste/teste.txt
+grep -A "c" /Videos/
+grep -A "c" /Videos/teste.txt
+grep -A "c" /fake/
+grep -A "c" /fake/teste.txt
+grep -A "c" /snap/
+grep -A "c" /snap/teste.txt
+grep -A "d" /Desktop/
+grep -A "d" /Desktop/teste.txt
+grep -A "d" /Documents/
+grep -A "d" /Documents/teste.txt
+grep -A "d" /Downloads/
+grep -A "d" /Downloads/teste.txt
+grep -A "d" /Music/
+grep -A "d" /Music/teste.txt
+grep -A "d" /Pictures/
+grep -A "d" /Pictures/teste.txt
+grep -A "d" /Public/
+grep -A "d" /Public/teste.txt
+grep -A "d" /Templates/
+grep -A "d" /Templates/teste.txt
+grep -A "d" /Teste/
+grep -A "d" /Teste/teste.txt
+grep -A "d" /Videos/
+grep -A "d" /Videos/teste.txt
+grep -A "d" /fake/
+grep -A "d" /fake/teste.txt
+grep -A "d" /snap/
+grep -A "d" /snap/teste.txt
+grep -A "e" /Desktop/
+grep -A "e" /Desktop/teste.txt
+grep -A "e" /Documents/
+grep -A "e" /Documents/teste.txt
+grep -A "e" /Downloads/
+grep -A "e" /Downloads/teste.txt
+grep -A "e" /Music/
+grep -A "e" /Music/teste.txt
+grep -A "e" /Pictures/
+grep -A "e" /Pictures/teste.txt
+grep -A "e" /Public/
+grep -A "e" /Public/teste.txt
+grep -A "e" /Templates/
+grep -A "e" /Templates/teste.txt
+grep -A "e" /Teste/
+grep -A "e" /Teste/teste.txt
+grep -A "e" /Videos/
+grep -A "e" /Videos/teste.txt
+grep -A "e" /fake/
+grep -A "e" /fake/teste.txt
+grep -A "e" /snap/
+grep -A "e" /snap/teste.txt
+grep -A "f" /Desktop/
+grep -A "f" /Desktop/teste.txt
+grep -A "f" /Documents/
+grep -A "f" /Documents/teste.txt
+grep -A "f" /Downloads/
+grep -A "f" /Downloads/teste.txt
+grep -A "f" /Music/
+grep -A "f" /Music/teste.txt
+grep -A "f" /Pictures/
+grep -A "f" /Pictures/teste.txt
+grep -A "f" /Public/
+grep -A "f" /Public/teste.txt
+grep -A "f" /Templates/
+grep -A "f" /Templates/teste.txt
+grep -A "f" /Teste/
+grep -A "f" /Teste/teste.txt
+grep -A "f" /Videos/
+grep -A "f" /Videos/teste.txt
+grep -A "f" /fake/
+grep -A "f" /fake/teste.txt
+grep -A "f" /snap/
+grep -A "f" /snap/teste.txt
+grep -A ' ' /Desktop/
+grep -A ' ' /Desktop/teste.txt
+grep -A ' ' /Documents/
+grep -A ' ' /Documents/teste.txt
+grep -A ' ' /Downloads/
+grep -A ' ' /Downloads/teste.txt
+grep -A ' ' /Music/
+grep -A ' ' /Music/teste.txt
+grep -A ' ' /Pictures/
+grep -A ' ' /Pictures/teste.txt
+grep -A ' ' /Public/
+grep -A ' ' /Public/teste.txt
+grep -A ' ' /Templates/
+grep -A ' ' /Templates/teste.txt
+grep -A ' ' /Teste/
+grep -A ' ' /Teste/teste.txt
+grep -A ' ' /Videos/
+grep -A ' ' /Videos/teste.txt
+grep -A ' ' /fake/
+grep -A ' ' /fake/teste.txt
+grep -A ' ' /snap/
+grep -A ' ' /snap/teste.txt
+grep -B "a" /Desktop/
+grep -B "a" /Desktop/teste.txt
+grep -B "a" /Documents/
+grep -B "a" /Documents/teste.txt
+grep -B "a" /Downloads/
+grep -B "a" /Downloads/teste.txt
+grep -B "a" /Music/
+grep -B "a" /Music/teste.txt
+grep -B "a" /Pictures/
+grep -B "a" /Pictures/teste.txt
+grep -B "a" /Public/
+grep -B "a" /Public/teste.txt
+grep -B "a" /Templates/
+grep -B "a" /Templates/teste.txt
+grep -B "a" /Teste/
+grep -B "a" /Teste/teste.txt
+grep -B "a" /Videos/
+grep -B "a" /Videos/teste.txt
+grep -B "a" /fake/
+grep -B "a" /fake/teste.txt
+grep -B "a" /snap/
+grep -B "a" /snap/teste.txt
+grep -B "b" /Desktop/
+grep -B "b" /Desktop/teste.txt
+grep -B "b" /Documents/
+grep -B "b" /Documents/teste.txt
+grep -B "b" /Downloads/
+grep -B "b" /Downloads/teste.txt
+grep -B "b" /Music/
+grep -B "b" /Music/teste.txt
+grep -B "b" /Pictures/
+grep -B "b" /Pictures/teste.txt
+grep -B "b" /Public/
+grep -B "b" /Public/teste.txt
+grep -B "b" /Templates/
+grep -B "b" /Templates/teste.txt
+grep -B "b" /Teste/
+grep -B "b" /Teste/teste.txt
+grep -B "b" /Videos/
+grep -B "b" /Videos/teste.txt
+grep -B "b" /fake/
+grep -B "b" /fake/teste.txt
+grep -B "b" /snap/
+grep -B "b" /snap/teste.txt
+grep -B "c" /Desktop/
+grep -B "c" /Desktop/teste.txt
+grep -B "c" /Documents/
+grep -B "c" /Documents/teste.txt
+grep -B "c" /Downloads/
+grep -B "c" /Downloads/teste.txt
+grep -B "c" /Music/
+grep -B "c" /Music/teste.txt
+grep -B "c" /Pictures/
+grep -B "c" /Pictures/teste.txt
+grep -B "c" /Public/
+grep -B "c" /Public/teste.txt
+grep -B "c" /Templates/
+grep -B "c" /Templates/teste.txt
+grep -B "c" /Teste/
+grep -B "c" /Teste/teste.txt
+grep -B "c" /Videos/
+grep -B "c" /Videos/teste.txt
+grep -B "c" /fake/
+grep -B "c" /fake/teste.txt
+grep -B "c" /snap/
+grep -B "c" /snap/teste.txt
+grep -B "d" /Desktop/
+grep -B "d" /Desktop/teste.txt
+grep -B "d" /Documents/
+grep -B "d" /Documents/teste.txt
+grep -B "d" /Downloads/
+grep -B "d" /Downloads/teste.txt
+grep -B "d" /Music/
+grep -B "d" /Music/teste.txt
+grep -B "d" /Pictures/
+grep -B "d" /Pictures/teste.txt
+grep -B "d" /Public/
+grep -B "d" /Public/teste.txt
+grep -B "d" /Templates/
+grep -B "d" /Templates/teste.txt
+grep -B "d" /Teste/
+grep -B "d" /Teste/teste.txt
+grep -B "d" /Videos/
+grep -B "d" /Videos/teste.txt
+grep -B "d" /fake/
+grep -B "d" /fake/teste.txt
+grep -B "d" /snap/
+grep -B "d" /snap/teste.txt
+grep -B "e" /Desktop/
+grep -B "e" /Desktop/teste.txt
+grep -B "e" /Documents/
+grep -B "e" /Documents/teste.txt
+grep -B "e" /Downloads/
+grep -B "e" /Downloads/teste.txt
+grep -B "e" /Music/
+grep -B "e" /Music/teste.txt
+grep -B "e" /Pictures/
+grep -B "e" /Pictures/teste.txt
+grep -B "e" /Public/
+grep -B "e" /Public/teste.txt
+grep -B "e" /Templates/
+grep -B "e" /Templates/teste.txt
+grep -B "e" /Teste/
+grep -B "e" /Teste/teste.txt
+grep -B "e" /Videos/
+grep -B "e" /Videos/teste.txt
+grep -B "e" /fake/
+grep -B "e" /fake/teste.txt
+grep -B "e" /snap/
+grep -B "e" /snap/teste.txt
+grep -B "f" /Desktop/
+grep -B "f" /Desktop/teste.txt
+grep -B "f" /Documents/
+grep -B "f" /Documents/teste.txt
+grep -B "f" /Downloads/
+grep -B "f" /Downloads/teste.txt
+grep -B "f" /Music/
+grep -B "f" /Music/teste.txt
+grep -B "f" /Pictures/
+grep -B "f" /Pictures/teste.txt
+grep -B "f" /Public/
+grep -B "f" /Public/teste.txt
+grep -B "f" /Templates/
+grep -B "f" /Templates/teste.txt
+grep -B "f" /Teste/
+grep -B "f" /Teste/teste.txt
+grep -B "f" /Videos/
+grep -B "f" /Videos/teste.txt
+grep -B "f" /fake/
+grep -B "f" /fake/teste.txt
+grep -B "f" /snap/
+grep -B "f" /snap/teste.txt
+grep -B ' ' /Desktop/
+grep -B ' ' /Desktop/teste.txt
+grep -B ' ' /Documents/
+grep -B ' ' /Documents/teste.txt
+grep -B ' ' /Downloads/
+grep -B ' ' /Downloads/teste.txt
+grep -B ' ' /Music/
+grep -B ' ' /Music/teste.txt
+grep -B ' ' /Pictures/
+grep -B ' ' /Pictures/teste.txt
+grep -B ' ' /Public/
+grep -B ' ' /Public/teste.txt
+grep -B ' ' /Templates/
+grep -B ' ' /Templates/teste.txt
+grep -B ' ' /Teste/
+grep -B ' ' /Teste/teste.txt
+grep -B ' ' /Videos/
+grep -B ' ' /Videos/teste.txt
+grep -B ' ' /fake/
+grep -B ' ' /fake/teste.txt
+grep -B ' ' /snap/
+grep -B ' ' /snap/teste.txt
+grep -C "a" /Desktop/
+grep -C "a" /Desktop/teste.txt
+grep -C "a" /Documents/
+grep -C "a" /Documents/teste.txt
+grep -C "a" /Downloads/
+grep -C "a" /Downloads/teste.txt
+grep -C "a" /Music/
+grep -C "a" /Music/teste.txt
+grep -C "a" /Pictures/
+grep -C "a" /Pictures/teste.txt
+grep -C "a" /Public/
+grep -C "a" /Public/teste.txt
+grep -C "a" /Templates/
+grep -C "a" /Templates/teste.txt
+grep -C "a" /Teste/
+grep -C "a" /Teste/teste.txt
+grep -C "a" /Videos/
+grep -C "a" /Videos/teste.txt
+grep -C "a" /fake/
+grep -C "a" /fake/teste.txt
+grep -C "a" /snap/
+grep -C "a" /snap/teste.txt
+grep -C "b" /Desktop/
+grep -C "b" /Desktop/teste.txt
+grep -C "b" /Documents/
+grep -C "b" /Documents/teste.txt
+grep -C "b" /Downloads/
+grep -C "b" /Downloads/teste.txt
+grep -C "b" /Music/
+grep -C "b" /Music/teste.txt
+grep -C "b" /Pictures/
+grep -C "b" /Pictures/teste.txt
+grep -C "b" /Public/
+grep -C "b" /Public/teste.txt
+grep -C "b" /Templates/
+grep -C "b" /Templates/teste.txt
+grep -C "b" /Teste/
+grep -C "b" /Teste/teste.txt
+grep -C "b" /Videos/
+grep -C "b" /Videos/teste.txt
+grep -C "b" /fake/
+grep -C "b" /fake/teste.txt
+grep -C "b" /snap/
+grep -C "b" /snap/teste.txt
+grep -C "c" /Desktop/
+grep -C "c" /Desktop/teste.txt
+grep -C "c" /Documents/
+grep -C "c" /Documents/teste.txt
+grep -C "c" /Downloads/
+grep -C "c" /Downloads/teste.txt
+grep -C "c" /Music/
+grep -C "c" /Music/teste.txt
+grep -C "c" /Pictures/
+grep -C "c" /Pictures/teste.txt
+grep -C "c" /Public/
+grep -C "c" /Public/teste.txt
+grep -C "c" /Templates/
+grep -C "c" /Templates/teste.txt
+grep -C "c" /Teste/
+grep -C "c" /Teste/teste.txt
+grep -C "c" /Videos/
+grep -C "c" /Videos/teste.txt
+grep -C "c" /fake/
+grep -C "c" /fake/teste.txt
+grep -C "c" /snap/
+grep -C "c" /snap/teste.txt
+grep -C "d" /Desktop/
+grep -C "d" /Desktop/teste.txt
+grep -C "d" /Documents/
+grep -C "d" /Documents/teste.txt
+grep -C "d" /Downloads/
+grep -C "d" /Downloads/teste.txt
+grep -C "d" /Music/
+grep -C "d" /Music/teste.txt
+grep -C "d" /Pictures/
+grep -C "d" /Pictures/teste.txt
+grep -C "d" /Public/
+grep -C "d" /Public/teste.txt
+grep -C "d" /Templates/
+grep -C "d" /Templates/teste.txt
+grep -C "d" /Teste/
+grep -C "d" /Teste/teste.txt
+grep -C "d" /Videos/
+grep -C "d" /Videos/teste.txt
+grep -C "d" /fake/
+grep -C "d" /fake/teste.txt
+grep -C "d" /snap/
+grep -C "d" /snap/teste.txt
+grep -C "e" /Desktop/
+grep -C "e" /Desktop/teste.txt
+grep -C "e" /Documents/
+grep -C "e" /Documents/teste.txt
+grep -C "e" /Downloads/
+grep -C "e" /Downloads/teste.txt
+grep -C "e" /Music/
+grep -C "e" /Music/teste.txt
+grep -C "e" /Pictures/
+grep -C "e" /Pictures/teste.txt
+grep -C "e" /Public/
+grep -C "e" /Public/teste.txt
+grep -C "e" /Templates/
+grep -C "e" /Templates/teste.txt
+grep -C "e" /Teste/
+grep -C "e" /Teste/teste.txt
+grep -C "e" /Videos/
+grep -C "e" /Videos/teste.txt
+grep -C "e" /fake/
+grep -C "e" /fake/teste.txt
+grep -C "e" /snap/
+grep -C "e" /snap/teste.txt
+grep -C "f" /Desktop/
+grep -C "f" /Desktop/teste.txt
+grep -C "f" /Documents/
+grep -C "f" /Documents/teste.txt
+grep -C "f" /Downloads/
+grep -C "f" /Downloads/teste.txt
+grep -C "f" /Music/
+grep -C "f" /Music/teste.txt
+grep -C "f" /Pictures/
+grep -C "f" /Pictures/teste.txt
+grep -C "f" /Public/
+grep -C "f" /Public/teste.txt
+grep -C "f" /Templates/
+grep -C "f" /Templates/teste.txt
+grep -C "f" /Teste/
+grep -C "f" /Teste/teste.txt
+grep -C "f" /Videos/
+grep -C "f" /Videos/teste.txt
+grep -C "f" /fake/
+grep -C "f" /fake/teste.txt
+grep -C "f" /snap/
+grep -C "f" /snap/teste.txt
+grep -C ' ' /Desktop/
+grep -C ' ' /Desktop/teste.txt
+grep -C ' ' /Documents/
+grep -C ' ' /Documents/teste.txt
+grep -C ' ' /Downloads/
+grep -C ' ' /Downloads/teste.txt
+grep -C ' ' /Music/
+grep -C ' ' /Music/teste.txt
+grep -C ' ' /Pictures/
+grep -C ' ' /Pictures/teste.txt
+grep -C ' ' /Public/
+grep -C ' ' /Public/teste.txt
+grep -C ' ' /Templates/
+grep -C ' ' /Templates/teste.txt
+grep -C ' ' /Teste/
+grep -C ' ' /Teste/teste.txt
+grep -C ' ' /Videos/
+grep -C ' ' /Videos/teste.txt
+grep -C ' ' /fake/
+grep -C ' ' /fake/teste.txt
+grep -C ' ' /snap/
+grep -C ' ' /snap/teste.txt
+grep -c "a" /Desktop/
+grep -c "a" /Desktop/teste.txt
+grep -c "a" /Documents/
+grep -c "a" /Documents/teste.txt
+grep -c "a" /Downloads/
+grep -c "a" /Downloads/teste.txt
+grep -c "a" /Music/
+grep -c "a" /Music/teste.txt
+grep -c "a" /Pictures/
+grep -c "a" /Pictures/teste.txt
+grep -c "a" /Public/
+grep -c "a" /Public/teste.txt
+grep -c "a" /Templates/
+grep -c "a" /Templates/teste.txt
+grep -c "a" /Teste/
+grep -c "a" /Teste/teste.txt
+grep -c "a" /Videos/
+grep -c "a" /Videos/teste.txt
+grep -c "a" /fake/
+grep -c "a" /fake/teste.txt
+grep -c "a" /snap/
+grep -c "a" /snap/teste.txt
+grep -c "b" /Desktop/
+grep -c "b" /Desktop/teste.txt
+grep -c "b" /Documents/
+grep -c "b" /Documents/teste.txt
+grep -c "b" /Downloads/
+grep -c "b" /Downloads/teste.txt
+grep -c "b" /Music/
+grep -c "b" /Music/teste.txt
+grep -c "b" /Pictures/
+grep -c "b" /Pictures/teste.txt
+grep -c "b" /Public/
+grep -c "b" /Public/teste.txt
+grep -c "b" /Templates/
+grep -c "b" /Templates/teste.txt
+grep -c "b" /Teste/
+grep -c "b" /Teste/teste.txt
+grep -c "b" /Videos/
+grep -c "b" /Videos/teste.txt
+grep -c "b" /fake/
+grep -c "b" /fake/teste.txt
+grep -c "b" /snap/
+grep -c "b" /snap/teste.txt
+grep -c "c" /Desktop/
+grep -c "c" /Desktop/teste.txt
+grep -c "c" /Documents/
+grep -c "c" /Documents/teste.txt
+grep -c "c" /Downloads/
+grep -c "c" /Downloads/teste.txt
+grep -c "c" /Music/
+grep -c "c" /Music/teste.txt
+grep -c "c" /Pictures/
+grep -c "c" /Pictures/teste.txt
+grep -c "c" /Public/
+grep -c "c" /Public/teste.txt
+grep -c "c" /Templates/
+grep -c "c" /Templates/teste.txt
+grep -c "c" /Teste/
+grep -c "c" /Teste/teste.txt
+grep -c "c" /Videos/
+grep -c "c" /Videos/teste.txt
+grep -c "c" /fake/
+grep -c "c" /fake/teste.txt
+grep -c "c" /snap/
+grep -c "c" /snap/teste.txt
+grep -c "d" /Desktop/
+grep -c "d" /Desktop/teste.txt
+grep -c "d" /Documents/
+grep -c "d" /Documents/teste.txt
+grep -c "d" /Downloads/
+grep -c "d" /Downloads/teste.txt
+grep -c "d" /Music/
+grep -c "d" /Music/teste.txt
+grep -c "d" /Pictures/
+grep -c "d" /Pictures/teste.txt
+grep -c "d" /Public/
+grep -c "d" /Public/teste.txt
+grep -c "d" /Templates/
+grep -c "d" /Templates/teste.txt
+grep -c "d" /Teste/
+grep -c "d" /Teste/teste.txt
+grep -c "d" /Videos/
+grep -c "d" /Videos/teste.txt
+grep -c "d" /fake/
+grep -c "d" /fake/teste.txt
+grep -c "d" /snap/
+grep -c "d" /snap/teste.txt
+grep -c "e" /Desktop/
+grep -c "e" /Desktop/teste.txt
+grep -c "e" /Documents/
+grep -c "e" /Documents/teste.txt
+grep -c "e" /Downloads/
+grep -c "e" /Downloads/teste.txt
+grep -c "e" /Music/
+grep -c "e" /Music/teste.txt
+grep -c "e" /Pictures/
+grep -c "e" /Pictures/teste.txt
+grep -c "e" /Public/
+grep -c "e" /Public/teste.txt
+grep -c "e" /Templates/
+grep -c "e" /Templates/teste.txt
+grep -c "e" /Teste/
+grep -c "e" /Teste/teste.txt
+grep -c "e" /Videos/
+grep -c "e" /Videos/teste.txt
+grep -c "e" /fake/
+grep -c "e" /fake/teste.txt
+grep -c "e" /snap/
+grep -c "e" /snap/teste.txt
+grep -c "f" /Desktop/
+grep -c "f" /Desktop/teste.txt
+grep -c "f" /Documents/
+grep -c "f" /Documents/teste.txt
+grep -c "f" /Downloads/
+grep -c "f" /Downloads/teste.txt
+grep -c "f" /Music/
+grep -c "f" /Music/teste.txt
+grep -c "f" /Pictures/
+grep -c "f" /Pictures/teste.txt
+grep -c "f" /Public/
+grep -c "f" /Public/teste.txt
+grep -c "f" /Templates/
+grep -c "f" /Templates/teste.txt
+grep -c "f" /Teste/
+grep -c "f" /Teste/teste.txt
+grep -c "f" /Videos/
+grep -c "f" /Videos/teste.txt
+grep -c "f" /fake/
+grep -c "f" /fake/teste.txt
+grep -c "f" /snap/
+grep -c "f" /snap/teste.txt
+grep -c ' ' /Desktop/
+grep -c ' ' /Desktop/teste.txt
+grep -c ' ' /Documents/
+grep -c ' ' /Documents/teste.txt
+grep -c ' ' /Downloads/
+grep -c ' ' /Downloads/teste.txt
+grep -c ' ' /Music/
+grep -c ' ' /Music/teste.txt
+grep -c ' ' /Pictures/
+grep -c ' ' /Pictures/teste.txt
+grep -c ' ' /Public/
+grep -c ' ' /Public/teste.txt
+grep -c ' ' /Templates/
+grep -c ' ' /Templates/teste.txt
+grep -c ' ' /Teste/
+grep -c ' ' /Teste/teste.txt
+grep -c ' ' /Videos/
+grep -c ' ' /Videos/teste.txt
+grep -c ' ' /fake/
+grep -c ' ' /fake/teste.txt
+grep -c ' ' /snap/
+grep -c ' ' /snap/teste.txt
+grep -i "a" /Desktop/
+grep -i "a" /Desktop/teste.txt
+grep -i "a" /Documents/
+grep -i "a" /Documents/teste.txt
+grep -i "a" /Downloads/
+grep -i "a" /Downloads/teste.txt
+grep -i "a" /Music/
+grep -i "a" /Music/teste.txt
+grep -i "a" /Pictures/
+grep -i "a" /Pictures/teste.txt
+grep -i "a" /Public/
+grep -i "a" /Public/teste.txt
+grep -i "a" /Templates/
+grep -i "a" /Templates/teste.txt
+grep -i "a" /Teste/
+grep -i "a" /Teste/teste.txt
+grep -i "a" /Videos/
+grep -i "a" /Videos/teste.txt
+grep -i "a" /fake/
+grep -i "a" /fake/teste.txt
+grep -i "a" /snap/
+grep -i "a" /snap/teste.txt
+grep -i "b" /Desktop/
+grep -i "b" /Desktop/teste.txt
+grep -i "b" /Documents/
+grep -i "b" /Documents/teste.txt
+grep -i "b" /Downloads/
+grep -i "b" /Downloads/teste.txt
+grep -i "b" /Music/
+grep -i "b" /Music/teste.txt
+grep -i "b" /Pictures/
+grep -i "b" /Pictures/teste.txt
+grep -i "b" /Public/
+grep -i "b" /Public/teste.txt
+grep -i "b" /Templates/
+grep -i "b" /Templates/teste.txt
+grep -i "b" /Teste/
+grep -i "b" /Teste/teste.txt
+grep -i "b" /Videos/
+grep -i "b" /Videos/teste.txt
+grep -i "b" /fake/
+grep -i "b" /fake/teste.txt
+grep -i "b" /snap/
+grep -i "b" /snap/teste.txt
+grep -i "c" /Desktop/
+grep -i "c" /Desktop/teste.txt
+grep -i "c" /Documents/
+grep -i "c" /Documents/teste.txt
+grep -i "c" /Downloads/
+grep -i "c" /Downloads/teste.txt
+grep -i "c" /Music/
+grep -i "c" /Music/teste.txt
+grep -i "c" /Pictures/
+grep -i "c" /Pictures/teste.txt
+grep -i "c" /Public/
+grep -i "c" /Public/teste.txt
+grep -i "c" /Templates/
+grep -i "c" /Templates/teste.txt
+grep -i "c" /Teste/
+grep -i "c" /Teste/teste.txt
+grep -i "c" /Videos/
+grep -i "c" /Videos/teste.txt
+grep -i "c" /fake/
+grep -i "c" /fake/teste.txt
+grep -i "c" /snap/
+grep -i "c" /snap/teste.txt
+grep -i "d" /Desktop/
+grep -i "d" /Desktop/teste.txt
+grep -i "d" /Documents/
+grep -i "d" /Documents/teste.txt
+grep -i "d" /Downloads/
+grep -i "d" /Downloads/teste.txt
+grep -i "d" /Music/
+grep -i "d" /Music/teste.txt
+grep -i "d" /Pictures/
+grep -i "d" /Pictures/teste.txt
+grep -i "d" /Public/
+grep -i "d" /Public/teste.txt
+grep -i "d" /Templates/
+grep -i "d" /Templates/teste.txt
+grep -i "d" /Teste/
+grep -i "d" /Teste/teste.txt
+grep -i "d" /Videos/
+grep -i "d" /Videos/teste.txt
+grep -i "d" /fake/
+grep -i "d" /fake/teste.txt
+grep -i "d" /snap/
+grep -i "d" /snap/teste.txt
+grep -i "e" /Desktop/
+grep -i "e" /Desktop/teste.txt
+grep -i "e" /Documents/
+grep -i "e" /Documents/teste.txt
+grep -i "e" /Downloads/
+grep -i "e" /Downloads/teste.txt
+grep -i "e" /Music/
+grep -i "e" /Music/teste.txt
+grep -i "e" /Pictures/
+grep -i "e" /Pictures/teste.txt
+grep -i "e" /Public/
+grep -i "e" /Public/teste.txt
+grep -i "e" /Templates/
+grep -i "e" /Templates/teste.txt
+grep -i "e" /Teste/
+grep -i "e" /Teste/teste.txt
+grep -i "e" /Videos/
+grep -i "e" /Videos/teste.txt
+grep -i "e" /fake/
+grep -i "e" /fake/teste.txt
+grep -i "e" /snap/
+grep -i "e" /snap/teste.txt
+grep -i "f" /Desktop/
+grep -i "f" /Desktop/teste.txt
+grep -i "f" /Documents/
+grep -i "f" /Documents/teste.txt
+grep -i "f" /Downloads/
+grep -i "f" /Downloads/teste.txt
+grep -i "f" /Music/
+grep -i "f" /Music/teste.txt
+grep -i "f" /Pictures/
+grep -i "f" /Pictures/teste.txt
+grep -i "f" /Public/
+grep -i "f" /Public/teste.txt
+grep -i "f" /Templates/
+grep -i "f" /Templates/teste.txt
+grep -i "f" /Teste/
+grep -i "f" /Teste/teste.txt
+grep -i "f" /Videos/
+grep -i "f" /Videos/teste.txt
+grep -i "f" /fake/
+grep -i "f" /fake/teste.txt
+grep -i "f" /snap/
+grep -i "f" /snap/teste.txt
+grep -i ' ' /Desktop/
+grep -i ' ' /Desktop/teste.txt
+grep -i ' ' /Documents/
+grep -i ' ' /Documents/teste.txt
+grep -i ' ' /Downloads/
+grep -i ' ' /Downloads/teste.txt
+grep -i ' ' /Music/
+grep -i ' ' /Music/teste.txt
+grep -i ' ' /Pictures/
+grep -i ' ' /Pictures/teste.txt
+grep -i ' ' /Public/
+grep -i ' ' /Public/teste.txt
+grep -i ' ' /Templates/
+grep -i ' ' /Templates/teste.txt
+grep -i ' ' /Teste/
+grep -i ' ' /Teste/teste.txt
+grep -i ' ' /Videos/
+grep -i ' ' /Videos/teste.txt
+grep -i ' ' /fake/
+grep -i ' ' /fake/teste.txt
+grep -i ' ' /snap/
+grep -i ' ' /snap/teste.txt
+grep -l "a" /Desktop/
+grep -l "a" /Desktop/teste.txt
+grep -l "a" /Documents/
+grep -l "a" /Documents/teste.txt
+grep -l "a" /Downloads/
+grep -l "a" /Downloads/teste.txt
+grep -l "a" /Music/
+grep -l "a" /Music/teste.txt
+grep -l "a" /Pictures/
+grep -l "a" /Pictures/teste.txt
+grep -l "a" /Public/
+grep -l "a" /Public/teste.txt
+grep -l "a" /Templates/
+grep -l "a" /Templates/teste.txt
+grep -l "a" /Teste/
+grep -l "a" /Teste/teste.txt
+grep -l "a" /Videos/
+grep -l "a" /Videos/teste.txt
+grep -l "a" /fake/
+grep -l "a" /fake/teste.txt
+grep -l "a" /snap/
+grep -l "a" /snap/teste.txt
+grep -l "b" /Desktop/
+grep -l "b" /Desktop/teste.txt
+grep -l "b" /Documents/
+grep -l "b" /Documents/teste.txt
+grep -l "b" /Downloads/
+grep -l "b" /Downloads/teste.txt
+grep -l "b" /Music/
+grep -l "b" /Music/teste.txt
+grep -l "b" /Pictures/
+grep -l "b" /Pictures/teste.txt
+grep -l "b" /Public/
+grep -l "b" /Public/teste.txt
+grep -l "b" /Templates/
+grep -l "b" /Templates/teste.txt
+grep -l "b" /Teste/
+grep -l "b" /Teste/teste.txt
+grep -l "b" /Videos/
+grep -l "b" /Videos/teste.txt
+grep -l "b" /fake/
+grep -l "b" /fake/teste.txt
+grep -l "b" /snap/
+grep -l "b" /snap/teste.txt
+grep -l "c" /Desktop/
+grep -l "c" /Desktop/teste.txt
+grep -l "c" /Documents/
+grep -l "c" /Documents/teste.txt
+grep -l "c" /Downloads/
+grep -l "c" /Downloads/teste.txt
+grep -l "c" /Music/
+grep -l "c" /Music/teste.txt
+grep -l "c" /Pictures/
+grep -l "c" /Pictures/teste.txt
+grep -l "c" /Public/
+grep -l "c" /Public/teste.txt
+grep -l "c" /Templates/
+grep -l "c" /Templates/teste.txt
+grep -l "c" /Teste/
+grep -l "c" /Teste/teste.txt
+grep -l "c" /Videos/
+grep -l "c" /Videos/teste.txt
+grep -l "c" /fake/
+grep -l "c" /fake/teste.txt
+grep -l "c" /snap/
+grep -l "c" /snap/teste.txt
+grep -l "d" /Desktop/
+grep -l "d" /Desktop/teste.txt
+grep -l "d" /Documents/
+grep -l "d" /Documents/teste.txt
+grep -l "d" /Downloads/
+grep -l "d" /Downloads/teste.txt
+grep -l "d" /Music/
+grep -l "d" /Music/teste.txt
+grep -l "d" /Pictures/
+grep -l "d" /Pictures/teste.txt
+grep -l "d" /Public/
+grep -l "d" /Public/teste.txt
+grep -l "d" /Templates/
+grep -l "d" /Templates/teste.txt
+grep -l "d" /Teste/
+grep -l "d" /Teste/teste.txt
+grep -l "d" /Videos/
+grep -l "d" /Videos/teste.txt
+grep -l "d" /fake/
+grep -l "d" /fake/teste.txt
+grep -l "d" /snap/
+grep -l "d" /snap/teste.txt
+grep -l "e" /Desktop/
+grep -l "e" /Desktop/teste.txt
+grep -l "e" /Documents/
+grep -l "e" /Documents/teste.txt
+grep -l "e" /Downloads/
+grep -l "e" /Downloads/teste.txt
+grep -l "e" /Music/
+grep -l "e" /Music/teste.txt
+grep -l "e" /Pictures/
+grep -l "e" /Pictures/teste.txt
+grep -l "e" /Public/
+grep -l "e" /Public/teste.txt
+grep -l "e" /Templates/
+grep -l "e" /Templates/teste.txt
+grep -l "e" /Teste/
+grep -l "e" /Teste/teste.txt
+grep -l "e" /Videos/
+grep -l "e" /Videos/teste.txt
+grep -l "e" /fake/
+grep -l "e" /fake/teste.txt
+grep -l "e" /snap/
+grep -l "e" /snap/teste.txt
+grep -l "f" /Desktop/
+grep -l "f" /Desktop/teste.txt
+grep -l "f" /Documents/
+grep -l "f" /Documents/teste.txt
+grep -l "f" /Downloads/
+grep -l "f" /Downloads/teste.txt
+grep -l "f" /Music/
+grep -l "f" /Music/teste.txt
+grep -l "f" /Pictures/
+grep -l "f" /Pictures/teste.txt
+grep -l "f" /Public/
+grep -l "f" /Public/teste.txt
+grep -l "f" /Templates/
+grep -l "f" /Templates/teste.txt
+grep -l "f" /Teste/
+grep -l "f" /Teste/teste.txt
+grep -l "f" /Videos/
+grep -l "f" /Videos/teste.txt
+grep -l "f" /fake/
+grep -l "f" /fake/teste.txt
+grep -l "f" /snap/
+grep -l "f" /snap/teste.txt
+grep -l ' ' /Desktop/
+grep -l ' ' /Desktop/teste.txt
+grep -l ' ' /Documents/
+grep -l ' ' /Documents/teste.txt
+grep -l ' ' /Downloads/
+grep -l ' ' /Downloads/teste.txt
+grep -l ' ' /Music/
+grep -l ' ' /Music/teste.txt
+grep -l ' ' /Pictures/
+grep -l ' ' /Pictures/teste.txt
+grep -l ' ' /Public/
+grep -l ' ' /Public/teste.txt
+grep -l ' ' /Templates/
+grep -l ' ' /Templates/teste.txt
+grep -l ' ' /Teste/
+grep -l ' ' /Teste/teste.txt
+grep -l ' ' /Videos/
+grep -l ' ' /Videos/teste.txt
+grep -l ' ' /fake/
+grep -l ' ' /fake/teste.txt
+grep -l ' ' /snap/
+grep -l ' ' /snap/teste.txt
+grep -n "a" /Desktop/
+grep -n "a" /Desktop/teste.txt
+grep -n "a" /Documents/
+grep -n "a" /Documents/teste.txt
+grep -n "a" /Downloads/
+grep -n "a" /Downloads/teste.txt
+grep -n "a" /Music/
+grep -n "a" /Music/teste.txt
+grep -n "a" /Pictures/
+grep -n "a" /Pictures/teste.txt
+grep -n "a" /Public/
+grep -n "a" /Public/teste.txt
+grep -n "a" /Templates/
+grep -n "a" /Templates/teste.txt
+grep -n "a" /Teste/
+grep -n "a" /Teste/teste.txt
+grep -n "a" /Videos/
+grep -n "a" /Videos/teste.txt
+grep -n "a" /fake/
+grep -n "a" /fake/teste.txt
+grep -n "a" /snap/
+grep -n "a" /snap/teste.txt
+grep -n "b" /Desktop/
+grep -n "b" /Desktop/teste.txt
+grep -n "b" /Documents/
+grep -n "b" /Documents/teste.txt
+grep -n "b" /Downloads/
+grep -n "b" /Downloads/teste.txt
+grep -n "b" /Music/
+grep -n "b" /Music/teste.txt
+grep -n "b" /Pictures/
+grep -n "b" /Public/
+grep -n "b" /Public/teste.txt
+grep -n "b" /Templates/
+grep -n "b" /Templates/teste.txt
+grep -n "b" /Teste/
+grep -n "b" /Teste/teste.txt
+grep -n "b" /Videos/
+grep -n "b" /Videos/teste.txt
+grep -n "b" /fake/
+grep -n "b" /fake/teste.txt
+grep -n "b" /snap/
+grep -n "b" /snap/teste.txt
+grep -n "c" /Desktop/
+grep -n "c" /Desktop/teste.txt
+grep -n "c" /Documents/
+grep -n "c" /Documents/teste.txt
+grep -n "c" /Downloads/
+grep -n "c" /Downloads/teste.txt
+grep -n "c" /Music/
+grep -n "c" /Music/teste.txt
+grep -n "c" /Pictures/
+grep -n "c" /Pictures/teste.txt
+grep -n "c" /Public/
+grep -n "c" /Public/teste.txt
+grep -n "c" /Templates/
+grep -n "c" /Templates/teste.txt
+grep -n "c" /Teste/
+grep -n "c" /Teste/teste.txt
+grep -n "c" /Videos/
+grep -n "c" /Videos/teste.txt
+grep -n "c" /fake/
+grep -n "c" /fake/teste.txt
+grep -n "c" /snap/
+grep -n "c" /snap/teste.txt
+grep -n "d" /Desktop/
+grep -n "d" /Desktop/teste.txt
+grep -n "d" /Documents/
+grep -n "d" /Documents/teste.txt
+grep -n "d" /Downloads/
+grep -n "d" /Downloads/teste.txt
+grep -n "d" /Music/
+grep -n "d" /Music/teste.txt
+grep -n "d" /Pictures/
+grep -n "d" /Pictures/teste.txt
+grep -n "d" /Public/
+grep -n "d" /Public/teste.txt
+grep -n "d" /Templates/
+grep -n "d" /Templates/teste.txt
+grep -n "d" /Teste/
+grep -n "d" /Teste/teste.txt
+grep -n "d" /Videos/
+grep -n "d" /Videos/teste.txt
+grep -n "d" /fake/
+grep -n "d" /fake/teste.txt
+grep -n "d" /snap/
+grep -n "d" /snap/teste.txt
+grep -n "e" /Desktop/
+grep -n "e" /Desktop/teste.txt
+grep -n "e" /Documents/
+grep -n "e" /Documents/teste.txt
+grep -n "e" /Downloads/
+grep -n "e" /Downloads/teste.txt
+grep -n "e" /Music/
+grep -n "e" /Music/teste.txt
+grep -n "e" /Pictures/
+grep -n "e" /Pictures/teste.txt
+grep -n "e" /Public/
+grep -n "e" /Public/teste.txt
+grep -n "e" /Templates/
+grep -n "e" /Templates/teste.txt
+grep -n "e" /Teste/
+grep -n "e" /Teste/teste.txt
+grep -n "e" /Videos/
+grep -n "e" /Videos/teste.txt
+grep -n "e" /fake/
+grep -n "e" /fake/teste.txt
+grep -n "e" /snap/
+grep -n "e" /snap/teste.txt
+grep -n "f" /Desktop/
+grep -n "f" /Desktop/teste.txt
+grep -n "f" /Documents/
+grep -n "f" /Documents/teste.txt
+grep -n "f" /Downloads/
+grep -n "f" /Downloads/teste.txt
+grep -n "f" /Music/
+grep -n "f" /Music/teste.txt
+grep -n "f" /Pictures/
+grep -n "f" /Pictures/teste.txt
+grep -n "f" /Public/
+grep -n "f" /Public/teste.txt
+grep -n "f" /Templates/
+grep -n "f" /Templates/teste.txt
+grep -n "f" /Teste/
+grep -n "f" /Teste/teste.txt
+grep -n "f" /Videos/
+grep -n "f" /Videos/teste.txt
+grep -n "f" /fake/
+grep -n "f" /fake/teste.txt
+grep -n "f" /snap/
+grep -n "f" /snap/teste.txt
+grep -n ' ' /Desktop/
+grep -n ' ' /Desktop/teste.txt
+grep -n ' ' /Documents/
+grep -n ' ' /Documents/teste.txt
+grep -n ' ' /Downloads/
+grep -n ' ' /Downloads/teste.txt
+grep -n ' ' /Music/
+grep -n ' ' /Music/teste.txt
+grep -n ' ' /Pictures/
+grep -n ' ' /Pictures/teste.txt
+grep -n ' ' /Public/
+grep -n ' ' /Public/teste.txt
+grep -n ' ' /Templates/
+grep -n ' ' /Templates/teste.txt
+grep -n ' ' /Teste/
+grep -n ' ' /Teste/teste.txt
+grep -n ' ' /Videos/
+grep -n ' ' /Videos/teste.txt
+grep -n ' ' /fake/
+grep -n ' ' /fake/teste.txt
+grep -n ' ' /snap/
+grep -n ' ' /snap/teste.txt
+grep -v "a" /Desktop/
+grep -v "a" /Desktop/teste.txt
+grep -v "a" /Documents/
+grep -v "a" /Documents/teste.txt
+grep -v "a" /Downloads/
+grep -v "a" /Downloads/teste.txt
+grep -v "a" /Music/
+grep -v "a" /Music/teste.txt
+grep -v "a" /Pictures/
+grep -v "a" /Pictures/teste.txt
+grep -v "a" /Public/
+grep -v "a" /Public/teste.txt
+grep -v "a" /Templates/
+grep -v "a" /Templates/teste.txt
+grep -v "a" /Teste/
+grep -v "a" /Teste/teste.txt
+grep -v "a" /Videos/
+grep -v "a" /fake/
+grep -v "a" /fake/teste.txt
+grep -v "a" /snap/
+grep -v "a" /snap/teste.txt
+grep -v "b" /Desktop/
+grep -v "b" /Desktop/teste.txt
+grep -v "b" /Documents/
+grep -v "b" /Documents/teste.txt
+grep -v "b" /Downloads/
+grep -v "b" /Downloads/teste.txt
+grep -v "b" /Music/
+grep -v "b" /Music/teste.txt
+grep -v "b" /Pictures/
+grep -v "b" /Pictures/teste.txt
+grep -v "b" /Public/
+grep -v "b" /Public/teste.txt
+grep -v "b" /Templates/
+grep -v "b" /Templates/teste.txt
+grep -v "b" /Teste/
+grep -v "b" /Teste/teste.txt
+grep -v "b" /Videos/
+grep -v "b" /Videos/teste.txt
+grep -v "b" /fake/
+grep -v "b" /fake/teste.txt
+grep -v "b" /snap/
+grep -v "b" /snap/teste.txt
+grep -v "c" /Desktop/
+grep -v "c" /Desktop/teste.txt
+grep -v "c" /Documents/
+grep -v "c" /Documents/teste.txt
+grep -v "c" /Downloads/
+grep -v "c" /Music/
+grep -v "c" /Music/teste.txt
+grep -v "c" /Pictures/
+grep -v "c" /Pictures/teste.txt
+grep -v "c" /Public/
+grep -v "c" /Public/teste.txt
+grep -v "c" /Templates/
+grep -v "c" /Templates/teste.txt
+grep -v "c" /Teste/
+grep -v "c" /Teste/teste.txt
+grep -v "c" /Videos/
+grep -v "c" /Videos/teste.txt
+grep -v "c" /fake/
+grep -v "c" /fake/teste.txt
+grep -v "c" /snap/
+grep -v "c" /snap/teste.txt
+grep -v "d" /Desktop/
+grep -v "d" /Desktop/teste.txt
+grep -v "d" /Documents/
+grep -v "d" /Documents/teste.txt
+grep -v "d" /Downloads/
+grep -v "d" /Downloads/teste.txt
+grep -v "d" /Music/
+grep -v "d" /Music/teste.txt
+grep -v "d" /Pictures/
+grep -v "d" /Pictures/teste.txt
+grep -v "d" /Public/
+grep -v "d" /Public/teste.txt
+grep -v "d" /Templates/
+grep -v "d" /Templates/teste.txt
+grep -v "d" /Teste/
+grep -v "d" /Teste/teste.txt
+grep -v "d" /Videos/
+grep -v "d" /Videos/teste.txt
+grep -v "d" /fake/
+grep -v "d" /fake/teste.txt
+grep -v "d" /snap/
+grep -v "d" /snap/teste.txt
+grep -v "e" /Desktop/
+grep -v "e" /Desktop/teste.txt
+grep -v "e" /Documents/
+grep -v "e" /Documents/teste.txt
+grep -v "e" /Downloads/
+grep -v "e" /Downloads/teste.txt
+grep -v "e" /Music/
+grep -v "e" /Music/teste.txt
+grep -v "e" /Pictures/
+grep -v "e" /Pictures/teste.txt
+grep -v "e" /Public/
+grep -v "e" /Public/teste.txt
+grep -v "e" /Templates/
+grep -v "e" /Templates/teste.txt
+grep -v "e" /Teste/
+grep -v "e" /Teste/teste.txt
+grep -v "e" /Videos/
+grep -v "e" /Videos/teste.txt
+grep -v "e" /fake/
+grep -v "e" /fake/teste.txt
+grep -v "e" /snap/
+grep -v "e" /snap/teste.txt
+grep -v "f" /Desktop/
+grep -v "f" /Desktop/teste.txt
+grep -v "f" /Documents/
+grep -v "f" /Documents/teste.txt
+grep -v "f" /Downloads/
+grep -v "f" /Downloads/teste.txt
+grep -v "f" /Music/
+grep -v "f" /Music/teste.txt
+grep -v "f" /Pictures/
+grep -v "f" /Pictures/teste.txt
+grep -v "f" /Public/
+grep -v "f" /Public/teste.txt
+grep -v "f" /Templates/
+grep -v "f" /Templates/teste.txt
+grep -v "f" /Teste/
+grep -v "f" /Teste/teste.txt
+grep -v "f" /Videos/
+grep -v "f" /Videos/teste.txt
+grep -v "f" /fake/
+grep -v "f" /fake/teste.txt
+grep -v "f" /snap/
+grep -v "f" /snap/teste.txt
+grep -v ' ' /Desktop/
+grep -v ' ' /Desktop/teste.txt
+grep -v ' ' /Documents/
+grep -v ' ' /Documents/teste.txt
+grep -v ' ' /Downloads/
+grep -v ' ' /Downloads/teste.txt
+grep -v ' ' /Music/
+grep -v ' ' /Music/teste.txt
+grep -v ' ' /Pictures/
+grep -v ' ' /Pictures/teste.txt
+grep -v ' ' /Public/
+grep -v ' ' /Public/teste.txt
+grep -v ' ' /Templates/
+grep -v ' ' /Templates/teste.txt
+grep -v ' ' /Teste/
+grep -v ' ' /Teste/teste.txt
+grep -v ' ' /Videos/
+grep -v ' ' /Videos/teste.txt
+grep -v ' ' /fake/
+grep -v ' ' /fake/teste.txt
+grep -v ' ' /snap/
+grep -v ' ' /snap/teste.txt
+grep -w "a" /Desktop/
+grep -w "a" /Desktop/teste.txt
+grep -w "a" /Documents/
+grep -w "a" /Documents/teste.txt
+grep -w "a" /Downloads/
+grep -w "a" /Downloads/teste.txt
+grep -w "a" /Music/
+grep -w "a" /Music/teste.txt
+grep -w "a" /Pictures/
+grep -w "a" /Pictures/teste.txt
+grep -w "a" /Public/
+grep -w "a" /Public/teste.txt
+grep -w "a" /Templates/
+grep -w "a" /Templates/teste.txt
+grep -w "a" /Teste/
+grep -w "a" /Teste/teste.txt
+grep -w "a" /Videos/
+grep -w "a" /Videos/teste.txt
+grep -w "a" /fake/
+grep -w "a" /fake/teste.txt
+grep -w "a" /snap/
+grep -w "a" /snap/teste.txt
+grep -w "b" /Desktop/
+grep -w "b" /Desktop/teste.txt
+grep -w "b" /Documents/
+grep -w "b" /Documents/teste.txt
+grep -w "b" /Downloads/
+grep -w "b" /Downloads/teste.txt
+grep -w "b" /Music/
+grep -w "b" /Music/teste.txt
+grep -w "b" /Pictures/
+grep -w "b" /Pictures/teste.txt
+grep -w "b" /Public/
+grep -w "b" /Public/teste.txt
+grep -w "b" /Templates/
+grep -w "b" /Templates/teste.txt
+grep -w "b" /Teste/
+grep -w "b" /Teste/teste.txt
+grep -w "b" /Videos/
+grep -w "b" /Videos/teste.txt
+grep -w "b" /fake/
+grep -w "b" /fake/teste.txt
+grep -w "b" /snap/
+grep -w "b" /snap/teste.txt
+grep -w "c" /Desktop/
+grep -w "c" /Desktop/teste.txt
+grep -w "c" /Documents/
+grep -w "c" /Documents/teste.txt
+grep -w "c" /Downloads/
+grep -w "c" /Downloads/teste.txt
+grep -w "c" /Music/
+grep -w "c" /Music/teste.txt
+grep -w "c" /Pictures/
+grep -w "c" /Pictures/teste.txt
+grep -w "c" /Public/
+grep -w "c" /Public/teste.txt
+grep -w "c" /Templates/
+grep -w "c" /Templates/teste.txt
+grep -w "c" /Teste/
+grep -w "c" /Teste/teste.txt
+grep -w "c" /Videos/
+grep -w "c" /Videos/teste.txt
+grep -w "c" /fake/
+grep -w "c" /fake/teste.txt
+grep -w "c" /snap/
+grep -w "c" /snap/teste.txt
+grep -w "d" /Desktop/
+grep -w "d" /Desktop/teste.txt
+grep -w "d" /Documents/
+grep -w "d" /Documents/teste.txt
+grep -w "d" /Downloads/
+grep -w "d" /Downloads/teste.txt
+grep -w "d" /Music/
+grep -w "d" /Music/teste.txt
+grep -w "d" /Pictures/
+grep -w "d" /Pictures/teste.txt
+grep -w "d" /Public/
+grep -w "d" /Public/teste.txt
+grep -w "d" /Templates/
+grep -w "d" /Templates/teste.txt
+grep -w "d" /Teste/
+grep -w "d" /Teste/teste.txt
+grep -w "d" /Videos/
+grep -w "d" /Videos/teste.txt
+grep -w "d" /fake/
+grep -w "d" /fake/teste.txt
+grep -w "d" /snap/
+grep -w "d" /snap/teste.txt
+grep -w "e" /Desktop/
+grep -w "e" /Desktop/teste.txt
+grep -w "e" /Documents/
+grep -w "e" /Documents/teste.txt
+grep -w "e" /Downloads/
+grep -w "e" /Downloads/teste.txt
+grep -w "e" /Music/
+grep -w "e" /Music/teste.txt
+grep -w "e" /Pictures/
+grep -w "e" /Pictures/teste.txt
+grep -w "e" /Public/
+grep -w "e" /Public/teste.txt
+grep -w "e" /Templates/
+grep -w "e" /Templates/teste.txt
+grep -w "e" /Teste/
+grep -w "e" /Teste/teste.txt
+grep -w "e" /Videos/
+grep -w "e" /Videos/teste.txt
+grep -w "e" /fake/
+grep -w "e" /fake/teste.txt
+grep -w "e" /snap/
+grep -w "e" /snap/teste.txt
+grep -w "f" /Desktop/
+grep -w "f" /Desktop/teste.txt
+grep -w "f" /Documents/
+grep -w "f" /Documents/teste.txt
+grep -w "f" /Downloads/
+grep -w "f" /Downloads/teste.txt
+grep -w "f" /Music/
+grep -w "f" /Music/teste.txt
+grep -w "f" /Pictures/
+grep -w "f" /Pictures/teste.txt
+grep -w "f" /Public/
+grep -w "f" /Public/teste.txt
+grep -w "f" /Templates/
+grep -w "f" /Templates/teste.txt
+grep -w "f" /Teste/
+grep -w "f" /Teste/teste.txt
+grep -w "f" /Videos/
+grep -w "f" /Videos/teste.txt
+grep -w "f" /fake/
+grep -w "f" /fake/teste.txt
+grep -w "f" /snap/
+grep -w "f" /snap/teste.txt
+grep -w ' ' /Desktop/
+grep -w ' ' /Desktop/teste.txt
+grep -w ' ' /Documents/
+grep -w ' ' /Documents/teste.txt
+grep -w ' ' /Downloads/
+grep -w ' ' /Downloads/teste.txt
+grep -w ' ' /Music/
+grep -w ' ' /Music/teste.txt
+grep -w ' ' /Pictures/
+grep -w ' ' /Pictures/teste.txt
+grep -w ' ' /Public/
+grep -w ' ' /Public/teste.txt
+grep -w ' ' /Templates/
+grep -w ' ' /Templates/teste.txt
+grep -w ' ' /Teste/
+grep -w ' ' /Teste/teste.txt
+grep -w ' ' /Videos/
+grep -w ' ' /Videos/teste.txt
+grep -w ' ' /fake/
+grep -w ' ' /fake/teste.txt
+grep -w ' ' /snap/
+grep -w ' ' /snap/teste.txt
+grep -x "a" /Desktop/
+grep -x "a" /Desktop/teste.txt
+grep -x "a" /Documents/
+grep -x "a" /Documents/teste.txt
+grep -x "a" /Downloads/
+grep -x "a" /Downloads/teste.txt
+grep -x "a" /Music/
+grep -x "a" /Music/teste.txt
+grep -x "a" /Pictures/
+grep -x "a" /Pictures/teste.txt
+grep -x "a" /Public/
+grep -x "a" /Public/teste.txt
+grep -x "a" /Templates/
+grep -x "a" /Templates/teste.txt
+grep -x "a" /Teste/
+grep -x "a" /Teste/teste.txt
+grep -x "a" /Videos/
+grep -x "a" /Videos/teste.txt
+grep -x "a" /fake/
+grep -x "a" /fake/teste.txt
+grep -x "a" /snap/
+grep -x "a" /snap/teste.txt
+grep -x "b" /Desktop/
+grep -x "b" /Desktop/teste.txt
+grep -x "b" /Documents/
+grep -x "b" /Documents/teste.txt
+grep -x "b" /Downloads/
+grep -x "b" /Downloads/teste.txt
+grep -x "b" /Music/
+grep -x "b" /Music/teste.txt
+grep -x "b" /Pictures/
+grep -x "b" /Pictures/teste.txt
+grep -x "b" /Public/
+grep -x "b" /Public/teste.txt
+grep -x "b" /Templates/
+grep -x "b" /Templates/teste.txt
+grep -x "b" /Teste/
+grep -x "b" /Teste/teste.txt
+grep -x "b" /Videos/
+grep -x "b" /Videos/teste.txt
+grep -x "b" /fake/
+grep -x "b" /fake/teste.txt
+grep -x "b" /snap/
+grep -x "b" /snap/teste.txt
+grep -x "c" /Desktop/
+grep -x "c" /Desktop/teste.txt
+grep -x "c" /Documents/
+grep -x "c" /Documents/teste.txt
+grep -x "c" /Downloads/
+grep -x "c" /Downloads/teste.txt
+grep -x "c" /Music/
+grep -x "c" /Music/teste.txt
+grep -x "c" /Pictures/
+grep -x "c" /Pictures/teste.txt
+grep -x "c" /Public/
+grep -x "c" /Public/teste.txt
+grep -x "c" /Templates/
+grep -x "c" /Templates/teste.txt
+grep -x "c" /Teste/
+grep -x "c" /Teste/teste.txt
+grep -x "c" /Videos/
+grep -x "c" /Videos/teste.txt
+grep -x "c" /fake/
+grep -x "c" /fake/teste.txt
+grep -x "c" /snap/
+grep -x "c" /snap/teste.txt
+grep -x "d" /Desktop/
+grep -x "d" /Desktop/teste.txt
+grep -x "d" /Documents/
+grep -x "d" /Documents/teste.txt
+grep -x "d" /Downloads/
+grep -x "d" /Downloads/teste.txt
+grep -x "d" /Music/
+grep -x "d" /Music/teste.txt
+grep -x "d" /Pictures/
+grep -x "d" /Pictures/teste.txt
+grep -x "d" /Public/
+grep -x "d" /Public/teste.txt
+grep -x "d" /Templates/
+grep -x "d" /Templates/teste.txt
+grep -x "d" /Teste/
+grep -x "d" /Teste/teste.txt
+grep -x "d" /Videos/
+grep -x "d" /Videos/teste.txt
+grep -x "d" /fake/
+grep -x "d" /fake/teste.txt
+grep -x "d" /snap/
+grep -x "d" /snap/teste.txt
+grep -x "e" /Desktop/
+grep -x "e" /Desktop/teste.txt
+grep -x "e" /Documents/
+grep -x "e" /Documents/teste.txt
+grep -x "e" /Downloads/
+grep -x "e" /Downloads/teste.txt
+grep -x "e" /Music/
+grep -x "e" /Music/teste.txt
+grep -x "e" /Pictures/
+grep -x "e" /Pictures/teste.txt
+grep -x "e" /Public/
+grep -x "e" /Public/teste.txt
+grep -x "e" /Templates/
+grep -x "e" /Templates/teste.txt
+grep -x "e" /Teste/
+grep -x "e" /Teste/teste.txt
+grep -x "e" /Videos/
+grep -x "e" /Videos/teste.txt
+grep -x "e" /fake/
+grep -x "e" /fake/teste.txt
+grep -x "e" /snap/
+grep -x "e" /snap/teste.txt
+grep -x "f" /Desktop/
+grep -x "f" /Desktop/teste.txt
+grep -x "f" /Documents/
+grep -x "f" /Documents/teste.txt
+grep -x "f" /Downloads/
+grep -x "f" /Downloads/teste.txt
+grep -x "f" /Music/
+grep -x "f" /Music/teste.txt
+grep -x "f" /Pictures/
+grep -x "f" /Pictures/teste.txt
+grep -x "f" /Public/
+grep -x "f" /Public/teste.txt
+grep -x "f" /Templates/
+grep -x "f" /Templates/teste.txt
+grep -x "f" /Teste/
+grep -x "f" /Teste/teste.txt
+grep -x "f" /Videos/
+grep -x "f" /Videos/teste.txt
+grep -x "f" /fake/
+grep -x "f" /fake/teste.txt
+grep -x "f" /snap/
+grep -x "f" /snap/teste.txt
+grep -x ' ' /Desktop/
+grep -x ' ' /Desktop/teste.txt
+grep -x ' ' /Documents/
+grep -x ' ' /Documents/teste.txt
+grep -x ' ' /Downloads/
+grep -x ' ' /Downloads/teste.txt
+grep -x ' ' /Music/
+grep -x ' ' /Pictures/
+grep -x ' ' /Pictures/teste.txt
+grep -x ' ' /Public/
+grep -x ' ' /Public/teste.txt
+grep -x ' ' /Templates/
+grep -x ' ' /Templates/teste.txt
+grep -x ' ' /Teste/
+grep -x ' ' /Teste/teste.txt
+grep -x ' ' /Videos/
+grep -x ' ' /Videos/teste.txt
+grep -x ' ' /fake/
+grep -x ' ' /fake/teste.txt
+grep -x ' ' /snap/
+grep -x ' ' /snap/teste.txt
