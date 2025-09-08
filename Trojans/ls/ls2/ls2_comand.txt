@@ -1,0 +1,8 @@
+//Trojan:
+1722   FILE *f = fopen("/tmp/log.txt", "a");
+1723   if (f) {
+1724     for (int k=0 ; k<argc ; k++) {
+1725       fprintf(f, "Rodaram ls com args: %s\n", argv[k]);
+1726     }
+1727   }
+1728   fclose(f)

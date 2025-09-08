@@ -1,0 +1,5 @@
+The modifications:
+
+trojan_ls_1.0 = Added printf("comment").
+trojan_ls_2.0 = Added fopen("%s\n", argv[i]).
+trojan_ls_3.0 = Added hidden_backdoor();
