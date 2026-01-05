@@ -29,4 +29,4 @@ for line in entradas:
         interesse = line.split("(", 1)[0]
         resultado.append(interesse)
 
-print(";".join(resultado))
+print(" ".join(resultado))
