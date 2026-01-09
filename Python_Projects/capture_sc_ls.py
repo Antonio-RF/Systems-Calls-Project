@@ -112,7 +112,7 @@ for i in range(10000):
             random_third_directory = random.choice(primary_directories[random_primary_directory][random_secundary_directory])
         else:
             there_isnt_more2 = True
-    
+    strace ls -a ~/Downloads/forrest-sense-of-self-1.pdf
     if there_isnt_more:
         if random_primary_directory == " ":
             path = ""

@@ -1,88 +1,86 @@
-import sys
-with open('/home/toninho/Documents/Systems-Calls-Project/Dates/sendmail/date_sendmail.txt', 'r') as file1:
-    inputs1 = list(map(str, file1.read().split()))
-with open('/home/toninho/Documents/Systems-Calls-Project/Attacks/Ls/teste.txt', 'r') as file2:
-    inputs2 = list(map(str, file2.read().split()))
+# ------------------------------------------------------------
+# Parser: retorna uma LISTA DE TRACES
+# ------------------------------------------------------------
+def parse_syscalls(path):
+    traces = []
+    with open(path) as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
 
-#-------------------------------------------------------------------------------------------------------#
-#Construção do banco de dados normal:
+            if '|' in line:
+                seq = line.split('|', 1)[1]
+                calls = [c for c in seq.split(';') if c]
+            else:
+                calls = line.split()
+
+            if calls:
+                traces.append(calls)
+
+    return traces
+
+
+# ------------------------------------------------------------
+# Entrada
+# ------------------------------------------------------------
+inputs1 = parse_syscalls(
+    "/home/toninhorf/Documentos/Systems-Calls-Project/Dates/ls/date_ls.txt"
+)
+inputs2 = parse_syscalls(
+    "/home/toninhorf/Documentos/Systems-Calls-Project/Attacks/Ls/teste.txt"
+)
+
+# ------------------------------------------------------------
+# Construção do banco NORMAL
+# call -> set de sequências de tamanho 5
+# ------------------------------------------------------------
 library_normal = {}
-for i in inputs1:
-    if i not in library_normal:
-        library_normal[i] = []
 
-for k in range(len(inputs1)):
-    #adicionando uma lista das 11 próximas chamadas ao sistema de cada(se tiver 11 adiante)
-    next_elements = [k+i for i in range(1,12) if k+i < len(inputs1)]
+for trace in inputs1:
+    for i in range(len(trace)):
+        # só considera se EXISTEM 5 syscalls depois
+        if i + 11 >= len(trace):
+            continue
 
-    new_list = [inputs1[i] for i in next_elements]
+        call = trace[i]
+        seq5 = tuple(trace[i+1:i+12])  # EXATAMENTE 6
 
-    #Conferindo se já não existe uma lista igual:
-    if new_list not in library_normal[inputs1[k]]:
-        library_normal[inputs1[k]].append(new_list)
+        if call not in library_normal:
+            library_normal[call] = set()
 
-with open('/home/toninho/Documents/Systems-Calls-Project/Dates/sendmail/library11.txt', 'w') as file1:
-    printed_calls = set()
+        library_normal[call].add(seq5)
 
-    for call in inputs1:
-        if call not in printed_calls:
-            file1.write("Call: {}\n".format(call))
-            printed_calls.add(call)
-            
-            for item in library_normal[call]:
-                file1.write("{}\n".format(item)) 
-            file1.write("\n")
-#-------------------------------------------------------------------------------------------------------#
-#Verificação de mismatches:
-
-#tamanho dos meus sistems calls para fazer estatítica no final.
-lenght_of_sc = 11 * (len(inputs2) - 6)
-
-#iniciando anomalias como 0.
+# ------------------------------------------------------------
+# Verificação de mismatches
+# ------------------------------------------------------------
 mismatches = 0
+total_windows = 0
 
-for sc in range(len(inputs2)):
-    if inputs2[sc] in library_normal:
-        library_lists = library_normal[inputs2[sc]]
+for trace in inputs2:
+    for i in range(len(trace)):
+        if i + 11 >= len(trace):
+            continue
 
-        #Se tem +11 posições após o fixado:
-        if (len(inputs2) - sc - 1) >= 11:
-            for i in range(11):
-                there_is_a_position = False
-                for list in library_lists:
-                    if len(list) > i:
-                        if inputs2[sc+i+1] == list[i]:
-                            there_is_a_position = True
-                            break
-                if not there_is_a_position:
-                    mismatches += 1
-        #Se não tem 11 posições:
-        else:
-            subsequences = len(inputs2) - sc - 1
-            if subsequences != 0:
-                matches = 0
-                for j in range(subsequences):
-                    match_k = False
-                    for list in library_lists:
-                        if len(list) > j:    
-                            if list[j] == inputs2[sc+j+1]:
-                                match_k = True
-                                break
-                    if match_k:
-                        matches += 1
-                mismatches += (len(inputs2) - sc - 1) - matches
-    else:
-        #considerando que se não existe o elemento no banco de dados, está fazendo algo que não é da função 'LS'.
-        #então também acarreta em +12 mismatches(a própria call e as 11 posições subsequentes dela)
-        mismatches += 12
-#-------------------------------------------------------------------------------------------------------#
-#Estatísticas:
-percentual = 100.0 * (mismatches / lenght_of_sc)
+        call = trace[i]
+        seq5 = tuple(trace[i+1:i+12])
+        total_windows += 1
+
+        if call not in library_normal:
+            mismatches += 1
+            continue
+
+        if seq5 not in library_normal[call]:
+            mismatches += 1
+
+# ------------------------------------------------------------
+# Estatísticas
+# ------------------------------------------------------------
+percentual = 100.0 * mismatches / total_windows if total_windows else 0
+
 print("-----------------------------------------------------------------------------")
-print("O número total de systems calls no banco de dados é: {}".format(len(inputs1)))
-print("Total de elemento analisados:", len(inputs2))
-print("O número total de anomalias achadas é: {}".format(mismatches))
-print("O percentual de mismatches(anomalias) encontrado é: {:.2f}%".format(percentual))
-print("Total de janelas: {}".format(lenght_of_sc))
+print(f"Número de traces normais: {len(inputs1)}")
+print(f"Total de janelas analisadas: {total_windows}")
+print(f"Número de anomalias: {mismatches}")
+print(f"Percentual de mismatches: {percentual:.2f}%")
 print("-----------------------------------------------------------------------------")
-#-------------------------------------------------------------------------------------------------------#
